@@ -5,9 +5,9 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-autostart="xcompmgr"
 
 # merge in defaults and keymaps
+autostart = "xcompmgr"
 
 if [ -f $sysresources ]; then
 
@@ -54,5 +54,5 @@ for program in $autostart; do
 	pidof -sx "$program" || "$program" &
 done >/dev/null 2>&1
 
-
+. $HOME/.xprofile
 exec i3

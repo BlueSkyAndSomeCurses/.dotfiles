@@ -175,7 +175,6 @@ bar {
 
 #set a wallpaper
 exec_always xwallpaper --zoom ~/bg.jpg
-exec_always xrandr --output HDMI-1 --mode 1920x1080 --rate 240
 
 #gaps
 gaps inner 7px

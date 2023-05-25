@@ -3,7 +3,7 @@ alsa-utils
 amd-ucode
 base
 base-devel
-#dosfstools
+dosfstools
 efibootmgr
 git
 grub
