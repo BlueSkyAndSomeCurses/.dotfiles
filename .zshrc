@@ -7,6 +7,7 @@ source "$HOME/.zsh/spaceship/spaceship.zsh"
 source "$HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=226"
 
@@ -20,4 +21,3 @@ SPACESHIP_DIR_PREFIX=""
 SPACESHIP_GIT_PREFIX=" "
 
 #colorscript -r
-#random text
