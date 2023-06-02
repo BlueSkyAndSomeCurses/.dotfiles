@@ -162,6 +162,7 @@ bindsym $mod+Shift+u resize grow height 1px or 1ppt
 bindsym $mod+Shift+i resize shrink height 1px or 1ppt
 bindsym $mod+Shift+o resize shrink width 1px or 1ppt
 
+bindsym $mod+F4 exec alacritty -e pulsemixer
 
 #colors 
 set_from_resource $fg i3wm.color7 #f0f0f0
@@ -190,7 +191,7 @@ bar {
 }
 
 #set a wallpaper
-exec_always xwallpaper --zoom ~/backgrounds/1299181.jpg
+exec_always xwallpaper --zoom ~/backgrounds/bg.jpg
 
 #gaps
 gaps inner 7px
