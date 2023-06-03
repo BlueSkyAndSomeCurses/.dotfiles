@@ -194,7 +194,7 @@ bar {
 }
 
 #set a wallpaper
-exec_always xwallpaper --zoom ~/backgrounds/bg.jpg
+exec_always xwallpaper --zoom ~/backgrounds/wallhaven-vqyz3p.jpg
 
 #gaps
 gaps inner 7px
