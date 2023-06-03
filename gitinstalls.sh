@@ -18,4 +18,3 @@ ln -s $HOME/.dotfiles/.xprofile $HOME/.xprofile
 ln -s $HOME/.dotfiles/.config/i3/config $HOME/.config/i3/config 
 ln -s $HOME/.dotfiles/.config/i3blocks/config $HOME/.config/i3blocks/config 
 
-cp $HOME/.dotfiles/.config/pipewire/pipewire.conf $HOME/.config/pipewire

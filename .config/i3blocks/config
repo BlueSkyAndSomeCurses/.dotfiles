@@ -13,20 +13,14 @@ separator_block_width=15
 
 [i3-focusedwindow]
 label=[]=
-command=$SCRIPT_DIR/i3-focusedwindow 40
+command=$SCRIPT_DIR/i3-focusedwindow 
 interval=persist
-align=left
 
 
 [volume]
-command=$SCRIPT_DIR/volume
-#LABEL=♪ 
-LABEL=VOL 
+command=$SCRIPT_DIR/sb-volume
 interval=once
-signal=10
-#STEP=5%
-#MIXER=[determined automatically]
-#SCONTROL=[determined automatically]
+signal=1
 
 [diskspace]
 command=$SCRIPT_DIR/sb-disk /home
