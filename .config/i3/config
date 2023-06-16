@@ -55,7 +55,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -l 10 -c -bw 4 -g 1 
+bindsym $mod+d exec --no-startup-id dmenu_run -l 10 -c -g 1 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -96,8 +96,6 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -167,6 +165,7 @@ bindsym $mod+Shift+o resize shrink width 1px or 1ppt
 bindsym $mod+minus exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && pkill -SIGRTMIN+1 i3blocks"
 bindsym $mod+plus exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && pkill -SIGRTMIN+1 i3blocks"
 bindsym $mod+F4 exec "alacritty -e pulsemixer"
+bindsym $mod+w exec "brave"
 
 #colors 
 set_from_resource $fg i3wm.color7 #f0f0f0

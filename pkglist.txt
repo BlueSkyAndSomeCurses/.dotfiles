@@ -4,8 +4,6 @@ amd-ucode
 arandr
 base
 base-devel
-#brave-bin
-#dosfstools
 efibootmgr
 git
 grub
@@ -17,13 +15,10 @@ keepassxc
 linux
 linux-firmware
 man-db
-#mtools
 neofetch
 neovim
 networkmanager
 noto-fonts-emoji
-#nvidia
-#os-prober
 otf-firamono-nerd
 pipewire-pulse
 pulsemixer
@@ -41,3 +36,4 @@ xorg-xinit
 xwallpaper
 yay
 zsh
+sxiv
