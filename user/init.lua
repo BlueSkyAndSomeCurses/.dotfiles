@@ -1,3 +1,6 @@
 return {
-  colorscheme = "kanagawa"
+  colorscheme = "kanagawa",
+  opt = {
+    wrap = true
+  }
 }

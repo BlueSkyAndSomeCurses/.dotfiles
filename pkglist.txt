@@ -1,16 +1,12 @@
 alacritty
-alsa-utils
 amd-ucode
 arandr
 base
 base-devel
-efibootmgr
 git
-grub
 htop
 i3-wm
 i3blocks
-i3status
 keepassxc
 linux
 linux-firmware
@@ -19,7 +15,6 @@ neofetch
 neovim
 networkmanager
 noto-fonts-emoji
-otf-firamono-nerd
 pipewire-pulse
 pulsemixer
 python-pywal
@@ -34,6 +29,5 @@ xcompmgr
 xorg-server
 xorg-xinit
 xwallpaper
-yay
 zsh
 sxiv
