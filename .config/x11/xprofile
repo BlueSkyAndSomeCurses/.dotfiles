@@ -1,1 +1,12 @@
-/home/like/.dotfiles/.xprofile
+#!/bin/sh
+
+xwallpaper --zoom "$HOME/backgrounds/wallhaven-vqyz3p.jpg"
+wal -i "$HOME/backgrounds/wallhaven-vqyz3p.jpg"
+
+autostart="xcompmgr"
+
+for program in $autostart; do
+	pidof -sx "$program" || "$program" &
+done >/dev/null 2>&1
+
+xrandr --output HDMI-0 --mode 1920x1080 --rate 240
