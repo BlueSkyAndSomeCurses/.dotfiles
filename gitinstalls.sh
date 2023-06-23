@@ -20,7 +20,8 @@ makepkg -si
 yay -Y --gendb
 yay -Syu --devel
 
-yay -S brave-bin
+sudo chsh -s $(which zsh)
 
+cat "install amd gpu drivers set tear free and background"
 
 
