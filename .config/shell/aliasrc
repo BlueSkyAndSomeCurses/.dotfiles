@@ -32,3 +32,6 @@ alias \
 	ccat="highlight --out-format=ansi" \
 	ip="ip -color=auto"
 
+alias \
+	exa="ls -lah" \
+	rcupdate="source ~/.config/zsh/.zshrc"

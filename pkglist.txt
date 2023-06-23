@@ -20,9 +20,11 @@ pulsemixer
 python-pywal
 sudo
 ttf-dejavu
-ttf-fira-code
+ttf-linux-libertine
 ttf-font-awesome
 ttf-nerd-fonts-symbols
+otf-comicshanns-nerd	
+ttf-roboto-mono-nerd
 unzip
 vim
 xcompmgr

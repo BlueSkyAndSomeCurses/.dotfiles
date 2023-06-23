@@ -1,5 +1,7 @@
 #! /bin/bash
 
+sudo cp pacman.conf /etc/ 
+
 sudo pacman -S $(awk '{print $1}' pkglist.txt)
 
 cp -r .local $HOME/
