@@ -10,18 +10,15 @@
 separator=true
 separator_block_width=15
 
-
 [i3-focusedwindow]
 label=[]=
 command=$SCRIPT_DIR/i3-focusedwindow 
 interval=persist
 
-
 [volume]
 command=$SCRIPT_DIR/sb-volume
 interval=once
 signal=1
-
 
 [rootdiskspace]
 command=$SCRIPT_DIR/sb-disk 
@@ -30,7 +27,6 @@ interval=once
 [diskspace]
 command=$SCRIPT_DIR/sb-disk /home
 interval=once
-
 
 [nettraf]
 command=$SCRIPT_DIR/sb-nettraf

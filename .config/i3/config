@@ -10,7 +10,6 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
-set $sup Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -165,6 +164,7 @@ bindsym $mod+minus exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && pkill -SIG
 bindsym $mod+plus exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && pkill -SIGRTMIN+1 i3blocks"
 bindsym $mod+F4 exec "alacritty -e pulsemixer"
 bindsym $mod+w exec "brave"
+
 
 #colors 
 set_from_resource $fg i3wm.color7 #f0f0f0
