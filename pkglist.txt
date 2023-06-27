@@ -1,5 +1,4 @@
 alacritty
-amd-ucode
 arandr
 base
 base-devel
@@ -8,8 +7,6 @@ htop
 i3-wm
 i3blocks
 keepassxc
-linux
-linux-firmware
 man-db
 neofetch
 neovim

@@ -22,6 +22,11 @@ command=$SCRIPT_DIR/sb-volume
 interval=once
 signal=1
 
+
+[rootdiskspace]
+command=$SCRIPT_DIR/sb-disk 
+interval=once
+
 [diskspace]
 command=$SCRIPT_DIR/sb-disk /home
 interval=once
