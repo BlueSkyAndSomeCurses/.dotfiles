@@ -30,3 +30,5 @@ xorg-xinit
 xwallpaper
 zsh
 sxiv
+bmon
+xorg-setxkbmap
