@@ -32,3 +32,4 @@ zsh
 sxiv
 bmon
 xorg-setxkbmap
+gxkb

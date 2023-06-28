@@ -36,6 +36,9 @@ interval=5
 command=$SCRIPT_DIR/sb-battery
 interval=5
 
+[language]
+command=gxkb
+
 [time]
 command=$SCRIPT_DIR/sb-clock
 interval=60
