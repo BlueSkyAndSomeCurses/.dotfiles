@@ -33,3 +33,4 @@ sxiv
 bmon
 xorg-setxkbmap
 gxkb
+npm
