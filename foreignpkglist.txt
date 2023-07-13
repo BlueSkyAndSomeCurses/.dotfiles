@@ -1,2 +1,4 @@
 brave-bin
 yay
+ani-cli
+lf-git

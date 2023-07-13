@@ -34,3 +34,5 @@ bmon
 xorg-setxkbmap
 gxkb
 npm
+mpv
+

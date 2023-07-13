@@ -1,12 +1,6 @@
 return {
   {
-    "xiyaowong/transparent.nvim",
-    lazy = true,
-    cmd = "TransparentEnable"
-  },
-  {
     "rebelot/kanagawa.nvim",
-    transparent_background = true
   },
   "catppuccin/nvim",
   {
