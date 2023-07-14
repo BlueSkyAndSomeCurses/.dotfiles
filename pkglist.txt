@@ -35,4 +35,4 @@ xorg-setxkbmap
 gxkb
 npm
 mpv
-
+bat

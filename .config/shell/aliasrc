@@ -34,4 +34,6 @@ alias \
 
 alias \
 	exa="ls -lah" \
-	rcupdate="source ~/.config/zsh/.zshrc"
+	rcupdate="source $HOME/.config/zsh/.zshrc" \
+	lf="lfub" \
+	
