@@ -3,7 +3,7 @@
 #xwallpaper --zoom "$HOME/backgrounds/wallhaven-vqyz3p.jpg"
 #wal -i "$HOME/backgrounds/wallhaven-vqyz3p.jpg"
 
-autostart="xcompmgr gxkb"
+autostart="xcompmgr gxkb dunst"
 
 for program in $autostart; do
 	pidof -sx "$program" || "$program" &

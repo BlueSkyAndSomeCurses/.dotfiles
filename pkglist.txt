@@ -36,3 +36,5 @@ gxkb
 npm
 mpv
 bat
+libnotify
+dunst
