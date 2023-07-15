@@ -4,8 +4,8 @@ sudo cp pacman.conf /etc/
 
 sudo pacman -S $(awk '{print $1}' pkglist.txt)
 
-cp -r .local $HOME/
-cp -r .config $HOME/
+sudo cp -r .local $HOME/
+sudo cp -r .config $HOME/
 
 ln -s $HOME/.config/shell/profile $HOME/.zprofile
 ln -s $HOME/.config/x11/xprofile $HOME/.xprofile
@@ -21,6 +21,8 @@ yay -Y --gendb
 yay -Syu --devel
 
 sudo chsh -s $(which zsh)
+
+./.local/bin/shortcuts 
 
 cat "install amd gpu drivers set tear free and background"
 
