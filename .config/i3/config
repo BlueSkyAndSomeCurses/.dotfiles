@@ -166,6 +166,9 @@ bindsym $mod+F4 exec --no-startup-id "alacritty -e pulsemixer"
 bindsym $mod+w exec --no-startup-id "brave"
 bindsym $mod+r exec --no-startup-id "alacritty -e lfub"
 bindsym $mod+BackSpace exec --no-startup-id "sysact"
+bindsym $mod+F9 exec --no-startup-id "mounter"
+bindsym $mod+F10 exec --no-startup-id "unmounter"
+
 
 
 #colors 
