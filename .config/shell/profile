@@ -4,8 +4,8 @@ export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 unsetopt PROMPT_SP
 
 export EDITOR="nvim"
-export TERMINAL="alacritty"
-export TERMINAL_PROG="alacritty"
+export TERMINAL="st"
+export TERMINAL_PROG="st"
 export BROWSER="brave"
 
 export XDG_CONFIG_HOME="$HOME/.config"

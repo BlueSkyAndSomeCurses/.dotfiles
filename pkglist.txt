@@ -1,11 +1,8 @@
-alacritty
 arandr
 base
 base-devel
 git
 htop
-i3-wm
-i3blocks
 keepassxc
 man-db
 neofetch
@@ -38,3 +35,4 @@ mpv
 bat
 libnotify
 dunst
+maim
