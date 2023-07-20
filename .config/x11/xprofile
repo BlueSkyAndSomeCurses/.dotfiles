@@ -1,7 +1,6 @@
 #!/bin/sh
 
-#xwallpaper --zoom "$HOME/backgrounds/wallhaven-vqyz3p.jpg"
-#wal -i "$HOME/backgrounds/wallhaven-vqyz3p.jpg"
+#setbg 
 
 autostart="xcompmgr gxkb dunst"
 
