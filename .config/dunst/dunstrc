@@ -3,25 +3,35 @@
     follow = keyboard
     width = 370
     height = 350
-    offset = 0x19
-    padding = 2
-    horizontal_padding = 2
-    transparency = 25
+    offset = 5x40
+    padding = 4 
+    horizontal_padding = 4 
     font = barfont 16 
     format = "<b>%s</b>\n%b"
+    indicate_hidden = no
+    notification_limit = 12
+    frame_width = 3 
+    gap_size = 6
+    frame_color = "#9399b2"
+    alignment = left
+    vertical_alignment = center
+    hide_duplicate_count = true 
+    icon_path = /usr/share/icons/Adwaita/16x16/status/
+    corner_radius = 4
 
 [urgency_low]
-    background = "#1d2021"
-    foreground = "#928374"
-    timeout = 3
+    background = "#181825AA"
+    foreground = "#CDD6F4"
+    timeout = 10
 
 [urgency_normal]
-    foreground = "#ebdbb2"
-    background = "#458588"
-    timeout = 5
+    background = "#181825AA"
+    foreground = "#CDD6F4"
+    timeout = 10
 
 [urgency_critical]
-    background = "#1cc24d"
-    foreground = "#ebdbb2"
-    frame_color = "#fabd2f"
-    timeout = 10
+    background = "#181825AA"
+    foreground = "#F38BA8"
+    frame_color = "#F38BA8"
+    timeout = -1
+    format = "<b>%s</b>\n%b"
