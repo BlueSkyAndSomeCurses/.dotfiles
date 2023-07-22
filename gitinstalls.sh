@@ -2,7 +2,8 @@
 
 sudo cp pacman.conf /etc/ 
 
-sudo pacman -S $(awk '{print $1}' pkglist.txt)
+#sudo pacman -S $(awk '{print $1}' pkglist.txt)
+sudo pacman -S --needed - < pkglist.txt
 
 sudo cp -r .local $HOME/
 sudo cp -r .config $HOME/

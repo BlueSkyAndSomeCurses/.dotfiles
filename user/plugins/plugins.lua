@@ -10,7 +10,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "bashls",
-        "clangd",
+        -- "clangd",
         "pylsp",
       }
     }
@@ -23,7 +23,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "bashls",
-        "clangd",
+        -- "clangd",
         "pylsp",
       }
     }
@@ -35,7 +35,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "bashls",
-        "clangd",
+        -- "clangd",
         "pylsp",
       }
     }
