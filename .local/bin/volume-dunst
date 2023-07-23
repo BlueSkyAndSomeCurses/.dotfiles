@@ -1,0 +1,26 @@
+#! /bin/sh
+
+send_notification() {
+
+	vol="$(wpctl get-volume @DEFAULT_AUDIO_SINK@)"
+	command=$1
+
+	# If muted, print 🔇 and exit.
+	[ "$vol" != "${vol%\[MUTED\]}" ] && notify-send -a "changevolume" -t 2000 -r 1 -u low -i "volume-mute" "$command"	 && exit
+
+	[ "$command" == "mute" ] && command="up"
+
+	vol="${vol#Volume: }"
+
+	split() {
+		# For ommiting the . without calling and external program.
+		IFS=$2
+		set -- $1
+		printf '%s' "$@"
+	}
+
+	vol="$(printf "%.0f" "$(split "$vol" ".")")"
+	notify-send -a "changevolume" -u low -r 1 -h int:value:$vol " Volume: $vol $command" -t 2000 -i "volume-$command"
+}
+
+send_notification $1
