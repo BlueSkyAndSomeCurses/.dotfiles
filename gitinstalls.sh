@@ -2,11 +2,12 @@
 
 sudo cp pacman.conf /etc/ 
 
-#sudo pacman -S $(awk '{print $1}' pkglist.txt)
-sudo pacman -S --needed - < pkglist.txt
+sudo pacman -S $(awk '{print $1}' pkglist.txt)
+# sudo pacman -S --needed - < pkglist.txt
 
-sudo cp -r .local $HOME/
-sudo cp -r .config $HOME/
+cp -r .local $HOME/
+cp -r .config $HOME/
+mkdir $HOME/.local/src
 
 ln -s $HOME/.config/shell/profile $HOME/.zprofile
 ln -s $HOME/.config/x11/xprofile $HOME/.xprofile
