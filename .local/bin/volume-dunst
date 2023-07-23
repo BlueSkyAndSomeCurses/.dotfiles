@@ -20,7 +20,7 @@ send_notification() {
 	}
 
 	vol="$(printf "%.0f" "$(split "$vol" ".")")"
-	notify-send -a "changevolume" -u low -r 1 -h int:value:$vol " Volume: $vol $command" -t 2000 -i "volume-$command"
+	notify-send -a "changevolume" -u low -r 1 -h int:value:$vol " Volume: $vol " -t 2000 -i "volume-$command"
 }
 
 send_notification $1
