@@ -2,3 +2,4 @@ brave-bin
 ani-cli
 lf-git
 ueberzugpp
+htop-vim

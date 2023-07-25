@@ -23,16 +23,16 @@ git clone https://github.com/BlueSkyAndSomeCurses/st.git $HOME/.local/src/st
 git clone https://github.com/BlueSkyAndSomeCurses/dmenu.git $HOME/.local/src/dmenu
 
 cd $HOME/.local/src/dwm
-sudo make  install
+sudo make install
 
 cd $HOME/.local/src/dwmblocks
-sudo make  install
+sudo make install
 
 cd $HOME/.local/src/st
-sudo make  install
+sudo make install
 
 cd $HOME/.local/src/dmenu
-sudo make  install
+sudo make install
 
 git clone https://aur.archlinux.org/yay.git $HOME/.local/yay
 cd $HOME/.local/yay

@@ -1,8 +1,6 @@
 arandr
 base
 base-devel
-git
-htop
 keepassxc
 man-db
 neofetch
@@ -38,3 +36,13 @@ maim
 moreutils
 xclip
 xdotool
+gnome-keyring
+dosfstools
+ntfs-3g
+exfat-utils
+mediainfo
+ntp
+slock
+socat
+unclutter
+xorg-xwininfo
