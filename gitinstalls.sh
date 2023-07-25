@@ -23,16 +23,16 @@ git clone https://github.com/BlueSkyAndSomeCurses/st.git $HOME/.local/src/st
 git clone https://github.com/BlueSkyAndSomeCurses/dmenu.git $HOME/.local/src/dmenu
 
 cd $HOME/.local/src/dwm
-sudo make clean install
+sudo make  install
 
 cd $HOME/.local/src/dwmblocks
-sudo make clean install
+sudo make  install
 
 cd $HOME/.local/src/st
-sudo make clean install
+sudo make  install
 
 cd $HOME/.local/src/dmenu
-sudo make clean install
+sudo make  install
 
 git clone https://aur.archlinux.org/yay.git $HOME/.local/yay
 cd $HOME/.local/yay
@@ -40,10 +40,10 @@ makepkg -si
 yay -Y --gendb
 yay -Syu --devel
 
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
 
-./.local/bin/shortcuts 
+. $HOME/.local/bin/shortcuts 
 
-cat "install amd gpu drivers set tear free and background"
+echo "install amd gpu drivers set tear free and background"
 
 

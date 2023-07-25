@@ -29,10 +29,12 @@ zsh
 sxiv
 bmon
 xorg-setxkbmap
-gxkb
 npm
 mpv
 bat
 libnotify
 dunst
 maim
+moreutils
+xclip
+xdotool
