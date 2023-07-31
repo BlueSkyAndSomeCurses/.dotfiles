@@ -16,11 +16,12 @@
     alignment = left
     vertical_alignment = center
     hide_duplicate_count = true 
-    icon_path = /home/like/Documents/icons/
+    icon_path = /home/like/Documents/wallpapersandicons/icons
     icon_position = left
     max_icon_size = 128
     corner_radius = 2
     progress_bar = true
+    progress_bar_max_width = 250
 
 [urgency_low]
     background = "#181825AA"
