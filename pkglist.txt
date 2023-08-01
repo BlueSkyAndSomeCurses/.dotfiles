@@ -24,7 +24,6 @@ xorg-server
 xorg-xinit
 xwallpaper
 zsh
-sxiv
 bmon
 xorg-setxkbmap
 npm
@@ -46,3 +45,5 @@ slock
 socat
 unclutter
 xorg-xwininfo
+bluez
+bluez-utils

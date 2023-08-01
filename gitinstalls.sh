@@ -44,6 +44,9 @@ chsh -s $(which zsh)
 
 . $HOME/.local/bin/shortcuts 
 
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
 echo "install amd gpu drivers set tear free and background"
 
 
