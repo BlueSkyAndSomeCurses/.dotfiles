@@ -2,7 +2,7 @@
 
 #setbg 
 
-autostart="xcompmgr dunst unclutter pipewire"
+autostart="xcompmgr dunst unclutter "
 
 for program in $autostart; do
 	pidof -sx "$program" || "$program" &
