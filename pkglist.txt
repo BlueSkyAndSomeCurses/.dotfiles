@@ -19,7 +19,6 @@ otf-comicshanns-nerd
 ttf-roboto-mono-nerd
 unzip
 vim
-xcompmgr
 xorg-server
 xorg-xinit
 xwallpaper

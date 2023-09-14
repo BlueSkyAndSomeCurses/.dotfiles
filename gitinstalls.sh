@@ -46,6 +46,7 @@ chsh -s $(which zsh)
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
+sudo systemctl enable pipewire pipewire-pulse wireplumber
 
 echo "install amd gpu drivers set tear free and background"
 

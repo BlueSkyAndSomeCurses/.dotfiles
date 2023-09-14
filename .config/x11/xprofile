@@ -2,7 +2,7 @@
 
 #setbg 
 
-autostart="xcompmgr dunst unclutter "
+autostart="picom dunst unclutter "
 
 for program in $autostart; do
 	pidof -sx "$program" || "$program" &

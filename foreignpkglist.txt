@@ -4,4 +4,4 @@ lf-git
 ueberzugpp
 htop-vim
 nsxiv
-xkb-switch
+picom-git
