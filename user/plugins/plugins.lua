@@ -3,6 +3,7 @@ return {
     "rebelot/kanagawa.nvim",
   },
   "catppuccin/nvim",
+  { "blazkowolf/gruber-darker.nvim" },
   {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
