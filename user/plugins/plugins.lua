@@ -3,6 +3,7 @@ return {
     "rebelot/kanagawa.nvim",
   },
   "catppuccin/nvim",
+  "morhetz/gruvbox",
   { "blazkowolf/gruber-darker.nvim" },
   {
     "williamboman/mason-lspconfig.nvim",
