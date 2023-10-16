@@ -17,6 +17,7 @@ ttf-font-awesome
 ttf-nerd-fonts-symbols
 otf-comicshanns-nerd	
 ttf-roboto-mono-nerd
+ttf-cascadia-code-nerd
 unzip
 vim
 xorg-server
@@ -46,3 +47,5 @@ unclutter
 xorg-xwininfo
 bluez
 bluez-utils
+zathura
+zathura-pdf-mupdf

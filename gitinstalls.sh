@@ -1,5 +1,6 @@
 #! /bin/bash
 
+sudo pacman -Syu
 sudo cp pacman.conf /etc/ 
 
 sudo pacman -S $(awk '{print $1}' pkglist.txt)
@@ -46,6 +47,10 @@ chsh -s $(which zsh)
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
+
+sudo mkdir -p /etc/sysctl.d
+sudo echo "kernel.dmesg_restrict = 0" > /etc/sysctl.d/dmesg.conf
+
 sudo systemctl enable pipewire pipewire-pulse wireplumber
 
 echo "install amd gpu drivers set tear free and background"
