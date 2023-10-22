@@ -4,13 +4,7 @@ return {
     tabstop = 2,
     softtabstop = 2,
     shiftwidth = 2,
-    expandtab = true 
+    expandtab = true,
+    scrolloff = 8,
   }
 }
-  
-
-  
-
-
-
-
