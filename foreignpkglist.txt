@@ -5,3 +5,6 @@ ueberzugpp
 htop-vim
 nsxiv
 picom-git
+hyprland-git
+wayland-git
+swww-git
