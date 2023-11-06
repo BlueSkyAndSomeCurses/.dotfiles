@@ -74,7 +74,6 @@
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": " Disconnected",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
-    "on-click": "st -e nmtui"
   },
   "wireplumber": {
     "format": "{icon} {volume}%",
