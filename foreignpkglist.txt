@@ -8,3 +8,4 @@ picom-git
 hyprland-git
 wayland-git
 swww-git
+grimshot

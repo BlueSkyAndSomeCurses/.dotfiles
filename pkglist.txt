@@ -49,3 +49,4 @@ bluez
 bluez-utils
 zathura
 zathura-pdf-mupdf
+wl-clipboard
