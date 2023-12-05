@@ -50,3 +50,4 @@ bluez-utils
 zathura
 zathura-pdf-mupdf
 wl-clipboard
+swaylock

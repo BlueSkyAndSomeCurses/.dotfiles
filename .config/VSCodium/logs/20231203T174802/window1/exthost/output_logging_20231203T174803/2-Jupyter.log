@@ -1,0 +1,16 @@
+VSCodium (1.84.2, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/pb_labs/miniprojects/third_miniproject, Home = /home/like
+17:48:03.937 [info] Telemetry level is off
+17:48:03.937 [info] Experiments are disabled, only manually opted experiments are active.
+17:48:04.149 [info] Start refreshing Kernel Picker (1701618484149)
+17:48:04.158 [info] Using Pylance
+17:48:04.339 [warn] Failed to get activated env vars for /bin/python in 128ms
+17:48:04.358 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+17:48:04.408 [info] Process Execution: /bin/python -m pip list
+17:48:05.211 [info] End refreshing Kernel Picker (1701618484149)
+17:48:40.774 [info] Disposing HostJupyterExecution
+17:48:40.774 [info] Shutting down notebooks for 5eea3485-4a14-4772-b077-d7d9cbe36b2b
+17:48:40.775 [info] Disposing HostJupyterExecution

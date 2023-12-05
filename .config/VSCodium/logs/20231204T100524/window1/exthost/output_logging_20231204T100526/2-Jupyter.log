@@ -1,0 +1,29 @@
+VSCodium (1.84.2, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/calculus_add, Home = /home/like
+10:05:27.213 [info] Telemetry level is off
+10:05:27.213 [info] Experiments are disabled, only manually opted experiments are active.
+10:05:27.523 [info] Start refreshing Kernel Picker (1701677127523)
+10:05:27.526 [info] Using Pylance
+10:05:27.664 [info] Start refreshing Interpreter Kernel Picker
+10:05:27.955 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.6) for '~/Documents/calculus_add/extra_xor.ipynb' (disableUI=true)
+10:05:28.056 [warn] Failed to get activated env vars for /bin/python in 482ms
+10:05:28.156 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+10:05:28.255 [info] Process Execution: /bin/python -m pip list
+10:05:28.322 [warn] Failed to get activated env vars for /bin/python in 322ms
+10:05:28.342 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:05:28.360 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"6624b70f-d828-41e6-a295-1933bb2880ee" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-535478NcQGLYPb916.json
+    > cwd: ~/Documents/calculus_add
+10:05:28.803 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+10:05:29.078 [info] End refreshing Kernel Picker (1701677127523)
+10:05:29.441 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+10:05:29.611 [info] Started Kernel Python 3.11.6 (pid: 53691)
+10:05:29.611 [info] Started new session 9af6bb9a-3b68-43a9-9139-339382b0cb1b
+10:05:29.675 [info] Process Execution: /bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/pythonFiles/printJupyterDataDir.py
+10:05:49.524 [info] Disposing HostJupyterExecution
+10:05:49.524 [info] Shutting down notebooks for adf8da4c-6136-4374-838e-ece2f3430c1b
+10:05:49.524 [info] Dispose Kernel '~/Documents/calculus_add/extra_xor.ipynb' associated with '~/Documents/calculus_add/extra_xor.ipynb'
+10:05:49.529 [info] Dispose Kernel process 53691.
+10:05:49.546 [info] Disposing HostJupyterExecution

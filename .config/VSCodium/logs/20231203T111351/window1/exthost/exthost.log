@@ -1,0 +1,374 @@
+2023-12-03 11:13:52.525 [info] Extension host with pid 38785 started
+2023-12-03 11:13:52.525 [info] Skipping acquiring lock for /home/like/.config/VSCodium/User/workspaceStorage/2b07c665a98367a7db346a3356782ac9.
+2023-12-03 11:13:52.642 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: charliermarsh.ruff
+2023-12-03 11:13:52.676 [info] Extension host with pid 38805 started
+2023-12-03 11:13:52.676 [info] Skipping acquiring lock for /home/like/.config/VSCodium/User/workspaceStorage/2b07c665a98367a7db346a3356782ac9.
+2023-12-03 11:13:52.680 [info] Eager extensions activated
+2023-12-03 11:13:52.695 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:13:52.706 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-12-03 11:13:52.794 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-03 11:13:52.801 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-12-03 11:13:53.154 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-12-03 11:13:53.167 [info] ExtensionService#_doActivateExtension charliermarsh.ruff, startup: false, activationEvent: 'onLanguage:python'
+2023-12-03 11:13:53.176 [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: false, activationEvent: 'onLanguage:python'
+2023-12-03 11:13:53.223 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-03 11:13:53.248 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-12-03 11:13:53.251 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-12-03 11:13:53.308 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-03 11:13:53.333 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-03 11:13:53.415 [info] Eager extensions activated
+2023-12-03 11:13:53.458 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:13:53.461 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:13:53.466 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:13:53.470 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:13:53.702 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-12-03 11:14:13.332 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-03 11:14:13.336 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2023-12-03 11:14:13.336 [warning] Canceled
+2023-12-03 11:14:13.337 [error] Canceled: Canceled
+	at new f (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:119809)
+	at n._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13788)
+	at F.<computed>.x.charCodeAt.F.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:157431)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at p.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156000)
+	at i._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:158069)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156889)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27536)
+	at E.<anonymous> (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234550)
+	at Generator.next (<anonymous>)
+	at /home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232316
+	at new Promise (<anonymous>)
+	at u (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232061)
+	at E.set (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234429)
+	at Module.Sr (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:327988)
+	at d._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12620)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10105
+	at Array.map (<anonymous>)
+	at d._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10093)
+	at d.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10473)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at a (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11551)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7626)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-03 11:14:13.337 [error] Canceled: Canceled
+	at new f (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:119809)
+	at n._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13788)
+	at F.<computed>.x.charCodeAt.F.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:157431)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at p.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156000)
+	at i._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:158069)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156889)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27536)
+	at E.<anonymous> (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234550)
+	at Generator.next (<anonymous>)
+	at /home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232316
+	at new Promise (<anonymous>)
+	at u (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232061)
+	at E.set (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234429)
+	at Module.Sr (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:328009)
+	at d._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12620)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10105
+	at Array.map (<anonymous>)
+	at d._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10093)
+	at d.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10473)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at a (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11551)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7626)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-03 11:14:13.337 [info] Extension host with pid 38805 exiting with code 0
+2023-12-03 11:14:13.373 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-03 11:14:13.403 [error] Canceled: Canceled
+	at new f (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:119809)
+	at n._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13788)
+	at F.<computed>.x.charCodeAt.F.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:157431)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at p.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156000)
+	at i._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:158069)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156889)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27536)
+	at d.D [as value] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1316874)
+	at c._deliver (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2465)
+	at c._deliverQueue (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2556)
+	at c.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2891)
+	at Object.m [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1332791)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1337744
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1337730)
+	at w.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:5111)
+	at w.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:5208)
+	at w.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1318886)
+	at w.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:5208)
+	at o (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:829)
+	at d._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12849)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10105
+	at Array.map (<anonymous>)
+	at d._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10093)
+	at d.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10473)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at a (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11551)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7626)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-03 11:14:13.404 [error] Canceled: Canceled
+	at new f (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:119809)
+	at n._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13788)
+	at F.<computed>.x.charCodeAt.F.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:157431)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at p.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156000)
+	at i._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:158069)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156889)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27536)
+	at set b [as b] (/opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:714657)
+	at /opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:715298
+	at d.value (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1408060)
+	at c._deliver (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2465)
+	at c._deliverQueue (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2556)
+	at c.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2891)
+	at Object.m [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1332791)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1337744
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1337730)
+	at w.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:5111)
+	at w.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:5208)
+	at w.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1318886)
+	at w.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:5208)
+	at o (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:829)
+	at d._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12849)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10105
+	at Array.map (<anonymous>)
+	at d._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10093)
+	at d.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10473)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at a (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11551)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7626)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-03 11:14:13.412 [info] Extension host with pid 38785 exiting with code 0
+2023-12-03 11:14:14.148 [info] Extension host with pid 39385 started
+2023-12-03 11:14:14.148 [info] Skipping acquiring lock for /home/like/.config/VSCodium/User/workspaceStorage/8c45c72f06c250d9b5d456109a6f1291.
+2023-12-03 11:14:14.169 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-03 11:14:14.202 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-03 11:14:14.221 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-03 11:14:14.295 [info] Extension host with pid 39395 started
+2023-12-03 11:14:14.295 [info] Skipping acquiring lock for /home/like/.config/VSCodium/User/workspaceStorage/8c45c72f06c250d9b5d456109a6f1291.
+2023-12-03 11:14:14.296 [info] Eager extensions activated
+2023-12-03 11:14:14.311 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:*.py', root cause: ms-python.pylint
+2023-12-03 11:14:14.340 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:14:14.477 [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: true, activationEvent: 'workspaceContains:*.py'
+2023-12-03 11:14:14.488 [info] ExtensionService#_doActivateExtension charliermarsh.ruff, startup: true, activationEvent: 'workspaceContains:*.py,*.ipynb'
+2023-12-03 11:14:14.542 [info] Eager extensions activated
+2023-12-03 11:14:14.562 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:14:14.564 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:14:14.569 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:14:14.571 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 11:14:15.831 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-12-03 11:14:15.899 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-03 11:14:16.195 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-12-03 11:14:31.781 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-12-03 11:15:17.241 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:9417)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:21981)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:15:17.242 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAExit (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:35)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:22180)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:15:25.821 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-12-03 11:16:09.971 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAExit (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:35)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:22180)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:16:09.971 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:9417)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:21981)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:18:19.004 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:9417)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:21981)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:18:19.004 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAExit (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:35)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:22180)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:20:08.878 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAExit (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:35)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:22180)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:20:08.878 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:9417)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:21981)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:22:31.452 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAExit (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:35)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:22180)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:22:31.453 [error] Error: Invalid debug adapter
+    at C.getDebugAdapter (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:136)
+    at C.$acceptDAError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1557:9417)
+    at m._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24827)
+    at m._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:24509)
+    at m._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:23279)
+    at m._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:21981)
+    at u.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:20044)
+    at g._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2465)
+    at g.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2784)
+    at s.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17174)
+    at X.onmessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1661:1725)
+2023-12-03 11:22:34.799 [error] [ms-python.python] provider FAILED
+2023-12-03 11:22:34.799 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2354913
+	at re (/home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2355207)
+	at /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2349991
+	at Immediate.<anonymous> (/home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2350011)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 11:23:34.384 [error] [ms-python.python] provider FAILED
+2023-12-03 11:23:34.385 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2354913
+	at re (/home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2355207)
+	at /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2349991
+	at Immediate.<anonymous> (/home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/out/client/extension.js:2:2350011)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 11:23:51.790 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-03 11:23:51.796 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2023-12-03 11:23:51.796 [warning] Canceled
+2023-12-03 11:23:51.796 [error] Canceled: Canceled
+	at new f (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:119809)
+	at n._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13788)
+	at F.<computed>.x.charCodeAt.F.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:157431)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at p.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156000)
+	at i._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:158069)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156889)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27536)
+	at E.<anonymous> (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234550)
+	at Generator.next (<anonymous>)
+	at /home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232316
+	at new Promise (<anonymous>)
+	at u (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232061)
+	at E.set (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234429)
+	at Module.Sr (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:327988)
+	at d._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12620)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10105
+	at Array.map (<anonymous>)
+	at d._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10093)
+	at d.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10473)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at a (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11551)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7626)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-03 11:23:51.796 [error] Canceled: Canceled
+	at new f (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:119809)
+	at n._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13788)
+	at F.<computed>.x.charCodeAt.F.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:157431)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at p.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156000)
+	at i._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:158069)
+	at i._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156889)
+	at i.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:156756)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27536)
+	at E.<anonymous> (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234550)
+	at Generator.next (<anonymous>)
+	at /home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232316
+	at new Promise (<anonymous>)
+	at u (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:232061)
+	at E.set (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:234429)
+	at Module.Sr (/home/like/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.5-universal/dist/extension.js:1:328009)
+	at d._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12620)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10105
+	at Array.map (<anonymous>)
+	at d._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10093)
+	at d.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10473)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at a (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11551)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7626)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-03 11:23:51.796 [info] Extension host with pid 39395 exiting with code 0
+2023-12-03 11:23:51.836 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-03 11:23:51.852 [info] Extension host with pid 39385 exiting with code 0

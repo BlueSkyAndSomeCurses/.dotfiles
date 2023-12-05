@@ -1,0 +1,1884 @@
+2023-12-03 11:13:53.403 [info] Name: Pylint
+2023-12-03 11:13:53.403 [info] Module: pylint
+2023-12-03 11:13:53.403 [info] Python extension loading
+2023-12-03 11:13:53.403 [info] Waiting for interpreter from Python extension.
+2023-12-03 11:13:53.403 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 11:13:53.403 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/LAB12
+2023-12-03 11:13:53.403 [info] Python extension loaded
+2023-12-03 11:13:53.403 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/LAB12: /bin/python
+2023-12-03 11:13:53.403 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 11:13:53.403 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/LAB12
+2023-12-03 11:13:53.403 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/LAB12: /bin/python
+2023-12-03 11:13:53.403 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-03 11:13:53.403 [info] Server: Start requested.
+2023-12-03 11:13:53.890 [info] CWD Server: /home/like/Documents/pb_labs/LAB12
+2023-12-03 11:13:53.890 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/pb_labs/LAB12",
+        "workspace": "file:///home/like/Documents/pb_labs/LAB12",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-03 11:13:53.890 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-03 11:13:53.890 [info] sys.path used to run Server:
+   /home/like/Documents/pb_labs/LAB12
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-03 11:13:53.895 [info] /bin/python -m pylint --version
+2023-12-03 11:13:53.895 [info] CWD Linter: /home/like/Documents/pb_labs/LAB12
+2023-12-03 11:13:54.009 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-03 11:13:54.010 [info] Version info for linter running for /home/like/Documents/pb_labs/LAB12:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-03 11:13:54.010 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-03 11:13:54.014 [info] [Trace - 11:13:54 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-03 11:13:54.016 [info] [Trace - 11:13:54 AM] Received notification 'window/logMessage'.
+2023-12-03 11:13:54.016 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/LAB12/counties_process.py
+2023-12-03 11:13:54.016 [info] [Trace - 11:13:54 AM] Received notification 'window/logMessage'.
+2023-12-03 11:13:54.016 [info] CWD Linter: /home/like/Documents/pb_labs/LAB12
+2023-12-03 11:13:58.096 [info] file:///home/like/Documents/pb_labs/LAB12/counties_process.py :
+[]
+
+2023-12-03 11:13:58.098 [info] [Warn  - 11:13:58 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/pb_labs/LAB12/pandas_countries.ipynb#W0sZmlsZQ%3D%3D
+2023-12-03 11:13:58.099 [info] [Warn  - 11:13:58 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/pb_labs/LAB12/pandas_countries.ipynb#W1sZmlsZQ%3D%3D
+2023-12-03 11:13:58.099 [info] [Warn  - 11:13:58 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/pb_labs/LAB12/pandas_countries.ipynb#W2sZmlsZQ%3D%3D
+2023-12-03 11:13:58.100 [info] [Warn  - 11:13:58 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/pb_labs/LAB12/pandas_countries.ipynb#W3sZmlsZQ%3D%3D
+2023-12-03 11:13:58.100 [info] [Warn  - 11:13:58 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/pb_labs/LAB12/pandas_countries.ipynb#W4sZmlsZQ%3D%3D
+2023-12-03 11:14:14.626 [info] Name: Pylint
+2023-12-03 11:14:14.626 [info] Module: pylint
+2023-12-03 11:14:14.626 [info] Python extension loading
+2023-12-03 11:14:14.626 [info] Waiting for interpreter from Python extension.
+2023-12-03 11:14:14.626 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 11:14:14.626 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/AOC
+2023-12-03 11:14:14.626 [info] Python extension loaded
+2023-12-03 11:14:14.626 [info] Interpreter from ms-python.python extension for /home/like/Documents/AOC: /bin/python
+2023-12-03 11:14:14.626 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 11:14:14.626 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/AOC
+2023-12-03 11:14:14.626 [info] Interpreter from ms-python.python extension for /home/like/Documents/AOC: /bin/python
+2023-12-03 11:14:14.626 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-03 11:14:14.626 [info] Server: Start requested.
+2023-12-03 11:14:14.957 [info] CWD Server: /home/like/Documents/AOC
+2023-12-03 11:14:14.957 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/AOC",
+        "workspace": "file:///home/like/Documents/AOC",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-03 11:14:14.957 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-03 11:14:14.957 [info] sys.path used to run Server:
+   /home/like/Documents/AOC
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-03 11:14:14.959 [info] /bin/python -m pylint --version
+2023-12-03 11:14:14.959 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:14:15.020 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-03 11:14:15.020 [info] Version info for linter running for /home/like/Documents/AOC:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-03 11:14:15.020 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-03 11:14:15.802 [info] [Trace - 11:14:15 AM] Sending notification 'textDocument/didOpen'.
+2023-12-03 11:14:15.815 [info] [Trace - 11:14:15 AM] Received notification 'window/logMessage'.
+2023-12-03 11:14:15.815 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:14:15.815 [info] [Trace - 11:14:15 AM] Received notification 'window/logMessage'.
+2023-12-03 11:14:15.815 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:14:16.187 [info] [Trace - 11:14:16 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-03 11:14:16.193 [info] [Trace - 11:14:16 AM] Sending notification '$/cancelRequest'.
+2023-12-03 11:14:16.194 [info] [Trace - 11:14:16 AM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-03 11:14:16.209 [info] [Trace - 11:14:16 AM] Sending notification '$/cancelRequest'.
+2023-12-03 11:14:16.211 [info] [Trace - 11:14:16 AM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-03 11:14:16.321 [info] [Trace - 11:14:16 AM] Received notification 'window/logMessage'.
+2023-12-03 11:14:16.321 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:14:16.323 [info] [Trace - 11:14:16 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:14:16.326 [info] [Trace - 11:14:16 AM] Received response 'textDocument/codeAction - (1)' in 139ms.
+2023-12-03 11:14:16.327 [info] [Trace - 11:14:16 AM] Received response 'textDocument/codeAction - (2)' in 133ms.
+2023-12-03 11:14:16.327 [info] [Trace - 11:14:16 AM] Received response 'textDocument/codeAction - (3)' in 116ms.
+2023-12-03 11:14:16.596 [info] [Trace - 11:14:16 AM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-03 11:14:16.598 [info] [Trace - 11:14:16 AM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2023-12-03 11:14:34.158 [info] [Trace - 11:14:34 AM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-03 11:14:34.159 [info] [Trace - 11:14:34 AM] Received response 'textDocument/codeAction - (5)' in 1ms.
+2023-12-03 11:15:19.473 [info] [Trace - 11:15:19 AM] Sending request 'textDocument/codeAction - (6)'.
+2023-12-03 11:15:19.475 [info] [Trace - 11:15:19 AM] Received response 'textDocument/codeAction - (6)' in 2ms.
+2023-12-03 11:15:19.619 [info] [Trace - 11:15:19 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:20.186 [info] [Trace - 11:15:20 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:20.439 [info] [Trace - 11:15:20 AM] Sending request 'textDocument/codeAction - (7)'.
+2023-12-03 11:15:20.441 [info] [Trace - 11:15:20 AM] Received response 'textDocument/codeAction - (7)' in 2ms.
+2023-12-03 11:15:20.580 [info] [Trace - 11:15:20 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:20.835 [info] [Trace - 11:15:20 AM] Sending request 'textDocument/codeAction - (8)'.
+2023-12-03 11:15:20.837 [info] [Trace - 11:15:20 AM] Received response 'textDocument/codeAction - (8)' in 2ms.
+2023-12-03 11:15:21.231 [info] [Trace - 11:15:21 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:21.367 [info] [Trace - 11:15:21 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:21.421 [info] [Trace - 11:15:21 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:21.550 [info] [Trace - 11:15:21 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:15:21.816 [info] [Trace - 11:15:21 AM] Sending request 'textDocument/codeAction - (9)'.
+2023-12-03 11:15:21.817 [info] [Trace - 11:15:21 AM] Received response 'textDocument/codeAction - (9)' in 1ms.
+2023-12-03 11:15:22.263 [info] [Trace - 11:15:22 AM] Sending request 'textDocument/codeAction - (10)'.
+2023-12-03 11:15:22.265 [info] [Trace - 11:15:22 AM] Received response 'textDocument/codeAction - (10)' in 2ms.
+2023-12-03 11:15:22.638 [info] [Trace - 11:15:22 AM] Sending notification 'textDocument/didSave'.
+2023-12-03 11:15:22.641 [info] [Trace - 11:15:22 AM] Received notification 'window/logMessage'.
+2023-12-03 11:15:22.641 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:15:22.641 [info] [Trace - 11:15:22 AM] Received notification 'window/logMessage'.
+2023-12-03 11:15:22.641 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:15:22.945 [info] [Trace - 11:15:22 AM] Received notification 'window/logMessage'.
+2023-12-03 11:15:22.945 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:15:22.945 [info] [Trace - 11:15:22 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:15:23.200 [info] [Trace - 11:15:23 AM] Sending request 'textDocument/codeAction - (11)'.
+2023-12-03 11:15:23.202 [info] [Trace - 11:15:23 AM] Received response 'textDocument/codeAction - (11)' in 2ms.
+2023-12-03 11:15:45.917 [info] [Trace - 11:15:45 AM] Sending request 'textDocument/codeAction - (12)'.
+2023-12-03 11:15:45.919 [info] [Trace - 11:15:45 AM] Received response 'textDocument/codeAction - (12)' in 2ms.
+2023-12-03 11:15:47.687 [info] [Trace - 11:15:47 AM] Sending request 'textDocument/codeAction - (13)'.
+2023-12-03 11:15:47.689 [info] [Trace - 11:15:47 AM] Received response 'textDocument/codeAction - (13)' in 2ms.
+2023-12-03 11:16:01.161 [info] [Trace - 11:16:01 AM] Sending request 'textDocument/codeAction - (14)'.
+2023-12-03 11:16:01.163 [info] [Trace - 11:16:01 AM] Received response 'textDocument/codeAction - (14)' in 2ms.
+2023-12-03 11:16:02.058 [info] [Trace - 11:16:02 AM] Sending request 'textDocument/codeAction - (15)'.
+2023-12-03 11:16:02.060 [info] [Trace - 11:16:02 AM] Received response 'textDocument/codeAction - (15)' in 2ms.
+2023-12-03 11:16:03.278 [info] [Trace - 11:16:03 AM] Sending request 'textDocument/codeAction - (16)'.
+2023-12-03 11:16:03.280 [info] [Trace - 11:16:03 AM] Received response 'textDocument/codeAction - (16)' in 2ms.
+2023-12-03 11:16:03.548 [info] [Trace - 11:16:03 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:16:03.929 [info] [Trace - 11:16:03 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:16:04.311 [info] [Trace - 11:16:04 AM] Sending request 'textDocument/codeAction - (17)'.
+2023-12-03 11:16:04.313 [info] [Trace - 11:16:04 AM] Received response 'textDocument/codeAction - (17)' in 2ms.
+2023-12-03 11:16:04.882 [info] [Trace - 11:16:04 AM] Sending notification 'textDocument/didSave'.
+2023-12-03 11:16:04.884 [info] [Trace - 11:16:04 AM] Received notification 'window/logMessage'.
+2023-12-03 11:16:04.884 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:16:04.884 [info] [Trace - 11:16:04 AM] Received notification 'window/logMessage'.
+2023-12-03 11:16:04.884 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:16:05.107 [info] [Trace - 11:16:05 AM] Received notification 'window/logMessage'.
+2023-12-03 11:16:05.108 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:16:05.108 [info] [Trace - 11:16:05 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:16:05.361 [info] [Trace - 11:16:05 AM] Sending request 'textDocument/codeAction - (18)'.
+2023-12-03 11:16:05.363 [info] [Trace - 11:16:05 AM] Received response 'textDocument/codeAction - (18)' in 2ms.
+2023-12-03 11:16:08.181 [info] [Trace - 11:16:08 AM] Sending request 'textDocument/codeAction - (19)'.
+2023-12-03 11:16:08.182 [info] [Trace - 11:16:08 AM] Received response 'textDocument/codeAction - (19)' in 1ms.
+2023-12-03 11:18:22.043 [info] [Trace - 11:18:22 AM] Sending request 'textDocument/codeAction - (20)'.
+2023-12-03 11:18:22.045 [info] [Trace - 11:18:22 AM] Received response 'textDocument/codeAction - (20)' in 2ms.
+2023-12-03 11:18:24.906 [info] [Trace - 11:18:24 AM] Sending request 'textDocument/codeAction - (21)'.
+2023-12-03 11:18:24.909 [info] [Trace - 11:18:24 AM] Received response 'textDocument/codeAction - (21)' in 3ms.
+2023-12-03 11:18:25.579 [info] [Trace - 11:18:25 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:18:25.732 [info] [Trace - 11:18:25 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:18:26.230 [info] [Trace - 11:18:26 AM] Sending request 'textDocument/codeAction - (22)'.
+2023-12-03 11:18:26.232 [info] [Trace - 11:18:26 AM] Received response 'textDocument/codeAction - (22)' in 2ms.
+2023-12-03 11:18:26.827 [info] [Trace - 11:18:26 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:18:26.835 [info] [Trace - 11:18:26 AM] Sending notification 'textDocument/didSave'.
+2023-12-03 11:18:26.837 [info] [Trace - 11:18:26 AM] Received notification 'window/logMessage'.
+2023-12-03 11:18:26.837 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:18:26.837 [info] [Trace - 11:18:26 AM] Received notification 'window/logMessage'.
+2023-12-03 11:18:26.837 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:18:27.079 [info] [Trace - 11:18:27 AM] Sending request 'textDocument/codeAction - (23)'.
+2023-12-03 11:18:27.136 [info] [Trace - 11:18:27 AM] Received notification 'window/logMessage'.
+2023-12-03 11:18:27.136 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:18:27.136 [info] [Trace - 11:18:27 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:18:27.137 [info] [Trace - 11:18:27 AM] Received response 'textDocument/codeAction - (23)' in 58ms.
+2023-12-03 11:18:27.390 [info] [Trace - 11:18:27 AM] Sending request 'textDocument/codeAction - (24)'.
+2023-12-03 11:18:27.391 [info] [Trace - 11:18:27 AM] Received response 'textDocument/codeAction - (24)' in 1ms.
+2023-12-03 11:18:49.763 [info] [Trace - 11:18:49 AM] Sending request 'textDocument/codeAction - (25)'.
+2023-12-03 11:18:49.764 [info] [Trace - 11:18:49 AM] Received response 'textDocument/codeAction - (25)' in 1ms.
+2023-12-03 11:18:50.008 [info] [Trace - 11:18:50 AM] Sending request 'textDocument/codeAction - (26)'.
+2023-12-03 11:18:50.010 [info] [Trace - 11:18:50 AM] Received response 'textDocument/codeAction - (26)' in 2ms.
+2023-12-03 11:18:53.849 [info] [Trace - 11:18:53 AM] Sending request 'textDocument/codeAction - (27)'.
+2023-12-03 11:18:53.851 [info] [Trace - 11:18:53 AM] Received response 'textDocument/codeAction - (27)' in 2ms.
+2023-12-03 11:19:59.674 [info] [Trace - 11:19:59 AM] Sending request 'textDocument/codeAction - (28)'.
+2023-12-03 11:19:59.676 [info] [Trace - 11:19:59 AM] Received response 'textDocument/codeAction - (28)' in 3ms.
+2023-12-03 11:20:11.125 [info] [Trace - 11:20:11 AM] Sending request 'textDocument/codeAction - (29)'.
+2023-12-03 11:20:11.127 [info] [Trace - 11:20:11 AM] Received response 'textDocument/codeAction - (29)' in 2ms.
+2023-12-03 11:20:11.627 [info] [Trace - 11:20:11 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:11.646 [info] [Trace - 11:20:11 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:11.866 [info] [Trace - 11:20:11 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:11.991 [info] [Trace - 11:20:11 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:12.062 [info] [Trace - 11:20:12 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:12.188 [info] [Trace - 11:20:12 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:12.239 [info] [Trace - 11:20:12 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:12.483 [info] [Trace - 11:20:12 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:12.737 [info] [Trace - 11:20:12 AM] Sending request 'textDocument/codeAction - (30)'.
+2023-12-03 11:20:12.739 [info] [Trace - 11:20:12 AM] Received response 'textDocument/codeAction - (30)' in 2ms.
+2023-12-03 11:20:12.815 [info] [Trace - 11:20:12 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:13.045 [info] [Trace - 11:20:13 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:13.311 [info] [Trace - 11:20:13 AM] Sending request 'textDocument/codeAction - (31)'.
+2023-12-03 11:20:13.313 [info] [Trace - 11:20:13 AM] Received response 'textDocument/codeAction - (31)' in 2ms.
+2023-12-03 11:20:13.331 [info] [Trace - 11:20:13 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:13.440 [info] [Trace - 11:20:13 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:13.707 [info] [Trace - 11:20:13 AM] Sending request 'textDocument/codeAction - (32)'.
+2023-12-03 11:20:13.709 [info] [Trace - 11:20:13 AM] Received response 'textDocument/codeAction - (32)' in 2ms.
+2023-12-03 11:20:13.951 [info] [Trace - 11:20:13 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:14.149 [info] [Trace - 11:20:14 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:14.320 [info] [Trace - 11:20:14 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:14.399 [info] [Trace - 11:20:14 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:20:14.816 [info] [Trace - 11:20:14 AM] Sending request 'textDocument/codeAction - (33)'.
+2023-12-03 11:20:14.818 [info] [Trace - 11:20:14 AM] Received response 'textDocument/codeAction - (33)' in 2ms.
+2023-12-03 11:20:15.011 [info] [Trace - 11:20:15 AM] Sending notification 'textDocument/didSave'.
+2023-12-03 11:20:15.012 [info] [Trace - 11:20:15 AM] Received notification 'window/logMessage'.
+2023-12-03 11:20:15.012 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:20:15.012 [info] [Trace - 11:20:15 AM] Received notification 'window/logMessage'.
+2023-12-03 11:20:15.012 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:20:15.248 [info] [Trace - 11:20:15 AM] Received notification 'window/logMessage'.
+2023-12-03 11:20:15.248 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:20:15.249 [info] [Trace - 11:20:15 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:20:15.502 [info] [Trace - 11:20:15 AM] Sending request 'textDocument/codeAction - (34)'.
+2023-12-03 11:20:15.504 [info] [Trace - 11:20:15 AM] Received response 'textDocument/codeAction - (34)' in 2ms.
+2023-12-03 11:20:22.908 [info] [Trace - 11:20:22 AM] Sending request 'textDocument/codeAction - (35)'.
+2023-12-03 11:20:22.909 [info] [Trace - 11:20:22 AM] Received response 'textDocument/codeAction - (35)' in 1ms.
+2023-12-03 11:20:23.151 [info] [Trace - 11:20:23 AM] Sending request 'textDocument/codeAction - (36)'.
+2023-12-03 11:20:23.152 [info] [Trace - 11:20:23 AM] Received response 'textDocument/codeAction - (36)' in 1ms.
+2023-12-03 11:20:27.306 [info] [Trace - 11:20:27 AM] Sending request 'textDocument/codeAction - (37)'.
+2023-12-03 11:20:27.308 [info] [Trace - 11:20:27 AM] Received response 'textDocument/codeAction - (37)' in 2ms.
+2023-12-03 11:20:27.548 [info] [Trace - 11:20:27 AM] Sending request 'textDocument/codeAction - (38)'.
+2023-12-03 11:20:27.549 [info] [Trace - 11:20:27 AM] Received response 'textDocument/codeAction - (38)' in 1ms.
+2023-12-03 11:21:13.449 [info] [Trace - 11:21:13 AM] Sending request 'textDocument/codeAction - (39)'.
+2023-12-03 11:21:13.450 [info] [Trace - 11:21:13 AM] Received response 'textDocument/codeAction - (39)' in 1ms.
+2023-12-03 11:21:13.694 [info] [Trace - 11:21:13 AM] Sending request 'textDocument/codeAction - (40)'.
+2023-12-03 11:21:13.696 [info] [Trace - 11:21:13 AM] Received response 'textDocument/codeAction - (40)' in 3ms.
+2023-12-03 11:21:17.596 [info] [Trace - 11:21:17 AM] Sending request 'textDocument/codeAction - (41)'.
+2023-12-03 11:21:17.597 [info] [Trace - 11:21:17 AM] Received response 'textDocument/codeAction - (41)' in 1ms.
+2023-12-03 11:21:40.720 [info] [Trace - 11:21:40 AM] Sending request 'textDocument/codeAction - (42)'.
+2023-12-03 11:21:40.722 [info] [Trace - 11:21:40 AM] Received response 'textDocument/codeAction - (42)' in 2ms.
+2023-12-03 11:22:32.821 [info] [Trace - 11:22:32 AM] Sending request 'textDocument/codeAction - (43)'.
+2023-12-03 11:22:32.823 [info] [Trace - 11:22:32 AM] Received response 'textDocument/codeAction - (43)' in 2ms.
+2023-12-03 11:22:33.500 [info] [Trace - 11:22:33 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:33.772 [info] [Trace - 11:22:33 AM] Sending request 'textDocument/codeAction - (44)'.
+2023-12-03 11:22:33.773 [info] [Trace - 11:22:33 AM] Received response 'textDocument/codeAction - (44)' in 1ms.
+2023-12-03 11:22:34.076 [info] [Trace - 11:22:34 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:34.181 [info] [Trace - 11:22:34 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:34.258 [info] [Trace - 11:22:34 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:34.517 [info] [Trace - 11:22:34 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:34.787 [info] [Trace - 11:22:34 AM] Sending request 'textDocument/codeAction - (45)'.
+2023-12-03 11:22:34.788 [info] [Trace - 11:22:34 AM] Received response 'textDocument/codeAction - (45)' in 1ms.
+2023-12-03 11:22:34.854 [info] [Trace - 11:22:34 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:34.993 [info] [Trace - 11:22:34 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:35.111 [info] [Trace - 11:22:35 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:35.366 [info] [Trace - 11:22:35 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:35.571 [info] [Trace - 11:22:35 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:35.626 [info] [Trace - 11:22:35 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:35.837 [info] [Trace - 11:22:35 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:36.217 [info] [Trace - 11:22:36 AM] Sending request 'textDocument/codeAction - (46)'.
+2023-12-03 11:22:36.219 [info] [Trace - 11:22:36 AM] Received response 'textDocument/codeAction - (46)' in 2ms.
+2023-12-03 11:22:36.476 [info] [Trace - 11:22:36 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:22:36.491 [info] [Trace - 11:22:36 AM] Sending notification 'textDocument/didSave'.
+2023-12-03 11:22:36.492 [info] [Trace - 11:22:36 AM] Received notification 'window/logMessage'.
+2023-12-03 11:22:36.492 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:22:36.492 [info] [Trace - 11:22:36 AM] Received notification 'window/logMessage'.
+2023-12-03 11:22:36.492 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:22:36.727 [info] [Trace - 11:22:36 AM] Sending request 'textDocument/codeAction - (47)'.
+2023-12-03 11:22:36.809 [info] [Trace - 11:22:36 AM] Received notification 'window/logMessage'.
+2023-12-03 11:22:36.809 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:22:36.809 [info] [Trace - 11:22:36 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:22:36.810 [info] [Trace - 11:22:36 AM] Received response 'textDocument/codeAction - (47)' in 82ms.
+2023-12-03 11:22:37.062 [info] [Trace - 11:22:37 AM] Sending request 'textDocument/codeAction - (48)'.
+2023-12-03 11:22:37.064 [info] [Trace - 11:22:37 AM] Received response 'textDocument/codeAction - (48)' in 2ms.
+2023-12-03 11:22:56.508 [info] [Trace - 11:22:56 AM] Sending request 'textDocument/codeAction - (49)'.
+2023-12-03 11:22:56.509 [info] [Trace - 11:22:56 AM] Received response 'textDocument/codeAction - (49)' in 1ms.
+2023-12-03 11:22:56.753 [info] [Trace - 11:22:56 AM] Sending request 'textDocument/codeAction - (50)'.
+2023-12-03 11:22:56.754 [info] [Trace - 11:22:56 AM] Received response 'textDocument/codeAction - (50)' in 1ms.
+2023-12-03 11:23:29.718 [info] [Trace - 11:23:29 AM] Sending request 'textDocument/codeAction - (51)'.
+2023-12-03 11:23:29.719 [info] [Trace - 11:23:29 AM] Received response 'textDocument/codeAction - (51)' in 1ms.
+2023-12-03 11:23:29.962 [info] [Trace - 11:23:29 AM] Sending request 'textDocument/codeAction - (52)'.
+2023-12-03 11:23:29.963 [info] [Trace - 11:23:29 AM] Received response 'textDocument/codeAction - (52)' in 1ms.
+2023-12-03 11:23:32.666 [info] [Trace - 11:23:32 AM] Sending request 'textDocument/codeAction - (53)'.
+2023-12-03 11:23:32.667 [info] [Trace - 11:23:32 AM] Received response 'textDocument/codeAction - (53)' in 1ms.
+2023-12-03 11:23:34.381 [info] [Trace - 11:23:34 AM] Sending request 'textDocument/codeAction - (54)'.
+2023-12-03 11:23:34.382 [info] [Trace - 11:23:34 AM] Received response 'textDocument/codeAction - (54)' in 1ms.
+2023-12-03 11:23:36.311 [info] [Trace - 11:23:36 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:23:36.701 [info] [Trace - 11:23:36 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:23:36.961 [info] [Trace - 11:23:36 AM] Sending request 'textDocument/codeAction - (55)'.
+2023-12-03 11:23:36.962 [info] [Trace - 11:23:36 AM] Received response 'textDocument/codeAction - (55)' in 2ms.
+2023-12-03 11:23:37.868 [info] [Trace - 11:23:37 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:23:38.131 [info] [Trace - 11:23:38 AM] Sending request 'textDocument/codeAction - (56)'.
+2023-12-03 11:23:38.133 [info] [Trace - 11:23:38 AM] Received response 'textDocument/codeAction - (56)' in 2ms.
+2023-12-03 11:23:39.126 [info] [Trace - 11:23:39 AM] Sending request 'textDocument/codeAction - (57)'.
+2023-12-03 11:23:39.127 [info] [Trace - 11:23:39 AM] Received response 'textDocument/codeAction - (57)' in 2ms.
+2023-12-03 11:23:39.675 [info] [Trace - 11:23:39 AM] Sending request 'textDocument/codeAction - (58)'.
+2023-12-03 11:23:39.677 [info] [Trace - 11:23:39 AM] Received response 'textDocument/codeAction - (58)' in 2ms.
+2023-12-03 11:23:40.024 [info] [Trace - 11:23:40 AM] Sending notification 'textDocument/didSave'.
+2023-12-03 11:23:40.025 [info] [Trace - 11:23:40 AM] Received notification 'window/logMessage'.
+2023-12-03 11:23:40.025 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 11:23:40.025 [info] [Trace - 11:23:40 AM] Received notification 'window/logMessage'.
+2023-12-03 11:23:40.025 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 11:23:40.292 [info] [Trace - 11:23:40 AM] Received notification 'window/logMessage'.
+2023-12-03 11:23:40.292 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 11:23:40.292 [info] [Trace - 11:23:40 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 11:23:40.546 [info] [Trace - 11:23:40 AM] Sending request 'textDocument/codeAction - (59)'.
+2023-12-03 11:23:40.548 [info] [Trace - 11:23:40 AM] Received response 'textDocument/codeAction - (59)' in 2ms.
+2023-12-03 11:23:49.305 [info] [Trace - 11:23:49 AM] Sending notification 'textDocument/didChange'.
+2023-12-03 11:23:49.464 [info] [Trace - 11:23:49 AM] Sending request 'textDocument/codeAction - (60)'.
+2023-12-03 11:23:49.466 [info] [Trace - 11:23:49 AM] Received response 'textDocument/codeAction - (60)' in 2ms.
+2023-12-03 11:23:51.848 [info] [Trace - 11:23:51 AM] Sending request 'shutdown - (61)'.
+2023-12-03 11:23:51.850 [info] [Trace - 11:23:51 AM] Received response 'shutdown - (61)' in 9ms.
+2023-12-03 11:23:51.850 [info] [Trace - 11:23:51 AM] Sending notification 'exit'.

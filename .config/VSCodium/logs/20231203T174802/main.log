@@ -1,0 +1,8 @@
+2023-12-03 17:48:02.401 [info] update#setState disabled
+2023-12-03 17:48:02.402 [info] update#ctor - updates are disabled as there is no update URL
+2023-12-03 17:48:40.727 [info] Extension host with pid 272273 exited with code: 0, signal: unknown.
+2023-12-03 17:48:40.788 [info] Extension host with pid 272227 exited with code: 0, signal: unknown.
+2023-12-03 22:55:19.910 [info] Extension host with pid 272837 exited with code: 0, signal: unknown.
+2023-12-03 22:55:19.984 [error] Blocked vscode-file request vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService
+2023-12-03 22:55:19.985 [info] Extension host with pid 272827 exited with code: 0, signal: unknown.
+2023-12-03 22:55:19.992 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 272802]: crashed with code 15 and reason 'killed'

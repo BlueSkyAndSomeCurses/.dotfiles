@@ -1,0 +1,125 @@
+VSCodium (1.84.2, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/pb_labs/LAB12, Home = /home/like
+15:57:13.625 [info] Telemetry level is off
+15:57:13.625 [info] Experiments are disabled, only manually opted experiments are active.
+15:57:13.835 [info] Start refreshing Kernel Picker (1701525433835)
+15:57:13.837 [info] Using Pylance
+15:57:13.901 [info] Start refreshing Interpreter Kernel Picker
+15:57:14.220 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.6) for '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb' (disableUI=true)
+15:57:14.341 [warn] Failed to get activated env vars for /bin/python in 484ms
+15:57:14.364 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+15:57:14.394 [info] Process Execution: /bin/python -m pip list
+15:57:14.436 [warn] Failed to get activated env vars for /bin/python in 185ms
+15:57:14.452 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:57:14.477 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"e13b2795-1644-4807-9fb4-2b4849d21d46" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-1460158b17YbvIO1rl.json
+    > cwd: ~/Documents/pb_labs/LAB12
+15:57:14.769 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+15:57:15.084 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+15:57:15.103 [info] Started Kernel Python 3.11.6 (pid: 146228)
+15:57:15.103 [info] Started new session 0a1464fa-0099-4aa3-94e2-17bcc01454fc
+15:57:15.143 [info] Process Execution: /bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/pythonFiles/printJupyterDataDir.py
+15:57:15.600 [info] End refreshing Kernel Picker (1701525433835)
+15:57:24.725 [info] Dispose Kernel '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb' associated with '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb'
+15:57:24.726 [info] Dispose Kernel process 146228.
+15:57:24.756 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.6) for '~/Documents/pb_labs/LAB12/pandas_countries.ipynb' (disableUI=true)
+15:57:24.783 [warn] Failed to get activated env vars for /bin/python in 23ms
+15:57:24.795 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:57:24.810 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"45dec0cb-1aaf-4991-ac0d-108653a04e7e" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-146015G34FvwNOSM2Z.json
+    > cwd: ~/Documents/pb_labs/LAB12
+15:57:25.023 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+15:57:25.209 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+15:57:25.220 [info] Started Kernel Python 3.11.6 (pid: 146387)
+15:57:25.220 [info] Started new session f01adc61-45d7-4ecd-ae8c-07c2931770dd
+15:58:17.926 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+15:58:17.937 [info] Kernel acknowledged execution of cell 3 @ 1701525497936
+15:58:18.044 [info] End cell 3 execution @ 1701525498044, started @ 1701525497936, elapsed time = 0.108s
+15:58:18.044 [warn] Cancel all remaining cells due to cancellation or failure in execution
+15:58:23.086 [info] Handle Execution of Cells 0 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+15:58:23.091 [info] Kernel acknowledged execution of cell 0 @ 1701525503090
+15:58:23.300 [info] End cell 0 execution @ 1701525503300, started @ 1701525503090, elapsed time = 0.21s
+15:58:24.423 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+15:58:24.428 [info] Kernel acknowledged execution of cell 1 @ 1701525504428
+15:58:24.480 [info] End cell 1 execution @ 1701525504479, started @ 1701525504428, elapsed time = 0.051s
+15:58:27.107 [info] Handle Execution of Cells 2 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+15:58:27.114 [info] Kernel acknowledged execution of cell 2 @ 1701525507113
+15:58:27.115 [info] End cell 2 execution @ 1701525507115, started @ 1701525507113, elapsed time = 0.002s
+15:58:29.755 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+15:58:29.762 [info] Kernel acknowledged execution of cell 3 @ 1701525509761
+15:58:29.868 [info] End cell 3 execution @ 1701525509868, started @ 1701525509761, elapsed time = 0.107s
+15:58:29.868 [warn] Cancel all remaining cells due to cancellation or failure in execution
+15:59:00.164 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+15:59:00.173 [info] Kernel acknowledged execution of cell 3 @ 1701525540173
+15:59:00.190 [info] End cell 3 execution @ 1701525540190, started @ 1701525540173, elapsed time = 0.017s
+16:01:13.910 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.6) for '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb' (disableUI=true)
+16:01:13.967 [warn] Failed to get activated env vars for /bin/python in 50ms
+16:01:13.977 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:01:13.987 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"13782438-9f59-44b4-994a-26eb4247b37b" --shell=9007 --transport="tcp" --iopub=9009 --f=~/.local/share/jupyter/runtime/kernel-v2-146015nfJ4jYqA87Od.json
+    > cwd: ~/Documents/pb_labs/LAB12
+16:01:14.165 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+16:01:14.394 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+16:01:14.398 [info] Started Kernel Python 3.11.6 (pid: 149001)
+16:01:14.398 [info] Started new session e1939ad5-07f6-4120-bb89-5036cd441824
+16:04:15.214 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:04:15.224 [info] Kernel acknowledged execution of cell 3 @ 1701525855224
+16:04:15.688 [info] End cell 3 execution @ 1701525855687, started @ 1701525855224, elapsed time = 0.463s
+16:04:15.688 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:04:46.093 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:04:46.099 [info] Kernel acknowledged execution of cell 3 @ 1701525886098
+16:04:46.101 [info] End cell 3 execution @ 1701525886101, started @ 1701525886098, elapsed time = 0.003s
+16:04:53.484 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:04:53.492 [info] Kernel acknowledged execution of cell 3 @ 1701525893491
+16:04:53.494 [info] End cell 3 execution @ 1701525893494, started @ 1701525893491, elapsed time = 0.003s
+16:05:26.947 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:05:26.959 [info] Kernel acknowledged execution of cell 3 @ 1701525926959
+16:05:26.962 [info] End cell 3 execution @ 1701525926961, started @ 1701525926959, elapsed time = 0.002s
+16:08:21.699 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:08:21.708 [info] Kernel acknowledged execution of cell 3 @ 1701526101708
+16:08:21.745 [info] End cell 3 execution @ 1701526101745, started @ 1701526101708, elapsed time = 0.037s
+16:08:21.745 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:08:55.381 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:08:55.389 [info] Kernel acknowledged execution of cell 3 @ 1701526135389
+16:08:55.424 [info] End cell 3 execution @ 1701526135423, started @ 1701526135389, elapsed time = 0.034s
+16:09:11.448 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:09:11.456 [info] Kernel acknowledged execution of cell 3 @ 1701526151456
+16:09:11.497 [info] End cell 3 execution @ 1701526151497, started @ 1701526151456, elapsed time = 0.041s
+16:09:11.497 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:09:17.521 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:09:17.551 [info] Kernel acknowledged execution of cell 3 @ 1701526157551
+16:09:17.562 [info] End cell 3 execution @ 1701526157562, started @ 1701526157551, elapsed time = 0.011s
+16:09:17.562 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:09:50.273 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:09:50.279 [info] Kernel acknowledged execution of cell 3 @ 1701526190279
+16:09:50.329 [info] End cell 3 execution @ 1701526190329, started @ 1701526190279, elapsed time = 0.05s
+16:09:50.330 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:09:56.060 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:09:56.075 [info] Kernel acknowledged execution of cell 3 @ 1701526196075
+16:09:56.077 [info] End cell 3 execution @ 1701526196077, started @ 1701526196075, elapsed time = 0.002s
+16:10:01.461 [info] Handle Execution of Cells 3 for ~/Documents/pb_labs/LAB12/pandas_countries.ipynb
+16:10:01.469 [info] Kernel acknowledged execution of cell 3 @ 1701526201468
+16:10:01.512 [info] End cell 3 execution @ 1701526201512, started @ 1701526201468, elapsed time = 0.044s
+16:10:01.512 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:10:22.119 [info] Disposing HostJupyterExecution
+16:10:22.119 [info] Shutting down notebooks for 1eb4d0ce-eda4-4a45-99e3-b98b2962313e
+16:10:22.119 [info] Dispose Kernel '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb' associated with '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb'
+16:10:22.119 [info] Dispose Kernel '~/Documents/pb_labs/LAB12/pandas_countries.ipynb' associated with '~/Documents/pb_labs/LAB12/pandas_countries.ipynb'
+16:10:22.120 [info] Dispose Kernel process 146387.
+16:10:22.130 [info] Dispose Kernel '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb' associated with '~/Documents/pb_labs/LAB12/pandas_olympics.ipynb'
+16:10:22.130 [info] Dispose Kernel process 149001.
+16:10:22.140 [info] Disposing HostJupyterExecution
+16:10:22.154 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v2-146015nfJ4jYqA87Od.json for pid 149001 [Canceled (FileSystemError): Canceled
+	at S._handleError (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34220)
+	at Object.stat (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:30375)
+	at async fp.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:19371)
+	at async ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:88616] {
+  code: 'Unknown'
+}
+16:10:22.154 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v2-146015G34FvwNOSM2Z.json for pid 146387 [Canceled (FileSystemError): Canceled
+	at S._handleError (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34220)
+	at Object.stat (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:30375)
+	at async fp.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:19371)
+	at async ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:88616] {
+  code: 'Unknown'
+}

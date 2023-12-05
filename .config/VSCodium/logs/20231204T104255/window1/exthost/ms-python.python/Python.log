@@ -1,0 +1,33 @@
+2023-12-04 10:42:58.884 [info] Telemetry level is off
+2023-12-04 10:42:58.884 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-04 10:42:58.919 [info] Default formatter is set to charliermarsh.ruff for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:42:58.938 [info] Test server listening.
+2023-12-04 10:42:58.970 [info] Python interpreter path: /bin/python
+2023-12-04 10:42:59.128 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-04 10:42:59.128 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-04 10:42:59.128 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-04 10:42:59.128 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-04 10:43:00.004 [info] Starting Jedi language server for third_miniproject.
+2023-12-04 10:43:11.725 [info] Telemetry level is off
+2023-12-04 10:43:11.725 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-04 10:43:11.822 [info] Default formatter is set to charliermarsh.ruff for workspace /home/like/Documents/calculus_add
+2023-12-04 10:43:11.829 [info] Test server listening.
+2023-12-04 10:43:11.928 [info] Python interpreter path: /bin/python
+2023-12-04 10:43:12.362 [info] > conda info --json
+2023-12-04 10:43:12.489 [info] Found: /bin/python --> /bin/python3.11
+2023-12-04 10:43:12.491 [info] Found: /bin/python3 --> /bin/python3.11
+2023-12-04 10:43:12.491 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-12-04 10:43:12.527 [info] Found: /sbin/python --> /sbin/python3.11
+2023-12-04 10:43:12.527 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-12-04 10:43:12.528 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-12-04 10:43:12.535 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-12-04 10:43:12.535 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-12-04 10:43:12.536 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-12-04 10:43:12.576 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-12-04 10:43:12.577 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-12-04 10:43:12.577 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-12-04 10:43:12.697 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:43:12.916 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:43:12.956 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:43:12.996 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:43:13.613 [info] Starting Jedi language server for calculus_add.

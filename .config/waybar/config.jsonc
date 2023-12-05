@@ -6,7 +6,7 @@
   
   "modules-left":   ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right":  ["tray", "network", "backlight", "wireplumber","battery", "custom/power"],
+  "modules-right":  ["tray", "sway/language",  "network", "backlight", "wireplumber","battery", "custom/power"],
 
   "hyprland/workspaces": {
     "disable-scroll": true,

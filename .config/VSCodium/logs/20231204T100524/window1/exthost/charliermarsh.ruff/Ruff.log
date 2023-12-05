@@ -1,0 +1,179 @@
+2023-12-04 10:05:27.899 [info] Name: Ruff
+2023-12-04 10:05:27.899 [info] Module: ruff
+2023-12-04 10:05:27.899 [info] Python extension loading
+2023-12-04 10:05:27.899 [info] Waiting for interpreter from python extension.
+2023-12-04 10:05:27.899 [info] Python extension loaded
+2023-12-04 10:05:27.899 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/tool/server.py
+2023-12-04 10:05:27.899 [info] Server: Start requested.
+2023-12-04 10:05:28.770 [info] 2023-12-04 10:05:28,769 INFO Starting IO server
+
+2023-12-04 10:05:28.857 [info] Workspace settings: [
+    {
+        "cwd": "/home/like/Documents/calculus_add",
+        "workspace": "file:///home/like/Documents/calculus_add",
+        "path": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "fromEnvironment",
+        "codeAction": {
+            "fixViolation": {
+                "enable": true
+            },
+            "disableRuleComment": {
+                "enable": true
+            }
+        },
+        "lint": {
+            "run": "onType",
+            "args": []
+        },
+        "format": {
+            "args": []
+        },
+        "enable": true,
+        "organizeImports": true,
+        "fixAll": true,
+        "showNotifications": "off"
+    }
+]
+2023-12-04 10:05:28.857 [info] Global settings: {
+    "cwd": "/home/like",
+    "workspace": "/home/like",
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": []
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off"
+}
+2023-12-04 10:05:28.890 [info] [Trace - 10:05:28 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 10:05:28.892 [info] [Trace - 10:05:28 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:28.892 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:05:28.892 [info] [Trace - 10:05:28 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:28.892 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:05:28.898 [info] [Trace - 10:05:28 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:28.898 [info] Inferred version 0.1.5 for: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:05:28.898 [info] [Trace - 10:05:28 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:28.898 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:05:28.898 [info] [Trace - 10:05:28 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:28.898 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/calculus_add/extra_xor.ipynb']
+2023-12-04 10:05:28.908 [info] [Trace - 10:05:28 AM] Received response 'textDocument/codeAction - (1)' in 18ms.
+2023-12-04 10:05:28.932 [info] [Trace - 10:05:28 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:49.566 [info] 2023-12-04 10:05:49,566 INFO Shutting down the server
+
+2023-12-04 10:05:49.567 [info] 2023-12-04 10:05:49,566 INFO Closing the event loop.
+
+2023-12-04 10:05:52.186 [info] Name: Ruff
+2023-12-04 10:05:52.187 [info] Module: ruff
+2023-12-04 10:05:52.187 [info] Python extension loading
+2023-12-04 10:05:52.187 [info] Waiting for interpreter from python extension.
+2023-12-04 10:05:52.187 [info] Python extension loaded
+2023-12-04 10:05:52.187 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/tool/server.py
+2023-12-04 10:05:52.187 [info] Server: Start requested.
+2023-12-04 10:05:52.974 [info] 2023-12-04 10:05:52,973 INFO Starting IO server
+
+2023-12-04 10:05:53.037 [info] Workspace settings: [
+    {
+        "cwd": "/home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "workspace": "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "path": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "fromEnvironment",
+        "codeAction": {
+            "fixViolation": {
+                "enable": true
+            },
+            "disableRuleComment": {
+                "enable": true
+            }
+        },
+        "lint": {
+            "run": "onType",
+            "args": []
+        },
+        "format": {
+            "args": []
+        },
+        "enable": true,
+        "organizeImports": true,
+        "fixAll": true,
+        "showNotifications": "off"
+    }
+]
+2023-12-04 10:05:53.037 [info] Global settings: {
+    "cwd": "/home/like",
+    "workspace": "/home/like",
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": []
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off"
+}
+2023-12-04 10:05:53.053 [info] [Trace - 10:05:53 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 10:05:53.055 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.055 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:05:53.055 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.055 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:05:53.061 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.061 [info] Inferred version 0.1.5 for: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:05:53.061 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.062 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:05:53.062 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.062 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:05:53.083 [info] [Trace - 10:05:53 AM] Sending notification '$/cancelRequest'.
+2023-12-04 10:05:53.089 [info] [Trace - 10:05:53 AM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-04 10:05:53.090 [info] [Trace - 10:05:53 AM] Received response 'textDocument/codeAction - (1)' in 37ms.
+2023-12-04 10:05:53.091 [info] [Trace - 10:05:53 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:53.095 [info] 2023-12-04 10:05:53,093 WARNING Cancel notification for unknown message id "1"
+
+2023-12-04 10:05:53.096 [info] [Trace - 10:05:53 AM] Sending notification '$/cancelRequest'.
+2023-12-04 10:05:53.099 [info] [Trace - 10:05:53 AM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-04 10:05:53.100 [info] [Trace - 10:05:53 AM] Received response 'textDocument/codeAction - (2)' in 11ms.
+2023-12-04 10:05:53.101 [info] 2023-12-04 10:05:53,100 WARNING Cancel notification for unknown message id "2"
+
+2023-12-04 10:05:53.102 [info] [Trace - 10:05:53 AM] Received response 'textDocument/codeAction - (3)' in 3ms.
+2023-12-04 10:05:53.350 [info] [Trace - 10:05:53 AM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-04 10:05:53.354 [info] [Trace - 10:05:53 AM] Received response 'textDocument/codeAction - (4)' in 4ms.
+2023-12-04 10:05:54.287 [info] [Trace - 10:05:54 AM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-04 10:05:54.289 [info] [Trace - 10:05:54 AM] Received response 'textDocument/codeAction - (5)' in 3ms.
+2023-12-04 10:05:54.890 [info] [Trace - 10:05:54 AM] Sending notification 'textDocument/didClose'.
+2023-12-04 10:05:54.894 [info] [Trace - 10:05:54 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:06:56.840 [info] [Trace - 10:06:56 AM] Sending request 'shutdown - (6)'.
+2023-12-04 10:06:56.849 [info] [Trace - 10:06:56 AM] Received response 'shutdown - (6)' in 23ms.
+2023-12-04 10:06:56.849 [info] [Trace - 10:06:56 AM] Sending notification 'exit'.

@@ -1,0 +1,29 @@
+2023-12-03 16:48:08.510 [info] Log level: Info
+2023-12-03 16:48:08.510 [info] Validating found git in: "git"
+2023-12-03 16:48:08.510 [info] Using git "2.43.0" from "git"
+2023-12-03 16:48:08.510 [info] > git rev-parse --show-toplevel [10ms]
+2023-12-03 16:48:08.510 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 16:48:08.510 [info] > git rev-parse --show-toplevel [36ms]
+2023-12-03 16:48:08.510 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 16:48:08.511 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-03 16:48:08.511 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 16:48:08.634 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-03 16:48:08.634 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 16:48:09.050 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-03 16:48:09.050 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 16:48:55.064 [info] Log level: Info
+2023-12-03 16:48:55.064 [info] Validating found git in: "git"
+2023-12-03 16:48:55.064 [info] Using git "2.43.0" from "git"
+2023-12-03 16:48:55.064 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-03 16:48:55.065 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-12-03 16:48:55.072 [info] Open repository: /home/like/Documents/pb_labs
+2023-12-03 16:48:55.101 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-03 16:48:55.103 [info] > git config --get commit.template [15ms]
+2023-12-03 16:48:55.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-12-03 16:48:55.184 [info] > git status -z -uall [13ms]
+2023-12-03 16:48:55.213 [info] > git config --get commit.template [4ms]
+2023-12-03 16:48:55.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2023-12-03 16:48:55.384 [info] > git status -z -uall [49ms]
+2023-12-03 16:48:55.618 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-03 16:49:18.611 [info] > git show --textconv :miniprojects/third_miniproject/player2.py [23ms]
+2023-12-03 16:49:18.612 [info] > git ls-files --stage -- /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py [8ms]

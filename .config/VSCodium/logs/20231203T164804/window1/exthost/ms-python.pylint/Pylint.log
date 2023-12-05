@@ -1,0 +1,428 @@
+2023-12-03 16:48:08.432 [info] Name: Pylint
+2023-12-03 16:48:08.432 [info] Module: pylint
+2023-12-03 16:48:08.432 [info] Python extension loading
+2023-12-03 16:48:08.432 [info] Waiting for interpreter from Python extension.
+2023-12-03 16:48:08.432 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 16:48:08.432 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/AOC
+2023-12-03 16:48:08.432 [info] Python extension loaded
+2023-12-03 16:48:08.432 [info] Interpreter from ms-python.python extension for /home/like/Documents/AOC: /bin/python
+2023-12-03 16:48:08.432 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 16:48:08.432 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/AOC
+2023-12-03 16:48:08.432 [info] Interpreter from ms-python.python extension for /home/like/Documents/AOC: /bin/python
+2023-12-03 16:48:08.432 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-03 16:48:08.432 [info] Server: Start requested.
+2023-12-03 16:48:09.081 [info] CWD Server: /home/like/Documents/AOC
+2023-12-03 16:48:09.082 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/AOC",
+        "workspace": "file:///home/like/Documents/AOC",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-03 16:48:09.082 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-03 16:48:09.082 [info] sys.path used to run Server:
+   /home/like/Documents/AOC
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-03 16:48:09.085 [info] /bin/python -m pylint --version
+2023-12-03 16:48:09.085 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 16:48:09.217 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-03 16:48:09.218 [info] Version info for linter running for /home/like/Documents/AOC:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-03 16:48:09.218 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-03 16:48:09.228 [info] [Trace - 4:48:09 PM] Received notification 'window/logMessage'.
+2023-12-03 16:48:09.228 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/AOC/third.py
+2023-12-03 16:48:09.228 [info] [Trace - 4:48:09 PM] Received notification 'window/logMessage'.
+2023-12-03 16:48:09.228 [info] CWD Linter: /home/like/Documents/AOC
+2023-12-03 16:48:09.245 [info] [Trace - 4:48:09 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-03 16:48:09.988 [info] [Trace - 4:48:09 PM] Received notification 'window/logMessage'.
+2023-12-03 16:48:09.988 [info] file:///home/like/Documents/AOC/third.py :
+[
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "third.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 3,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"res\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 13,
+        "endLine": 4,
+        "endColumn": 17,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'line' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 8,
+        "endLine": 5,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "find_num",
+        "line": 5,
+        "column": 11,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'symb' from outer scope (line 59)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "find_num",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 12,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 17,
+        "endLine": 14,
+        "endColumn": 22,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'start' from outer scope (line 56)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 24,
+        "endLine": 14,
+        "endColumn": 28,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'stop' from outer scope (line 57)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 33,
+        "column": 12,
+        "endLine": 33,
+        "endColumn": 13,
+        "path": "third.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'i' from outer scope (line 55)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (8/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "third",
+        "obj": "check_digits",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 16,
+        "path": "third.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 9,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"start\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 57,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"stop\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "third",
+        "obj": "",
+        "line": 58,
+        "column": 4,
+        "endLine": 58,
+        "endColumn": 8,
+        "path": "third.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"numb\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+
+2023-12-03 16:48:09.991 [info] [Trace - 4:48:09 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 16:48:09.998 [info] [Trace - 4:48:09 PM] Received response 'textDocument/codeAction - (1)' in 753ms.
+2023-12-03 16:48:10.251 [info] [Trace - 4:48:10 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-03 16:48:10.254 [info] [Trace - 4:48:10 PM] Received response 'textDocument/codeAction - (2)' in 3ms.
+2023-12-03 16:48:52.657 [info] [Trace - 4:48:52 PM] Sending notification 'textDocument/didChange'.
+2023-12-03 16:48:52.828 [info] [Trace - 4:48:52 PM] Sending request 'shutdown - (3)'.
+2023-12-03 16:48:52.835 [info] [Trace - 4:48:52 PM] Received response 'shutdown - (3)' in 22ms.
+2023-12-03 16:48:52.835 [info] [Trace - 4:48:52 PM] Sending notification 'exit'.
+2023-12-03 16:48:55.516 [info] Name: Pylint
+2023-12-03 16:48:55.516 [info] Module: pylint
+2023-12-03 16:48:55.516 [info] Python extension loading
+2023-12-03 16:48:55.516 [info] Waiting for interpreter from Python extension.
+2023-12-03 16:48:55.516 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 16:48:55.516 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-03 16:48:55.516 [info] Python extension loaded
+2023-12-03 16:48:55.516 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/miniprojects/third_miniproject: /bin/python
+2023-12-03 16:48:55.516 [info] No interpreter found from setting pylint.interpreter
+2023-12-03 16:48:55.516 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-03 16:48:55.516 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/miniprojects/third_miniproject: /bin/python
+2023-12-03 16:48:55.516 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-03 16:48:55.516 [info] Server: Start requested.
+2023-12-03 16:48:56.234 [info] CWD Server: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-03 16:48:56.234 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "workspace": "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-03 16:48:56.234 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-03 16:48:56.234 [info] sys.path used to run Server:
+   /home/like/Documents/pb_labs/miniprojects/third_miniproject
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-03 16:48:56.237 [info] /bin/python -m pylint --version
+2023-12-03 16:48:56.237 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-03 16:48:56.374 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-03 16:48:56.374 [info] Version info for linter running for /home/like/Documents/pb_labs/miniprojects/third_miniproject:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-03 16:48:56.374 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-03 16:49:17.673 [info] [Trace - 4:49:17 PM] Sending notification 'textDocument/didOpen'.
+2023-12-03 16:49:17.678 [info] [Trace - 4:49:17 PM] Received notification 'window/logMessage'.
+2023-12-03 16:49:17.678 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py
+2023-12-03 16:49:17.678 [info] [Trace - 4:49:17 PM] Received notification 'window/logMessage'.
+2023-12-03 16:49:17.678 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-03 16:49:18.540 [info] [Trace - 4:49:18 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-03 16:49:18.549 [info] [Trace - 4:49:18 PM] Sending notification '$/cancelRequest'.
+2023-12-03 16:49:18.552 [info] [Trace - 4:49:18 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-03 16:49:18.908 [info] [Trace - 4:49:18 PM] Received notification 'window/logMessage'.
+2023-12-03 16:49:18.908 [info] file:///home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py :
+[
+    {
+        "type": "convention",
+        "module": "player2",
+        "obj": "main",
+        "line": 149,
+        "column": 0,
+        "endLine": 149,
+        "endColumn": 8,
+        "path": "player2.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+
+2023-12-03 16:49:18.911 [info] [Trace - 4:49:18 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-03 16:49:18.917 [info] [Trace - 4:49:18 PM] Received response 'textDocument/codeAction - (1)' in 376ms.
+2023-12-03 16:49:18.919 [info] [Trace - 4:49:18 PM] Received response 'textDocument/codeAction - (2)' in 367ms.
+2023-12-03 16:49:19.167 [info] [Trace - 4:49:19 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-03 16:49:19.169 [info] [Trace - 4:49:19 PM] Received response 'textDocument/codeAction - (3)' in 2ms.
+2023-12-03 16:49:31.117 [info] [Trace - 4:49:31 PM] Sending request 'shutdown - (4)'.
+2023-12-03 16:49:31.130 [info] [Trace - 4:49:31 PM] Received response 'shutdown - (4)' in 27ms.
+2023-12-03 16:49:31.130 [info] [Trace - 4:49:31 PM] Sending notification 'exit'.

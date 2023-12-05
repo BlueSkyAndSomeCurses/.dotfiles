@@ -1,0 +1,25 @@
+2023-12-03 17:48:04.571 [info] Log level: Info
+2023-12-03 17:48:04.571 [info] Validating found git in: "git"
+2023-12-03 17:48:04.571 [info] Using git "2.43.0" from "git"
+2023-12-03 17:48:04.571 [info] > git rev-parse --show-toplevel [6ms]
+2023-12-03 17:48:04.571 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2023-12-03 17:48:04.571 [info] Open repository: /home/like/Documents/pb_labs
+2023-12-03 17:48:04.571 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-03 17:48:04.571 [info] > git config --get commit.template [15ms]
+2023-12-03 17:48:04.595 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-03 17:48:04.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2023-12-03 17:48:04.621 [info] > git status -z -uall [2ms]
+2023-12-03 17:48:04.622 [info] > git rev-parse --show-toplevel [14ms]
+2023-12-03 17:48:04.661 [info] > git config --get commit.template [17ms]
+2023-12-03 17:48:04.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-12-03 17:48:04.704 [info] > git status -z -uall [3ms]
+2023-12-03 17:48:05.033 [info] > git show --textconv :miniprojects/third_miniproject/player2.py [11ms]
+2023-12-03 17:48:05.035 [info] > git ls-files --stage -- /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py [2ms]
+2023-12-03 17:48:05.134 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-03 17:48:42.131 [info] Log level: Info
+2023-12-03 17:48:42.131 [info] Validating found git in: "git"
+2023-12-03 17:48:42.131 [info] Using git "2.43.0" from "git"
+2023-12-03 17:48:42.131 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-03 17:48:42.131 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-03 17:48:42.238 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-03 17:48:42.238 [info] fatal: not a git repository (or any of the parent directories): .git

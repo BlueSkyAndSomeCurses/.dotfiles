@@ -1,0 +1,92 @@
+{
+	"name": "code-spell-checker-british-english",
+	"description": "British English dictionary extension for VS Code.",
+	"version": "1.4.0",
+	"displayName": "British English - Code Spell Checker",
+	"icon": "images/SpellCheck.png",
+	"preview": false,
+	"private": true,
+	"publisher": "streetsidesoftware",
+	"license": "GPL-3.0-or-later",
+	"type": "commonjs",
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"sponsor": {
+		"url": "https://github.com/sponsors/streetsidesoftware"
+	},
+	"extensionKind": [
+		"workspace"
+	],
+	"categories": [
+		"Linters",
+		"Other"
+	],
+	"keywords": [
+		"British English",
+		"VS Code Extension",
+		"Spelling Checker",
+		"dictionary",
+		"spelling"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"qna": "marketplace",
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "cSpellExt_british-english.enable",
+				"title": "Enable British Spell Checker Dictionary"
+			},
+			{
+				"command": "cSpellExt_british-english.disable",
+				"title": "Disable British Spell Checker Dictionary"
+			},
+			{
+				"command": "cSpellExt_british-english.enableWorkspace",
+				"title": "Enable British Spell Checker Dictionary in Workspace"
+			},
+			{
+				"command": "cSpellExt_british-english.disableWorkspace",
+				"title": "Disable British Spell Checker Dictionary in Workspace"
+			}
+		]
+	},
+	"extensionDependencies": [
+		"streetsidesoftware.code-spell-checker"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions"
+	},
+	"bugs": {
+		"url": "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions/issues"
+	},
+	"scripts": {
+		"clean": "rimraf out",
+		"clean-build": "npm run clean && npm run build",
+		"publish-extension": "vsce publish",
+		"pack-extension": "vsce package",
+		"vscode:prepublish": "npm run build",
+		"build": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"test:cspell": "cspell -c cspell-ext.json samples",
+		"test:vscode": "node ../../test-runner/bin.mjs .",
+		"test": "npm run test:cspell && npm run test:vscode"
+	},
+	"dependencies": {
+		"@cspell/dict-en-gb": "^4.1.26"
+	},
+	"__metadata": {
+		"id": "838b06cc-3ce0-429e-88ea-3540c4aea178",
+		"publisherId": "67600ca7-88fb-4104-9f7e-dd51c00facf2",
+		"publisherDisplayName": "streetsidesoftware",
+		"targetPlatform": "universal",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1701692080483,
+		"preRelease": false
+	}
+}

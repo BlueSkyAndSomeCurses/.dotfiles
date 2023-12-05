@@ -1,0 +1,30 @@
+2023-12-04 10:05:26.903 [info] Telemetry level is off
+2023-12-04 10:05:26.903 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-04 10:05:27.007 [info] Default formatter is set to charliermarsh.ruff for workspace /home/like/Documents/calculus_add
+2023-12-04 10:05:27.014 [info] Test server listening.
+2023-12-04 10:05:27.126 [info] Python interpreter path: /bin/python
+2023-12-04 10:05:27.597 [info] > conda info --json
+2023-12-04 10:05:27.686 [info] Found: /bin/python --> /bin/python3.11
+2023-12-04 10:05:27.687 [info] Found: /bin/python3 --> /bin/python3.11
+2023-12-04 10:05:27.687 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-12-04 10:05:27.716 [info] Found: /sbin/python --> /sbin/python3.11
+2023-12-04 10:05:27.716 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-12-04 10:05:27.716 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-12-04 10:05:27.723 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-12-04 10:05:27.723 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-12-04 10:05:27.723 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-12-04 10:05:27.752 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-12-04 10:05:27.752 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-12-04 10:05:27.752 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-12-04 10:05:27.777 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:05:27.802 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:05:27.850 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:05:27.915 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-04 10:05:29.410 [info] Starting Jedi language server for calculus_add.
+2023-12-04 10:05:51.702 [info] Telemetry level is off
+2023-12-04 10:05:51.702 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-04 10:05:51.727 [info] Default formatter is set to charliermarsh.ruff for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:05:51.758 [info] Test server listening.
+2023-12-04 10:05:51.785 [info] > conda info --json
+2023-12-04 10:05:51.793 [info] Python interpreter path: /bin/python
+2023-12-04 10:05:53.074 [info] Starting Jedi language server for third_miniproject.

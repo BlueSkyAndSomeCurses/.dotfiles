@@ -1,0 +1,45 @@
+2023-12-04 14:14:24.047 [info] Getting Manifest... streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:24.243 [info] Installing extension: streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:24.554 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-12-04 14:14:25.809 [info] Installing extension: streetsidesoftware.code-spell-checker streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:35.897 [info] Extension signature verification is not done: streetsidesoftware.code-spell-checker
+2023-12-04 14:14:36.081 [info] Extracted extension to file:///home/like/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-3.0.1-universal: streetsidesoftware.code-spell-checker
+2023-12-04 14:14:36.087 [info] Renamed to /home/like/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-3.0.1-universal
+2023-12-04 14:14:36.088 [info] Extracting extension completed. streetsidesoftware.code-spell-checker
+2023-12-04 14:14:36.170 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/like/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/like/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35849)
+    at a (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35983)
+    at s.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12681)
+2023-12-04 14:14:40.051 [info] Getting Manifest... streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:40.193 [info] Installing extension: streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:40.378 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-12-04 14:14:40.442 [info] Waiting for already requested installing extension streetsidesoftware.code-spell-checker streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:40.486 [info] Extension signature verification is not done: streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:40.528 [info] Extracted extension to file:///home/like/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-ukrainian-1.2.0-universal: streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:40.530 [info] Renamed to /home/like/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-ukrainian-1.2.0-universal
+2023-12-04 14:14:40.531 [info] Extracting extension completed. streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:40.536 [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+2023-12-04 14:14:40.536 [info] Extension installed successfully: streetsidesoftware.code-spell-checker-ukrainian
+2023-12-04 14:14:40.536 [info] Finished waiting for already requested installing extension streetsidesoftware.code-spell-checker streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:40.609 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/like/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/like/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35849)
+    at a (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35983)
+    at s.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12681)
+2023-12-04 14:14:43.719 [info] Extension signature verification is not done: streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:43.735 [info] Extracted extension to file:///home/like/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-british-english-1.4.0-universal: streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:43.736 [info] Renamed to /home/like/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-british-english-1.4.0-universal
+2023-12-04 14:14:43.737 [info] Extracting extension completed. streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:43.740 [info] Extension installed successfully: streetsidesoftware.code-spell-checker-british-english
+2023-12-04 14:14:43.816 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/like/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/like/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35849)
+    at a (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35983)
+    at s.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12681)

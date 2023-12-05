@@ -1,0 +1,23 @@
+2023-12-04 10:42:58.652 [info] Log level: Info
+2023-12-04 10:42:58.652 [info] Validating found git in: "git"
+2023-12-04 10:42:58.652 [info] Using git "2.43.0" from "git"
+2023-12-04 10:42:58.652 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-04 10:42:58.652 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-12-04 10:42:58.652 [info] Open repository: /home/like/Documents/pb_labs
+2023-12-04 10:42:58.652 [info] > git config --get commit.template [12ms]
+2023-12-04 10:42:58.652 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-04 10:42:58.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-12-04 10:42:58.665 [info] > git status -z -uall [3ms]
+2023-12-04 10:42:58.686 [info] > git config --get commit.template [3ms]
+2023-12-04 10:42:58.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [113ms]
+2023-12-04 10:42:58.856 [info] > git status -z -uall [33ms]
+2023-12-04 10:42:59.345 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-04 10:43:11.715 [info] Log level: Info
+2023-12-04 10:43:11.715 [info] Validating found git in: "git"
+2023-12-04 10:43:11.715 [info] Using git "2.43.0" from "git"
+2023-12-04 10:43:11.715 [info] > git rev-parse --show-toplevel [87ms]
+2023-12-04 10:43:11.715 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-04 10:43:13.603 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-04 10:43:13.603 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-04 10:43:14.914 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-04 10:43:14.914 [info] fatal: not a git repository (or any of the parent directories): .git

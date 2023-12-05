@@ -1,0 +1,9 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 2
+}

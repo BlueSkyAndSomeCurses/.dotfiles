@@ -1,0 +1,61 @@
+2023-12-03 11:13:53.189 [info] Telemetry level is off
+2023-12-03 11:13:53.189 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-03 11:13:53.189 [info] Default formatter is set to charliermarsh.ruff for workspace /home/like/Documents/pb_labs/LAB12
+2023-12-03 11:13:53.189 [info] Test server listening.
+2023-12-03 11:13:53.189 [info] > conda info --json
+2023-12-03 11:13:53.189 [info] Python interpreter path: /bin/python
+2023-12-03 11:13:53.403 [info] Found: /bin/python --> /bin/python3.11
+2023-12-03 11:13:53.436 [info] Found: /bin/python3 --> /bin/python3.11
+2023-12-03 11:13:53.450 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-12-03 11:13:53.686 [info] Found: /sbin/python --> /sbin/python3.11
+2023-12-03 11:13:53.712 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-12-03 11:13:53.724 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-12-03 11:13:53.736 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-12-03 11:13:53.737 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-12-03 11:13:53.737 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-12-03 11:13:53.759 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-12-03 11:13:53.759 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-12-03 11:13:53.759 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-12-03 11:13:53.777 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-03 11:13:53.797 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-03 11:13:53.834 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-03 11:13:53.860 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2023-12-03 11:13:53.991 [info] Starting Jedi language server for LAB12.
+2023-12-03 11:14:14.425 [info] Telemetry level is off
+2023-12-03 11:14:14.425 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-03 11:14:14.441 [info] Default formatter is set to charliermarsh.ruff for workspace /home/like/Documents/AOC
+2023-12-03 11:14:14.450 [info] Test server listening.
+2023-12-03 11:14:14.458 [info] Python interpreter path: /bin/python
+2023-12-03 11:14:14.592 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-03 11:14:14.592 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-03 11:14:14.592 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-03 11:14:14.592 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-03 11:14:14.592 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-03 11:14:15.063 [info] Starting Jedi language server for AOC.
+2023-12-03 11:14:16.169 [info] > conda info --json
+2023-12-03 11:14:31.721 [info] Using launch configuration in workspace folder.
+2023-12-03 11:14:31.816 [info] DAP Server launched with command: /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter
+2023-12-03 11:14:33.097 [info] Send text to terminal:  /usr/bin/env /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 38673 -- /home/like/Documents/AOC/third.py 
+2023-12-03 11:15:22.889 [info] Discover tests for workspace name: AOC - uri: /home/like/Documents/AOC/third.py
+2023-12-03 11:15:25.683 [info] Send text to terminal: /bin/python /home/like/Documents/AOC/third.py
+2023-12-03 11:16:05.133 [info] Discover tests for workspace name: AOC - uri: /home/like/Documents/AOC/third.py
+2023-12-03 11:16:07.036 [info] DAP Server launched with command: /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter
+2023-12-03 11:16:07.127 [info] Send text to terminal:  cd /home/like/Documents/AOC ; /usr/bin/env /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 46555 -- /home/like/Documents/AOC/third.py 
+2023-12-03 11:16:10.896 [info] Send text to terminal: /bin/python /home/like/Documents/AOC/third.py
+2023-12-03 11:16:25.313 [info] Using launch configuration in workspace folder.
+2023-12-03 11:16:25.384 [info] DAP Server launched with command: /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter
+2023-12-03 11:16:25.477 [info] Send text to terminal:  cd /home/like/Documents/AOC ; /usr/bin/env /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 41151 -- /home/like/Documents/AOC/third.py 
+2023-12-03 11:18:27.087 [info] Discover tests for workspace name: AOC - uri: /home/like/Documents/AOC/third.py
+2023-12-03 11:18:29.361 [info] Send text to terminal: /bin/python /home/like/Documents/AOC/third.py
+2023-12-03 11:18:52.667 [info] Using launch configuration in workspace folder.
+2023-12-03 11:18:52.716 [info] DAP Server launched with command: /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter
+2023-12-03 11:18:52.807 [info] Send text to terminal:  cd /home/like/Documents/AOC ; /usr/bin/env /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 35181 -- /home/like/Documents/AOC/third.py 
+2023-12-03 11:20:15.262 [info] Discover tests for workspace name: AOC - uri: /home/like/Documents/AOC/third.py
+2023-12-03 11:20:17.722 [info] Send text to terminal: /bin/python /home/like/Documents/AOC/third.py
+2023-12-03 11:21:16.373 [info] Using launch configuration in workspace folder.
+2023-12-03 11:21:16.443 [info] DAP Server launched with command: /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter
+2023-12-03 11:21:16.537 [info] Send text to terminal:  cd /home/like/Documents/AOC ; /usr/bin/env /bin/python /home/like/.vscode-oss/extensions/ms-python.python-2023.20.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 60107 -- /home/like/Documents/AOC/third.py 
+2023-12-03 11:22:36.741 [info] Discover tests for workspace name: AOC - uri: /home/like/Documents/AOC/third.py
+2023-12-03 11:22:59.444 [info] Send text to terminal: /bin/python /home/like/Documents/AOC/third.py
+2023-12-03 11:23:40.275 [info] Discover tests for workspace name: AOC - uri: /home/like/Documents/AOC/third.py
+2023-12-03 11:23:41.752 [info] Send text to terminal: /bin/python /home/like/Documents/AOC/third.py

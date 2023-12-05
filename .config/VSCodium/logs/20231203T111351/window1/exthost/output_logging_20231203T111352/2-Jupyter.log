@@ -1,0 +1,28 @@
+VSCodium (1.84.2, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/pb_labs/LAB12, Home = /home/like
+11:13:52.845 [info] Telemetry level is off
+11:13:52.845 [info] Experiments are disabled, only manually opted experiments are active.
+11:13:53.071 [info] Start refreshing Kernel Picker (1701594833071)
+11:13:53.084 [info] Using Pylance
+11:13:53.214 [info] Start refreshing Interpreter Kernel Picker
+11:13:53.275 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.6) for '~/Documents/pb_labs/LAB12/pandas_countries.ipynb' (disableUI=true)
+11:13:53.305 [warn] Failed to get activated env vars for /bin/python in 168ms
+11:13:53.366 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+11:13:53.391 [info] Process Execution: /bin/python -m pip list
+11:13:53.556 [warn] Failed to get activated env vars for /bin/python in 204ms
+11:13:53.566 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:13:53.579 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"40d66102-c4b4-476d-bdba-d2a7c666a545" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-38785XR1H001K4W74.json
+    > cwd: ~/Documents/pb_labs/LAB12
+11:13:53.866 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+11:13:54.183 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+11:13:54.234 [info] Started Kernel Python 3.11.6 (pid: 38902)
+11:13:54.234 [info] Started new session a6796570-74d7-4f9c-b9ee-f7647938f36e
+11:13:54.903 [info] End refreshing Kernel Picker (1701594833071)
+11:14:13.379 [info] Disposing HostJupyterExecution
+11:14:13.379 [info] Shutting down notebooks for 1ab03e4c-474f-4db6-b1f5-b85e622a43b9
+11:14:13.380 [info] Dispose Kernel '~/Documents/pb_labs/LAB12/pandas_countries.ipynb' associated with '~/Documents/pb_labs/LAB12/pandas_countries.ipynb'
+11:14:13.381 [info] Dispose Kernel process 38902.
+11:14:13.393 [info] Disposing HostJupyterExecution

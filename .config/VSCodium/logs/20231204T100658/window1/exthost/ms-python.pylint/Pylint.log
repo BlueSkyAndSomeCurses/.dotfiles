@@ -1,0 +1,328 @@
+2023-12-04 10:07:02.506 [info] Name: Pylint
+2023-12-04 10:07:02.506 [info] Module: pylint
+2023-12-04 10:07:02.506 [info] Python extension loading
+2023-12-04 10:07:02.506 [info] Waiting for interpreter from Python extension.
+2023-12-04 10:07:02.506 [info] No interpreter found from setting pylint.interpreter
+2023-12-04 10:07:02.506 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:07:02.506 [info] Python extension loaded
+2023-12-04 10:07:02.506 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/miniprojects/third_miniproject: /bin/python
+2023-12-04 10:07:02.506 [info] No interpreter found from setting pylint.interpreter
+2023-12-04 10:07:02.506 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:07:02.506 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/miniprojects/third_miniproject: /bin/python
+2023-12-04 10:07:02.506 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-04 10:07:02.506 [info] Server: Start requested.
+2023-12-04 10:07:03.302 [info] CWD Server: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:07:03.303 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "workspace": "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-04 10:07:03.303 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-04 10:07:03.303 [info] sys.path used to run Server:
+   /home/like/Documents/pb_labs/miniprojects/third_miniproject
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-04 10:07:03.306 [info] /bin/python -m pylint --version
+2023-12-04 10:07:03.306 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:07:03.432 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-04 10:07:03.432 [info] Version info for linter running for /home/like/Documents/pb_labs/miniprojects/third_miniproject:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-04 10:07:03.432 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-04 10:07:57.288 [info] [Trace - 10:07:57 AM] Sending notification 'textDocument/didOpen'.
+2023-12-04 10:07:57.293 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.293 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py
+2023-12-04 10:07:57.294 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.294 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:07:57.306 [info] [Trace - 10:07:57 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 10:07:58.041 [info] [Trace - 10:07:58 AM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-04 10:07:58.043 [info] [Trace - 10:07:58 AM] Sending notification '$/cancelRequest'.
+2023-12-04 10:07:58.051 [info] [Trace - 10:07:58 AM] Sending notification '$/cancelRequest'.
+2023-12-04 10:07:58.054 [info] [Trace - 10:07:58 AM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-04 10:07:58.369 [info] [Trace - 10:07:58 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:58.369 [info] file:///home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py :
+[
+    {
+        "type": "convention",
+        "module": "player2",
+        "obj": "main",
+        "line": 147,
+        "column": 0,
+        "endLine": 147,
+        "endColumn": 8,
+        "path": "player2.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+
+2023-12-04 10:07:58.371 [info] [Trace - 10:07:58 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:07:58.378 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (1)' in 1073ms.
+2023-12-04 10:07:58.378 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (2)' in 337ms.
+2023-12-04 10:07:58.381 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (3)' in 327ms.
+2023-12-04 10:07:58.628 [info] [Trace - 10:07:58 AM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-04 10:07:58.630 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2023-12-04 10:08:09.865 [info] [Trace - 10:08:09 AM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-04 10:08:09.868 [info] [Trace - 10:08:09 AM] Received response 'textDocument/codeAction - (5)' in 3ms.
+2023-12-04 10:08:13.070 [info] [Trace - 10:08:13 AM] Sending request 'textDocument/codeAction - (6)'.
+2023-12-04 10:08:13.072 [info] [Trace - 10:08:13 AM] Received response 'textDocument/codeAction - (6)' in 2ms.
+2023-12-04 10:08:13.641 [info] [Trace - 10:08:13 AM] Sending request 'textDocument/codeAction - (7)'.
+2023-12-04 10:08:13.644 [info] [Trace - 10:08:13 AM] Received response 'textDocument/codeAction - (7)' in 3ms.
+2023-12-04 10:08:14.394 [info] [Trace - 10:08:14 AM] Sending request 'textDocument/codeAction - (8)'.
+2023-12-04 10:08:14.397 [info] [Trace - 10:08:14 AM] Received response 'textDocument/codeAction - (8)' in 3ms.
+2023-12-04 10:08:15.495 [info] [Trace - 10:08:15 AM] Sending request 'textDocument/codeAction - (9)'.
+2023-12-04 10:08:15.498 [info] [Trace - 10:08:15 AM] Received response 'textDocument/codeAction - (9)' in 3ms.
+2023-12-04 10:08:16.337 [info] [Trace - 10:08:16 AM] Sending request 'textDocument/codeAction - (10)'.
+2023-12-04 10:08:16.339 [info] [Trace - 10:08:16 AM] Received response 'textDocument/codeAction - (10)' in 3ms.
+2023-12-04 10:08:16.783 [info] [Trace - 10:08:16 AM] Sending request 'textDocument/codeAction - (11)'.
+2023-12-04 10:08:16.786 [info] [Trace - 10:08:16 AM] Received response 'textDocument/codeAction - (11)' in 3ms.
+2023-12-04 10:08:17.152 [info] [Trace - 10:08:17 AM] Sending request 'textDocument/codeAction - (12)'.
+2023-12-04 10:08:17.155 [info] [Trace - 10:08:17 AM] Received response 'textDocument/codeAction - (12)' in 3ms.
+2023-12-04 10:08:17.927 [info] [Trace - 10:08:17 AM] Sending request 'textDocument/codeAction - (13)'.
+2023-12-04 10:08:17.930 [info] [Trace - 10:08:17 AM] Received response 'textDocument/codeAction - (13)' in 3ms.
+2023-12-04 10:08:23.995 [info] [Trace - 10:08:23 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:24.290 [info] [Trace - 10:08:24 AM] Sending request 'textDocument/codeAction - (14)'.
+2023-12-04 10:08:24.292 [info] [Trace - 10:08:24 AM] Received response 'textDocument/codeAction - (14)' in 2ms.
+2023-12-04 10:08:24.709 [info] [Trace - 10:08:24 AM] Sending notification 'textDocument/didSave'.
+2023-12-04 10:08:24.714 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.714 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py
+2023-12-04 10:08:24.714 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.714 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:08:24.981 [info] [Trace - 10:08:24 AM] Sending request 'textDocument/codeAction - (15)'.
+2023-12-04 10:08:25.211 [info] [Trace - 10:08:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:25.211 [info] file:///home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py :
+[
+    {
+        "type": "convention",
+        "module": "player2",
+        "obj": "main",
+        "line": 146,
+        "column": 0,
+        "endLine": 146,
+        "endColumn": 8,
+        "path": "player2.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+
+2023-12-04 10:08:25.211 [info] [Trace - 10:08:25 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:25.212 [info] [Trace - 10:08:25 AM] Received response 'textDocument/codeAction - (15)' in 231ms.
+2023-12-04 10:08:25.466 [info] [Trace - 10:08:25 AM] Sending request 'textDocument/codeAction - (16)'.
+2023-12-04 10:08:25.468 [info] [Trace - 10:08:25 AM] Received response 'textDocument/codeAction - (16)' in 2ms.
+2023-12-04 10:08:40.334 [info] [Trace - 10:08:40 AM] Sending request 'textDocument/codeAction - (17)'.
+2023-12-04 10:08:40.336 [info] [Trace - 10:08:40 AM] Received response 'textDocument/codeAction - (17)' in 2ms.
+2023-12-04 10:08:40.918 [info] [Trace - 10:08:40 AM] Sending request 'textDocument/codeAction - (18)'.
+2023-12-04 10:08:40.921 [info] [Trace - 10:08:40 AM] Received response 'textDocument/codeAction - (18)' in 2ms.
+2023-12-04 10:08:41.251 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.405 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.552 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.714 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.988 [info] [Trace - 10:08:41 AM] Sending request 'textDocument/codeAction - (19)'.
+2023-12-04 10:08:41.990 [info] [Trace - 10:08:41 AM] Received response 'textDocument/codeAction - (19)' in 2ms.
+2023-12-04 10:08:42.207 [info] [Trace - 10:08:42 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:42.476 [info] [Trace - 10:08:42 AM] Sending request 'textDocument/codeAction - (20)'.
+2023-12-04 10:08:42.479 [info] [Trace - 10:08:42 AM] Received response 'textDocument/codeAction - (20)' in 4ms.
+2023-12-04 10:08:42.519 [info] [Trace - 10:08:42 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:42.792 [info] [Trace - 10:08:42 AM] Sending request 'textDocument/codeAction - (21)'.
+2023-12-04 10:08:42.794 [info] [Trace - 10:08:42 AM] Received response 'textDocument/codeAction - (21)' in 2ms.
+2023-12-04 10:08:42.909 [info] [Trace - 10:08:42 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:43.176 [info] [Trace - 10:08:43 AM] Sending request 'textDocument/codeAction - (22)'.
+2023-12-04 10:08:43.179 [info] [Trace - 10:08:43 AM] Received response 'textDocument/codeAction - (22)' in 3ms.
+2023-12-04 10:08:43.515 [info] [Trace - 10:08:43 AM] Sending notification 'textDocument/didSave'.
+2023-12-04 10:08:43.518 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.518 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py
+2023-12-04 10:08:43.519 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.519 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:08:43.784 [info] [Trace - 10:08:43 AM] Sending request 'textDocument/codeAction - (23)'.
+2023-12-04 10:08:44.143 [info] [Trace - 10:08:44 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:44.143 [info] file:///home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py :
+[
+    {
+        "type": "convention",
+        "module": "player2",
+        "obj": "main",
+        "line": 146,
+        "column": 0,
+        "endLine": 146,
+        "endColumn": 8,
+        "path": "player2.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+
+2023-12-04 10:08:44.144 [info] [Trace - 10:08:44 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:44.145 [info] [Trace - 10:08:44 AM] Received response 'textDocument/codeAction - (23)' in 360ms.
+2023-12-04 10:08:44.398 [info] [Trace - 10:08:44 AM] Sending request 'textDocument/codeAction - (24)'.
+2023-12-04 10:08:44.401 [info] [Trace - 10:08:44 AM] Received response 'textDocument/codeAction - (24)' in 2ms.
+2023-12-04 10:09:01.728 [info] [Trace - 10:09:01 AM] Sending request 'textDocument/codeAction - (25)'.
+2023-12-04 10:09:01.732 [info] [Trace - 10:09:01 AM] Received response 'textDocument/codeAction - (25)' in 4ms.
+2023-12-04 10:09:01.977 [info] [Trace - 10:09:01 AM] Sending request 'textDocument/codeAction - (26)'.
+2023-12-04 10:09:01.981 [info] [Trace - 10:09:01 AM] Received response 'textDocument/codeAction - (26)' in 3ms.
+2023-12-04 10:09:03.732 [info] [Trace - 10:09:03 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:09:04.257 [info] [Trace - 10:09:04 AM] Sending request 'textDocument/codeAction - (27)'.
+2023-12-04 10:09:04.259 [info] [Trace - 10:09:04 AM] Received response 'textDocument/codeAction - (27)' in 3ms.
+2023-12-04 10:09:04.694 [info] [Trace - 10:09:04 AM] Sending notification 'textDocument/didSave'.
+2023-12-04 10:09:04.697 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.697 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py
+2023-12-04 10:09:04.697 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.697 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:09:04.962 [info] [Trace - 10:09:04 AM] Sending request 'textDocument/codeAction - (28)'.
+2023-12-04 10:09:05.188 [info] [Trace - 10:09:05 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:05.188 [info] file:///home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py :
+[
+    {
+        "type": "convention",
+        "module": "player2",
+        "obj": "main",
+        "line": 146,
+        "column": 0,
+        "endLine": 146,
+        "endColumn": 8,
+        "path": "player2.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+
+2023-12-04 10:09:05.188 [info] [Trace - 10:09:05 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:09:05.189 [info] [Trace - 10:09:05 AM] Received response 'textDocument/codeAction - (28)' in 227ms.
+2023-12-04 10:09:05.442 [info] [Trace - 10:09:05 AM] Sending request 'textDocument/codeAction - (29)'.
+2023-12-04 10:09:05.445 [info] [Trace - 10:09:05 AM] Received response 'textDocument/codeAction - (29)' in 3ms.
+2023-12-04 10:09:59.007 [info] [Trace - 10:09:59 AM] Sending notification 'textDocument/didClose'.
+2023-12-04 10:09:59.029 [info] [Trace - 10:09:59 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:11:40.722 [info] [Trace - 10:11:40 AM] Sending notification 'textDocument/didOpen'.
+2023-12-04 10:11:40.725 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.725 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/destroyer_vitalya.py
+2023-12-04 10:11:40.725 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.725 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:11:40.727 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.727 [info] [Error - 10:11:40 AM] Traceback (most recent call last):
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py", line 770, in _run_tool_on_document
+    result = utils.run_module(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_utils.py", line 207, in run_module
+    if is_same_path(os.getcwd(), cwd):
+                    ^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory
+
+2023-12-04 10:11:40.728 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.728 [info] [Error - 10:11:40 AM] Linting failed with error:
+Traceback (most recent call last):
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py", line 144, in _linting_helper
+    result = _run_tool_on_document(document, use_stdin=True, extra_args=extra_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py", line 770, in _run_tool_on_document
+    result = utils.run_module(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_utils.py", line 207, in run_module
+    if is_same_path(os.getcwd(), cwd):
+                    ^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory
+
+2023-12-04 10:11:40.728 [info] [Trace - 10:11:40 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:11:40.744 [info] [Trace - 10:11:40 AM] Sending request 'textDocument/codeAction - (30)'.
+2023-12-04 10:11:40.747 [info] [Trace - 10:11:40 AM] Received response 'textDocument/codeAction - (30)' in 3ms.
+2023-12-04 10:11:41.075 [info] [Trace - 10:11:41 AM] Sending request 'textDocument/codeAction - (31)'.
+2023-12-04 10:11:41.078 [info] [Trace - 10:11:41 AM] Received response 'textDocument/codeAction - (31)' in 3ms.
+2023-12-04 10:11:58.886 [info] [Trace - 10:11:58 AM] Sending notification 'textDocument/didClose'.
+2023-12-04 10:11:58.889 [info] [Trace - 10:11:58 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:12:25.252 [info] [Trace - 10:12:25 AM] Sending notification 'textDocument/didOpen'.
+2023-12-04 10:12:25.256 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.256 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/destroyer_vitalya.py
+2023-12-04 10:12:25.256 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.256 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:12:25.257 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.257 [info] [Error - 10:12:25 AM] Traceback (most recent call last):
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py", line 770, in _run_tool_on_document
+    result = utils.run_module(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_utils.py", line 207, in run_module
+    if is_same_path(os.getcwd(), cwd):
+                    ^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory
+
+2023-12-04 10:12:25.257 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.257 [info] [Error - 10:12:25 AM] Linting failed with error:
+Traceback (most recent call last):
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py", line 144, in _linting_helper
+    result = _run_tool_on_document(document, use_stdin=True, extra_args=extra_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py", line 770, in _run_tool_on_document
+    result = utils.run_module(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_utils.py", line 207, in run_module
+    if is_same_path(os.getcwd(), cwd):
+                    ^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory
+
+2023-12-04 10:12:25.257 [info] [Trace - 10:12:25 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:12:25.264 [info] [Trace - 10:12:25 AM] Sending request 'textDocument/codeAction - (32)'.
+2023-12-04 10:12:25.268 [info] [Trace - 10:12:25 AM] Received response 'textDocument/codeAction - (32)' in 4ms.
+2023-12-04 10:12:25.568 [info] [Trace - 10:12:25 AM] Sending request 'textDocument/codeAction - (33)'.
+2023-12-04 10:12:25.570 [info] [Trace - 10:12:25 AM] Received response 'textDocument/codeAction - (33)' in 2ms.
+2023-12-04 10:12:32.255 [info] [Trace - 10:12:32 AM] Sending request 'textDocument/codeAction - (34)'.
+2023-12-04 10:12:32.258 [info] [Trace - 10:12:32 AM] Received response 'textDocument/codeAction - (34)' in 3ms.
+2023-12-04 10:13:17.355 [info] [Trace - 10:13:17 AM] Sending request 'textDocument/codeAction - (35)'.
+2023-12-04 10:13:17.357 [info] [Trace - 10:13:17 AM] Received response 'textDocument/codeAction - (35)' in 3ms.
+2023-12-04 10:13:20.653 [info] [Trace - 10:13:20 AM] Sending request 'shutdown - (36)'.
+2023-12-04 10:13:20.663 [info] [Trace - 10:13:20 AM] Received response 'shutdown - (36)' in 29ms.
+2023-12-04 10:13:20.663 [info] [Trace - 10:13:20 AM] Sending notification 'exit'.

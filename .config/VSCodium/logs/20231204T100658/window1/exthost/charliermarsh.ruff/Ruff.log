@@ -1,0 +1,337 @@
+2023-12-04 10:07:02.501 [info] Name: Ruff
+2023-12-04 10:07:02.501 [info] Module: ruff
+2023-12-04 10:07:02.501 [info] Python extension loading
+2023-12-04 10:07:02.501 [info] Waiting for interpreter from python extension.
+2023-12-04 10:07:02.501 [info] Python extension loaded
+2023-12-04 10:07:02.501 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/tool/server.py
+2023-12-04 10:07:02.501 [info] Server: Start requested.
+2023-12-04 10:07:03.233 [info] 2023-12-04 10:07:03,232 INFO Starting IO server
+
+2023-12-04 10:07:03.313 [info] Workspace settings: [
+    {
+        "cwd": "/home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "workspace": "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "path": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "fromEnvironment",
+        "codeAction": {
+            "fixViolation": {
+                "enable": true
+            },
+            "disableRuleComment": {
+                "enable": true
+            }
+        },
+        "lint": {
+            "run": "onType",
+            "args": []
+        },
+        "format": {
+            "args": []
+        },
+        "enable": true,
+        "organizeImports": true,
+        "fixAll": true,
+        "showNotifications": "off"
+    }
+]
+2023-12-04 10:07:03.314 [info] Global settings: {
+    "cwd": "/home/like",
+    "workspace": "/home/like",
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": []
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off"
+}
+2023-12-04 10:07:57.288 [info] [Trace - 10:07:57 AM] Sending notification 'textDocument/didOpen'.
+2023-12-04 10:07:57.295 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.295 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:07:57.295 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.295 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:07:57.300 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.300 [info] Inferred version 0.1.5 for: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:07:57.300 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.300 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:07:57.300 [info] [Trace - 10:07:57 AM] Received notification 'window/logMessage'.
+2023-12-04 10:07:57.300 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:07:57.306 [info] [Trace - 10:07:57 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 10:07:57.311 [info] [Trace - 10:07:57 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:07:57.319 [info] [Trace - 10:07:57 AM] Received response 'textDocument/codeAction - (1)' in 13ms.
+2023-12-04 10:07:58.042 [info] [Trace - 10:07:58 AM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-04 10:07:58.052 [info] [Trace - 10:07:58 AM] Sending notification '$/cancelRequest'.
+2023-12-04 10:07:58.054 [info] [Trace - 10:07:58 AM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-04 10:07:58.107 [info] 2023-12-04 10:07:58,072 WARNING Cancel notification for unknown message id "2"
+
+2023-12-04 10:07:58.117 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (2)' in 75ms.
+2023-12-04 10:07:58.120 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (3)' in 66ms.
+2023-12-04 10:07:58.628 [info] [Trace - 10:07:58 AM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-04 10:07:58.631 [info] [Trace - 10:07:58 AM] Received response 'textDocument/codeAction - (4)' in 3ms.
+2023-12-04 10:08:01.252 [info] [Trace - 10:08:01 AM] Sending request 'textDocument/hover - (5)'.
+2023-12-04 10:08:01.256 [info] [Trace - 10:08:01 AM] Received response 'textDocument/hover - (5)' in 4ms.
+2023-12-04 10:08:09.576 [info] [Trace - 10:08:09 AM] Sending request 'textDocument/hover - (6)'.
+2023-12-04 10:08:09.578 [info] [Trace - 10:08:09 AM] Received response 'textDocument/hover - (6)' in 3ms.
+2023-12-04 10:08:09.866 [info] [Trace - 10:08:09 AM] Sending request 'textDocument/codeAction - (7)'.
+2023-12-04 10:08:09.869 [info] [Trace - 10:08:09 AM] Received response 'textDocument/codeAction - (7)' in 2ms.
+2023-12-04 10:08:13.070 [info] [Trace - 10:08:13 AM] Sending request 'textDocument/codeAction - (8)'.
+2023-12-04 10:08:13.073 [info] [Trace - 10:08:13 AM] Received response 'textDocument/codeAction - (8)' in 3ms.
+2023-12-04 10:08:13.641 [info] [Trace - 10:08:13 AM] Sending request 'textDocument/codeAction - (9)'.
+2023-12-04 10:08:13.644 [info] [Trace - 10:08:13 AM] Received response 'textDocument/codeAction - (9)' in 3ms.
+2023-12-04 10:08:14.395 [info] [Trace - 10:08:14 AM] Sending request 'textDocument/codeAction - (10)'.
+2023-12-04 10:08:14.398 [info] [Trace - 10:08:14 AM] Received response 'textDocument/codeAction - (10)' in 4ms.
+2023-12-04 10:08:15.496 [info] [Trace - 10:08:15 AM] Sending request 'textDocument/codeAction - (11)'.
+2023-12-04 10:08:15.499 [info] [Trace - 10:08:15 AM] Received response 'textDocument/codeAction - (11)' in 2ms.
+2023-12-04 10:08:16.337 [info] [Trace - 10:08:16 AM] Sending request 'textDocument/codeAction - (12)'.
+2023-12-04 10:08:16.339 [info] [Trace - 10:08:16 AM] Received response 'textDocument/codeAction - (12)' in 2ms.
+2023-12-04 10:08:16.784 [info] [Trace - 10:08:16 AM] Sending request 'textDocument/codeAction - (13)'.
+2023-12-04 10:08:16.786 [info] [Trace - 10:08:16 AM] Received response 'textDocument/codeAction - (13)' in 2ms.
+2023-12-04 10:08:17.153 [info] [Trace - 10:08:17 AM] Sending request 'textDocument/codeAction - (14)'.
+2023-12-04 10:08:17.155 [info] [Trace - 10:08:17 AM] Received response 'textDocument/codeAction - (14)' in 2ms.
+2023-12-04 10:08:17.927 [info] [Trace - 10:08:17 AM] Sending request 'textDocument/codeAction - (15)'.
+2023-12-04 10:08:17.930 [info] [Trace - 10:08:17 AM] Received response 'textDocument/codeAction - (15)' in 3ms.
+2023-12-04 10:08:23.994 [info] [Trace - 10:08:23 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:24.000 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.000 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:24.000 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.001 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:24.001 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.001 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:24.001 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.001 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:24.009 [info] [Trace - 10:08:24 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:24.291 [info] [Trace - 10:08:24 AM] Sending request 'textDocument/codeAction - (16)'.
+2023-12-04 10:08:24.293 [info] [Trace - 10:08:24 AM] Received response 'textDocument/codeAction - (16)' in 2ms.
+2023-12-04 10:08:24.681 [info] [Trace - 10:08:24 AM] Sending request 'textDocument/formatting - (17)'.
+2023-12-04 10:08:24.686 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.686 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:24.686 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.686 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:24.686 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.686 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:24.686 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.686 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['format', '--force-exclude', '--quiet', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:24.695 [info] [Trace - 10:08:24 AM] Received response 'textDocument/formatting - (17)' in 14ms.
+2023-12-04 10:08:24.709 [info] [Trace - 10:08:24 AM] Sending notification 'textDocument/didSave'.
+2023-12-04 10:08:24.713 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.713 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:24.713 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.713 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:24.714 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.714 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:24.714 [info] [Trace - 10:08:24 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:24.714 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:24.721 [info] [Trace - 10:08:24 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:24.982 [info] [Trace - 10:08:24 AM] Sending request 'textDocument/codeAction - (18)'.
+2023-12-04 10:08:24.984 [info] [Trace - 10:08:24 AM] Received response 'textDocument/codeAction - (18)' in 2ms.
+2023-12-04 10:08:25.466 [info] [Trace - 10:08:25 AM] Sending request 'textDocument/codeAction - (19)'.
+2023-12-04 10:08:25.469 [info] [Trace - 10:08:25 AM] Received response 'textDocument/codeAction - (19)' in 3ms.
+2023-12-04 10:08:39.118 [info] [Trace - 10:08:39 AM] Sending request 'textDocument/hover - (20)'.
+2023-12-04 10:08:39.120 [info] [Trace - 10:08:39 AM] Received response 'textDocument/hover - (20)' in 2ms.
+2023-12-04 10:08:39.884 [info] [Trace - 10:08:39 AM] Sending request 'textDocument/hover - (21)'.
+2023-12-04 10:08:39.886 [info] [Trace - 10:08:39 AM] Received response 'textDocument/hover - (21)' in 2ms.
+2023-12-04 10:08:40.334 [info] [Trace - 10:08:40 AM] Sending request 'textDocument/codeAction - (22)'.
+2023-12-04 10:08:40.337 [info] [Trace - 10:08:40 AM] Received response 'textDocument/codeAction - (22)' in 3ms.
+2023-12-04 10:08:40.918 [info] [Trace - 10:08:40 AM] Sending request 'textDocument/codeAction - (23)'.
+2023-12-04 10:08:40.921 [info] [Trace - 10:08:40 AM] Received response 'textDocument/codeAction - (23)' in 3ms.
+2023-12-04 10:08:41.251 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.254 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.254 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:41.254 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.254 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.255 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.255 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.255 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.255 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:41.262 [info] [Trace - 10:08:41 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:41.405 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.407 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.407 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:41.408 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.408 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.408 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.408 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.408 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.408 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:41.415 [info] [Trace - 10:08:41 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:41.552 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.555 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.555 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:41.556 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.556 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.556 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.556 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.556 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.556 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:41.563 [info] [Trace - 10:08:41 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:41.714 [info] [Trace - 10:08:41 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:41.716 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.716 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:41.717 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.717 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.717 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.717 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:41.717 [info] [Trace - 10:08:41 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:41.717 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:41.724 [info] [Trace - 10:08:41 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:41.988 [info] [Trace - 10:08:41 AM] Sending request 'textDocument/codeAction - (24)'.
+2023-12-04 10:08:41.991 [info] [Trace - 10:08:41 AM] Received response 'textDocument/codeAction - (24)' in 3ms.
+2023-12-04 10:08:42.207 [info] [Trace - 10:08:42 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:42.210 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.210 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:42.211 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.211 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:42.211 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.211 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:42.211 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.211 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:42.218 [info] [Trace - 10:08:42 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:42.476 [info] [Trace - 10:08:42 AM] Sending request 'textDocument/codeAction - (25)'.
+2023-12-04 10:08:42.485 [info] [Trace - 10:08:42 AM] Received response 'textDocument/codeAction - (25)' in 9ms.
+2023-12-04 10:08:42.519 [info] [Trace - 10:08:42 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:42.522 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.522 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:42.523 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.523 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:42.523 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.523 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:42.523 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.523 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:42.532 [info] [Trace - 10:08:42 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:42.792 [info] [Trace - 10:08:42 AM] Sending request 'textDocument/codeAction - (26)'.
+2023-12-04 10:08:42.795 [info] [Trace - 10:08:42 AM] Received response 'textDocument/codeAction - (26)' in 3ms.
+2023-12-04 10:08:42.909 [info] [Trace - 10:08:42 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:08:42.911 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.911 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:42.912 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.912 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:42.912 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.912 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:42.912 [info] [Trace - 10:08:42 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:42.912 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:42.919 [info] [Trace - 10:08:42 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:43.177 [info] [Trace - 10:08:43 AM] Sending request 'textDocument/codeAction - (27)'.
+2023-12-04 10:08:43.179 [info] [Trace - 10:08:43 AM] Received response 'textDocument/codeAction - (27)' in 2ms.
+2023-12-04 10:08:43.490 [info] [Trace - 10:08:43 AM] Sending request 'textDocument/formatting - (28)'.
+2023-12-04 10:08:43.492 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.492 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:43.492 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.492 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:43.493 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.493 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:43.493 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.493 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['format', '--force-exclude', '--quiet', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:43.502 [info] [Trace - 10:08:43 AM] Received response 'textDocument/formatting - (28)' in 12ms.
+2023-12-04 10:08:43.515 [info] [Trace - 10:08:43 AM] Sending notification 'textDocument/didSave'.
+2023-12-04 10:08:43.518 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.518 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:08:43.518 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.518 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:43.519 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.519 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:08:43.519 [info] [Trace - 10:08:43 AM] Received notification 'window/logMessage'.
+2023-12-04 10:08:43.519 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:08:43.527 [info] [Trace - 10:08:43 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:08:43.785 [info] [Trace - 10:08:43 AM] Sending request 'textDocument/codeAction - (29)'.
+2023-12-04 10:08:43.787 [info] [Trace - 10:08:43 AM] Received response 'textDocument/codeAction - (29)' in 2ms.
+2023-12-04 10:08:44.399 [info] [Trace - 10:08:44 AM] Sending request 'textDocument/codeAction - (30)'.
+2023-12-04 10:08:44.401 [info] [Trace - 10:08:44 AM] Received response 'textDocument/codeAction - (30)' in 2ms.
+2023-12-04 10:09:01.729 [info] [Trace - 10:09:01 AM] Sending request 'textDocument/codeAction - (31)'.
+2023-12-04 10:09:01.732 [info] [Trace - 10:09:01 AM] Received response 'textDocument/codeAction - (31)' in 4ms.
+2023-12-04 10:09:01.978 [info] [Trace - 10:09:01 AM] Sending request 'textDocument/codeAction - (32)'.
+2023-12-04 10:09:01.981 [info] [Trace - 10:09:01 AM] Received response 'textDocument/codeAction - (32)' in 3ms.
+2023-12-04 10:09:03.732 [info] [Trace - 10:09:03 AM] Sending notification 'textDocument/didChange'.
+2023-12-04 10:09:03.735 [info] [Trace - 10:09:03 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:03.735 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:09:03.735 [info] [Trace - 10:09:03 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:03.735 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:09:03.735 [info] [Trace - 10:09:03 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:03.735 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:09:03.736 [info] [Trace - 10:09:03 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:03.736 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:09:03.743 [info] [Trace - 10:09:03 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:09:04.257 [info] [Trace - 10:09:04 AM] Sending request 'textDocument/codeAction - (33)'.
+2023-12-04 10:09:04.259 [info] [Trace - 10:09:04 AM] Received response 'textDocument/codeAction - (33)' in 2ms.
+2023-12-04 10:09:04.670 [info] [Trace - 10:09:04 AM] Sending request 'textDocument/formatting - (34)'.
+2023-12-04 10:09:04.672 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.672 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:09:04.672 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.672 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:09:04.673 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.673 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:09:04.673 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.673 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['format', '--force-exclude', '--quiet', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:09:04.681 [info] [Trace - 10:09:04 AM] Received response 'textDocument/formatting - (34)' in 11ms.
+2023-12-04 10:09:04.694 [info] [Trace - 10:09:04 AM] Sending notification 'textDocument/didSave'.
+2023-12-04 10:09:04.696 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.696 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:09:04.697 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.697 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:09:04.697 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.697 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:09:04.697 [info] [Trace - 10:09:04 AM] Received notification 'window/logMessage'.
+2023-12-04 10:09:04.697 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py']
+2023-12-04 10:09:04.706 [info] [Trace - 10:09:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:09:04.963 [info] [Trace - 10:09:04 AM] Sending request 'textDocument/codeAction - (35)'.
+2023-12-04 10:09:04.965 [info] [Trace - 10:09:04 AM] Received response 'textDocument/codeAction - (35)' in 2ms.
+2023-12-04 10:09:05.443 [info] [Trace - 10:09:05 AM] Sending request 'textDocument/codeAction - (36)'.
+2023-12-04 10:09:05.445 [info] [Trace - 10:09:05 AM] Received response 'textDocument/codeAction - (36)' in 2ms.
+2023-12-04 10:09:59.007 [info] [Trace - 10:09:59 AM] Sending notification 'textDocument/didClose'.
+2023-12-04 10:09:59.029 [info] [Trace - 10:09:59 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:11:40.721 [info] [Trace - 10:11:40 AM] Sending notification 'textDocument/didOpen'.
+2023-12-04 10:11:40.725 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.725 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:11:40.725 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.725 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:11:40.725 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.725 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:11:40.725 [info] [Trace - 10:11:40 AM] Received notification 'window/logMessage'.
+2023-12-04 10:11:40.725 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/destroyer_vitalya.py']
+2023-12-04 10:11:40.733 [info] [Trace - 10:11:40 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:11:40.745 [info] [Trace - 10:11:40 AM] Sending request 'textDocument/codeAction - (37)'.
+2023-12-04 10:11:40.747 [info] [Trace - 10:11:40 AM] Received response 'textDocument/codeAction - (37)' in 3ms.
+2023-12-04 10:11:41.076 [info] [Trace - 10:11:41 AM] Sending request 'textDocument/codeAction - (38)'.
+2023-12-04 10:11:41.078 [info] [Trace - 10:11:41 AM] Received response 'textDocument/codeAction - (38)' in 2ms.
+2023-12-04 10:11:58.886 [info] [Trace - 10:11:58 AM] Sending notification 'textDocument/didClose'.
+2023-12-04 10:11:58.888 [info] [Trace - 10:11:58 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:12:25.252 [info] [Trace - 10:12:25 AM] Sending notification 'textDocument/didOpen'.
+2023-12-04 10:12:25.255 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.255 [info] Interpreter executable (/usr/bin/ruff) not found
+2023-12-04 10:12:25.255 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.255 [info] Falling back to bundled executable: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:12:25.256 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.256 [info] Found ruff 0.1.5 at /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff
+2023-12-04 10:12:25.256 [info] [Trace - 10:12:25 AM] Received notification 'window/logMessage'.
+2023-12-04 10:12:25.256 [info] Running Ruff with: /home/like/.vscode-oss/extensions/charliermarsh.ruff-2023.50.0-linux-x64/bundled/libs/bin/ruff ['--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/like/Documents/pb_labs/miniprojects/third_miniproject/destroyer_vitalya.py']
+2023-12-04 10:12:25.264 [info] [Trace - 10:12:25 AM] Sending request 'textDocument/codeAction - (39)'.
+2023-12-04 10:12:25.266 [info] [Trace - 10:12:25 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:12:25.268 [info] [Trace - 10:12:25 AM] Received response 'textDocument/codeAction - (39)' in 4ms.
+2023-12-04 10:12:25.568 [info] [Trace - 10:12:25 AM] Sending request 'textDocument/codeAction - (40)'.
+2023-12-04 10:12:25.571 [info] [Trace - 10:12:25 AM] Received response 'textDocument/codeAction - (40)' in 3ms.
+2023-12-04 10:12:32.256 [info] [Trace - 10:12:32 AM] Sending request 'textDocument/codeAction - (41)'.
+2023-12-04 10:12:32.258 [info] [Trace - 10:12:32 AM] Received response 'textDocument/codeAction - (41)' in 2ms.
+2023-12-04 10:13:17.355 [info] [Trace - 10:13:17 AM] Sending request 'textDocument/codeAction - (42)'.
+2023-12-04 10:13:17.357 [info] [Trace - 10:13:17 AM] Received response 'textDocument/codeAction - (42)' in 2ms.
+2023-12-04 10:13:17.908 [info] [Trace - 10:13:17 AM] Sending request 'textDocument/hover - (43)'.
+2023-12-04 10:13:17.910 [info] [Trace - 10:13:17 AM] Received response 'textDocument/hover - (43)' in 2ms.
+2023-12-04 10:13:20.653 [info] [Trace - 10:13:20 AM] Sending request 'shutdown - (44)'.
+2023-12-04 10:13:20.663 [info] [Trace - 10:13:20 AM] Received response 'shutdown - (44)' in 30ms.
+2023-12-04 10:13:20.663 [info] [Trace - 10:13:20 AM] Sending notification 'exit'.

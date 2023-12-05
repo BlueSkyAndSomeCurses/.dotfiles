@@ -1,0 +1,228 @@
+2023-12-04 10:05:28.319 [info] Name: Pylint
+2023-12-04 10:05:28.319 [info] Module: pylint
+2023-12-04 10:05:28.319 [info] Python extension loading
+2023-12-04 10:05:28.319 [info] Waiting for interpreter from Python extension.
+2023-12-04 10:05:28.319 [info] No interpreter found from setting pylint.interpreter
+2023-12-04 10:05:28.319 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/calculus_add
+2023-12-04 10:05:28.319 [info] Python extension loaded
+2023-12-04 10:05:28.319 [info] Interpreter from ms-python.python extension for /home/like/Documents/calculus_add: /bin/python
+2023-12-04 10:05:28.319 [info] No interpreter found from setting pylint.interpreter
+2023-12-04 10:05:28.319 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/calculus_add
+2023-12-04 10:05:28.319 [info] Interpreter from ms-python.python extension for /home/like/Documents/calculus_add: /bin/python
+2023-12-04 10:05:28.319 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-04 10:05:28.319 [info] Server: Start requested.
+2023-12-04 10:05:29.354 [info] CWD Server: /home/like/Documents/calculus_add
+2023-12-04 10:05:29.354 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/calculus_add",
+        "workspace": "file:///home/like/Documents/calculus_add",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-04 10:05:29.354 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-04 10:05:29.354 [info] sys.path used to run Server:
+   /home/like/Documents/calculus_add
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-04 10:05:29.361 [info] /bin/python -m pylint --version
+2023-12-04 10:05:29.361 [info] CWD Linter: /home/like/Documents/calculus_add
+2023-12-04 10:05:29.566 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-04 10:05:29.566 [info] Version info for linter running for /home/like/Documents/calculus_add:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-04 10:05:29.567 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-04 10:05:29.581 [info] [Trace - 10:05:29 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:29.581 [info] [Warn  - 10:05:29 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/calculus_add/extra_xor.ipynb#W3sZmlsZQ%3D%3D
+2023-12-04 10:05:29.583 [info] [Trace - 10:05:29 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:29.603 [info] [Trace - 10:05:29 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:29.603 [info] [Warn  - 10:05:29 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/calculus_add/extra_xor.ipynb#W5sZmlsZQ%3D%3D
+2023-12-04 10:05:29.604 [info] [Trace - 10:05:29 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:29.605 [info] [Trace - 10:05:29 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:29.605 [info] [Warn  - 10:05:29 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/calculus_add/extra_xor.ipynb#X14sZmlsZQ%3D%3D
+2023-12-04 10:05:29.608 [info] [Trace - 10:05:29 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:29.614 [info] [Trace - 10:05:29 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:29.614 [info] [Warn  - 10:05:29 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/calculus_add/extra_xor.ipynb#X16sZmlsZQ%3D%3D
+2023-12-04 10:05:29.615 [info] [Trace - 10:05:29 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:29.615 [info] [Trace - 10:05:29 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:29.615 [info] [Warn  - 10:05:29 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/calculus_add/extra_xor.ipynb#X21sZmlsZQ%3D%3D
+2023-12-04 10:05:29.615 [info] [Trace - 10:05:29 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:29.616 [info] [Trace - 10:05:29 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:29.616 [info] [Warn  - 10:05:29 AM] Skipping notebook cells [Not Supported]: vscode-notebook-cell:/home/like/Documents/calculus_add/extra_xor.ipynb#X23sZmlsZQ%3D%3D
+2023-12-04 10:05:29.616 [info] [Trace - 10:05:29 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:29.683 [info] [Trace - 10:05:29 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 10:05:29.695 [info] [Trace - 10:05:29 AM] Received response 'textDocument/codeAction - (1)' in 13ms.
+2023-12-04 10:05:30.249 [info] [Trace - 10:05:30 AM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-04 10:05:30.252 [info] [Trace - 10:05:30 AM] Received response 'textDocument/codeAction - (2)' in 3ms.
+2023-12-04 10:05:49.554 [info] [Trace - 10:05:49 AM] Sending request 'shutdown - (3)'.
+2023-12-04 10:05:49.562 [info] [Trace - 10:05:49 AM] Received response 'shutdown - (3)' in 44ms.
+2023-12-04 10:05:49.562 [info] [Trace - 10:05:49 AM] Sending notification 'exit'.
+2023-12-04 10:05:52.187 [info] Name: Pylint
+2023-12-04 10:05:52.187 [info] Module: pylint
+2023-12-04 10:05:52.187 [info] Python extension loading
+2023-12-04 10:05:52.187 [info] Waiting for interpreter from Python extension.
+2023-12-04 10:05:52.187 [info] No interpreter found from setting pylint.interpreter
+2023-12-04 10:05:52.187 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:05:52.187 [info] Python extension loaded
+2023-12-04 10:05:52.187 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/miniprojects/third_miniproject: /bin/python
+2023-12-04 10:05:52.187 [info] No interpreter found from setting pylint.interpreter
+2023-12-04 10:05:52.187 [info] Getting interpreter from ms-python.python extension for workspace /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:05:52.187 [info] Interpreter from ms-python.python extension for /home/like/Documents/pb_labs/miniprojects/third_miniproject: /bin/python
+2023-12-04 10:05:52.187 [info] Server run command: /bin/python /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool/lsp_server.py
+2023-12-04 10:05:52.187 [info] Server: Start requested.
+2023-12-04 10:05:52.929 [info] CWD Server: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:05:52.929 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "workspace": "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2023-12-04 10:05:52.930 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/home/like",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-12-04 10:05:52.930 [info] sys.path used to run Server:
+   /home/like/Documents/pb_labs/miniprojects/third_miniproject
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/libs
+   /home/like/.vscode-oss/extensions/ms-python.pylint-2023.10.1-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /usr/lib/python3.11/site-packages
+2023-12-04 10:05:52.933 [info] /bin/python -m pylint --version
+2023-12-04 10:05:52.933 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:05:53.065 [info] 
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+
+2023-12-04 10:05:53.065 [info] Version info for linter running for /home/like/Documents/pb_labs/miniprojects/third_miniproject:
+pylint 3.0.2
+astroid 3.0.1
+Python 3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]
+
+2023-12-04 10:05:53.065 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.0.2
+
+2023-12-04 10:05:53.098 [info] [Trace - 10:05:53 AM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 10:05:53.100 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.100 [info] /bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py
+2023-12-04 10:05:53.101 [info] [Trace - 10:05:53 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:53.101 [info] CWD Linter: /home/like/Documents/pb_labs/miniprojects/third_miniproject
+2023-12-04 10:05:53.349 [info] [Trace - 10:05:53 AM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-04 10:05:53.350 [info] [Trace - 10:05:53 AM] Sending notification '$/cancelRequest'.
+2023-12-04 10:05:54.027 [info] [Trace - 10:05:54 AM] Received notification 'window/logMessage'.
+2023-12-04 10:05:54.027 [info] file:///home/like/Documents/pb_labs/miniprojects/third_miniproject/player2.py :
+[
+    {
+        "type": "convention",
+        "module": "player2",
+        "obj": "main",
+        "line": 147,
+        "column": 0,
+        "endLine": 147,
+        "endColumn": 8,
+        "path": "player2.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+
+2023-12-04 10:05:54.030 [info] [Trace - 10:05:54 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:05:54.036 [info] [Trace - 10:05:54 AM] Received response 'textDocument/codeAction - (1)' in 938ms.
+2023-12-04 10:05:54.037 [info] [Trace - 10:05:54 AM] Received response 'textDocument/codeAction - (2)' in 687ms.
+2023-12-04 10:05:54.285 [info] [Trace - 10:05:54 AM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-04 10:05:54.289 [info] [Trace - 10:05:54 AM] Received response 'textDocument/codeAction - (3)' in 4ms.
+2023-12-04 10:05:54.890 [info] [Trace - 10:05:54 AM] Sending notification 'textDocument/didClose'.
+2023-12-04 10:05:54.893 [info] [Trace - 10:05:54 AM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 10:06:56.840 [info] [Trace - 10:06:56 AM] Sending request 'shutdown - (4)'.
+2023-12-04 10:06:56.850 [info] [Trace - 10:06:56 AM] Received response 'shutdown - (4)' in 23ms.
+2023-12-04 10:06:56.850 [info] [Trace - 10:06:56 AM] Sending notification 'exit'.

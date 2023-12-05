@@ -1,0 +1,102 @@
+VSCodium (1.84.2, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+Workspace folder ~/Documents/pb_labs/LAB13, Home = /home/like
+12:11:41.807 [info] Telemetry level is off
+12:11:41.808 [info] Experiments are disabled, only manually opted experiments are active.
+12:11:42.262 [info] Start refreshing Kernel Picker (1701684702262)
+12:11:42.266 [info] Using Pylance
+12:11:42.774 [warn] Failed to get activated env vars for /bin/python in 50ms
+12:11:42.790 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+12:11:42.823 [info] Process Execution: /bin/python -m pip list
+12:11:43.487 [info] End refreshing Kernel Picker (1701684702262)
+12:12:39.261 [info] Handle Execution of Cells 0 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:12:39.266 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.6) for '~/Documents/pb_labs/LAB13/alcohol.ipynb' (disableUI=false)
+12:12:39.328 [warn] Failed to get activated env vars for /bin/python in 52ms
+12:12:39.341 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:12:39.354 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"92cffecd-e52a-4985-a05d-83a9cc93fb3d" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-12792634xdaqkefFeF.json
+    > cwd: ~/Documents/pb_labs/LAB13
+12:12:39.646 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /bin/python
+12:12:39.989 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+12:12:39.998 [info] Started Kernel Python 3.11.6 (pid: 129270)
+12:12:39.998 [info] Started new session afc58a9f-7b3e-433d-afde-7e936eb93ef1
+12:12:40.054 [info] Process Execution: /bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/pythonFiles/printJupyterDataDir.py
+12:12:40.067 [info] Kernel acknowledged execution of cell 0 @ 1701684760066
+12:12:41.027 [info] End cell 0 execution @ 1701684761027, started @ 1701684760066, elapsed time = 0.961s
+12:12:41.028 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:13:01.696 [info] Handle Execution of Cells 0 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:13:01.705 [info] Kernel acknowledged execution of cell 0 @ 1701684781705
+12:13:01.745 [info] End cell 0 execution @ 1701684781745, started @ 1701684781705, elapsed time = 0.04s
+12:13:43.145 [info] Start refreshing Interpreter Kernel Picker
+12:13:43.145 [info] Start refreshing Kernel Picker (1701684823145)
+12:13:44.150 [info] End refreshing Kernel Picker (1701684823145)
+12:21:10.928 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:21:10.940 [info] Kernel acknowledged execution of cell 1 @ 1701685270940
+12:21:11.957 [info] End cell 1 execution @ 1701685271957, started @ 1701685270940, elapsed time = 1.017s
+12:21:11.957 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:21:39.988 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:21:39.994 [info] Kernel acknowledged execution of cell 1 @ 1701685299994
+12:21:40.016 [info] End cell 1 execution @ 1701685300015, started @ 1701685299994, elapsed time = 0.021s
+12:21:40.016 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:23:08.667 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:23:08.674 [info] Kernel acknowledged execution of cell 1 @ 1701685388673
+12:23:08.746 [info] End cell 1 execution @ 1701685388746, started @ 1701685388673, elapsed time = 0.073s
+12:23:08.747 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:23:19.396 [info] Handle Execution of Cells 0 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:23:19.405 [info] Kernel acknowledged execution of cell 0 @ 1701685399404
+12:23:19.439 [info] End cell 0 execution @ 1701685399438, started @ 1701685399404, elapsed time = 0.034s
+12:23:23.921 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:23:23.933 [info] Kernel acknowledged execution of cell 1 @ 1701685403932
+12:23:24.014 [info] End cell 1 execution @ 1701685404013, started @ 1701685403932, elapsed time = 0.081s
+12:23:24.014 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:23:42.567 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:23:42.586 [info] Kernel acknowledged execution of cell 1 @ 1701685422586
+12:23:42.606 [info] End cell 1 execution @ 1701685422605, started @ 1701685422586, elapsed time = 0.019s
+12:50:23.757 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:50:23.770 [info] Kernel acknowledged execution of cell 1 @ 1701687023770
+12:50:23.774 [info] End cell 1 execution @ 1701687023774, started @ 1701687023770, elapsed time = 0.004s
+12:50:33.430 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:50:33.441 [info] Kernel acknowledged execution of cell 1 @ 1701687033441
+12:50:33.444 [info] End cell 1 execution @ 1701687033444, started @ 1701687033441, elapsed time = 0.003s
+12:50:51.140 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:50:51.150 [info] Kernel acknowledged execution of cell 1 @ 1701687051149
+12:50:51.153 [info] End cell 1 execution @ 1701687051153, started @ 1701687051149, elapsed time = 0.004s
+12:56:57.978 [info] Handle Execution of Cells 2 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:56:57.990 [info] Kernel acknowledged execution of cell 2 @ 1701687417989
+12:56:58.058 [info] End cell 2 execution @ 1701687418057, started @ 1701687417989, elapsed time = 0.068s
+12:56:58.058 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:57:23.365 [info] Handle Execution of Cells 2 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:57:23.401 [info] Kernel acknowledged execution of cell 2 @ 1701687443401
+12:57:23.459 [info] End cell 2 execution @ 1701687443458, started @ 1701687443401, elapsed time = 0.057s
+12:57:23.459 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:57:53.300 [info] Handle Execution of Cells 2 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:57:53.313 [info] Kernel acknowledged execution of cell 2 @ 1701687473313
+12:57:53.317 [info] End cell 2 execution @ 1701687473316, started @ 1701687473313, elapsed time = 0.003s
+12:58:04.874 [info] Handle Execution of Cells 2 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:58:04.886 [info] Kernel acknowledged execution of cell 2 @ 1701687484885
+12:58:04.889 [info] End cell 2 execution @ 1701687484889, started @ 1701687484885, elapsed time = 0.004s
+12:58:34.930 [info] Handle Execution of Cells 2 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:58:34.941 [info] Kernel acknowledged execution of cell 2 @ 1701687514940
+12:58:34.947 [info] End cell 2 execution @ 1701687514946, started @ 1701687514940, elapsed time = 0.006s
+12:59:02.567 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:59:02.593 [info] Kernel acknowledged execution of cell 1 @ 1701687542592
+12:59:02.596 [info] End cell 1 execution @ 1701687542596, started @ 1701687542592, elapsed time = 0.004s
+12:59:17.938 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:59:17.944 [info] Kernel acknowledged execution of cell 1 @ 1701687557944
+12:59:17.953 [info] End cell 1 execution @ 1701687557953, started @ 1701687557944, elapsed time = 0.009s
+12:59:23.373 [info] Handle Execution of Cells 1 for ~/Documents/pb_labs/LAB13/alcohol.ipynb
+12:59:23.384 [info] Kernel acknowledged execution of cell 1 @ 1701687563384
+12:59:23.387 [info] End cell 1 execution @ 1701687563387, started @ 1701687563384, elapsed time = 0.003s
+14:40:54.096 [info] Disposing HostJupyterExecution
+14:40:54.096 [info] Shutting down notebooks for 728c4ecf-7496-408a-98f2-cbc919f0d03c
+14:40:54.096 [info] Dispose Kernel '~/Documents/pb_labs/LAB13/alcohol.ipynb' associated with '~/Documents/pb_labs/LAB13/alcohol.ipynb'
+14:40:54.097 [info] Dispose Kernel process 129270.
+14:40:54.109 [info] Disposing HostJupyterExecution
+14:40:54.123 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v2-12792634xdaqkefFeF.json for pid 129270 [Canceled (FileSystemError): Canceled
+	at S._handleError (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34220)
+	at Object.stat (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:30375)
+	at async fp.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:19371)
+	at async ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:88616] {
+  code: 'Unknown'
+}

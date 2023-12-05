@@ -1,0 +1,23 @@
+
+7 lines yanked
+7 more lines
+6 lines >ed 1 time
+3 substitutions on 3 lines
+E5108: Error executing lua ...al/share/nvim/lazy/which-key.nvim/lua/which-key/view.lua:259: Invalid buffer id: 31
+stack traceback:
+	[C]: in function 'nvim_buf_get_option'
+	...al/share/nvim/lazy/which-key.nvim/lua/which-key/view.lua:259: in function 'is_enabled'
+	...al/share/nvim/lazy/which-key.nvim/lua/which-key/view.lua:308: in function 'on_keys'
+	...al/share/nvim/lazy/which-key.nvim/lua/which-key/view.lua:255: in function 'open'
+	...al/share/nvim/lazy/which-key.nvim/lua/which-key/init.lua:49: in function 'show'
+	[string ":lua"]:1: in main chunk
+1 change; before #17  10 seconds ago
+1 change; before #16  11 seconds ago
+1 change; before #15  14 seconds ago
+--No lines in buffer--
+1 more line; before #21  3 seconds ago
+1 change; before #50  1 second ago
+4 lines yanked
+4 more lines
+4 lines >ed 1 time
+10 lines yanked
