@@ -1,7 +1,0 @@
-2023-12-03 16:48:05.552 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-12-03 16:48:06.330 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
-2023-12-03 16:48:10.236 [info] [perf] Render performance baseline is 43ms
-2023-12-03 16:48:52.589 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/like/Documents/AOC/third.py 
-2023-12-03 16:48:53.599 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-12-03 16:48:54.081 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
-2023-12-03 16:48:56.959 [info] [perf] Render performance baseline is 42ms

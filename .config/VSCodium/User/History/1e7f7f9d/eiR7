@@ -1,0 +1,5 @@
+#! /bin/sh
+
+./filler_vm -f ./map02 -p1 ./player_Valihurskyi_Anton.py./   -p2 ./randomizer.py | python3 visualizer.py
+    # Your code goes here(delete "pass" keyword)
+

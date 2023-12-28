@@ -1,0 +1,4 @@
+#! /bin/sh
+
+./filler_vm -f ./map02 -p1 ./yuliana_bot.py   -p2 ./yuliana_bot.py | python3 visualizer.py
+

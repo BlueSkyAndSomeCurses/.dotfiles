@@ -1,7 +1,0 @@
-2023-12-04 10:05:25.459 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-12-04 10:05:26.173 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
-2023-12-04 10:05:31.272 [info] [perf] Render performance baseline is 42ms
-2023-12-04 10:05:49.438 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/like/Documents/calculus_add/extra_xor.ipynb notebook/jupyter-notebook
-2023-12-04 10:05:49.940 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-12-04 10:05:50.528 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
-2023-12-04 10:05:53.276 [info] [perf] Render performance baseline is 42ms

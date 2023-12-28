@@ -15,10 +15,16 @@
             "file:///home/like/Documents/pb_labs/LAB11": "__default__profile__",
             "file:///home/like/Documents/pb_labs/LAB12": "__default__profile__",
             "file:///home/like/Documents/AOC": "__default__profile__",
-            "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject": "__default__profile__",
-            "file:///home/like/Documents/calculus_add": "__default__profile__",
             "file:///home/like/Documents/pb_labs/miniprojects": "__default__profile__",
-            "file:///home/like/Documents/pb_labs/LAB13": "__default__profile__"
+            "file:///home/like/Documents/programming_kids": "__default__profile__",
+            "file:///home/like/Documents/discrete_graphs_lab": "__default__profile__",
+            "file:///home/like/Documents/Yuliana_bot": "__default__profile__",
+            "file:///home/like/Documents/pb_labs/LAB13": "__default__profile__",
+            "file:///home/like/Documents/OwnLisp": "__default__profile__",
+            "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject": "__default__profile__",
+            "file:///home/like/Documents/catalan_numbers_discrete": "__default__profile__",
+            "file:///home/like/Documents/calculus_add": "__default__profile__",
+            "file:///home/like/Documents/pb_labs": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -28,22 +34,22 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/like/Documents/pb_labs/miniprojects"
+                "folderUri": "file:///home/like/Documents/calculus_add"
             },
             {
-                "folderUri": "file:///home/like/Documents/pb_labs/LAB13"
+                "folderUri": "file:///home/like/Documents/pb_labs"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/like/Documents/pb_labs/LAB13",
-            "backupPath": "/home/like/.config/VSCodium/Backups/b412edd1f2dde4e2bff5848b8a66beb9",
+            "folder": "file:///home/like/Documents/pb_labs",
+            "backupPath": "/home/like/.config/VSCodium/Backups/932906c1d90645732928cdc9e8830ada",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 0,
+                "x": 22,
+                "y": 65,
                 "width": 1876,
                 "height": 993
             }
@@ -51,26 +57,27 @@
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f28",
+    "themeBackground": "#1e1e2e",
     "windowSplash": {
         "zoomLevel": 2,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#dcd7ba",
-            "background": "#1f1f28",
-            "editorBackground": "#1f1f28",
-            "titleBarBackground": "#363646",
-            "activityBarBackground": "#2a2a37",
-            "sideBarBackground": "#1f1f28",
-            "statusBarBackground": "#16161d",
-            "statusBarNoFolderBackground": "#1f1f28"
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "activityBarBackground": "#11111b",
+            "sideBarBackground": "#181825",
+            "statusBarBackground": "#11111b",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
         },
         "layoutInfo": {
             "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 260,
+            "sideBarWidth": 231,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -123,23 +130,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/pb_labs/LAB13",
-                                        "path": "/home/like/Documents/pb_labs/LAB13",
+                                        "external": "file:///home/like/Documents/pb_labs",
+                                        "path": "/home/like/Documents/pb_labs",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/pb_labs/LAB13"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/like/Documents/pb_labs/miniprojects",
-                                        "path": "/home/like/Documents/pb_labs/miniprojects",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/pb_labs/miniprojects"
+                                    "label": "~/Documents/pb_labs"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -156,6 +152,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/like/Documents/catalan_numbers_discrete",
+                                        "path": "/home/like/Documents/catalan_numbers_discrete",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/catalan_numbers_discrete"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/like/Documents/pb_labs/miniprojects/third_miniproject",
                                         "path": "/home/like/Documents/pb_labs/miniprojects/third_miniproject",
                                         "scheme": "file"
@@ -167,67 +174,81 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/AOC",
-                                        "path": "/home/like/Documents/AOC",
+                                        "external": "file:///home/like/Documents/OwnLisp",
+                                        "path": "/home/like/Documents/OwnLisp",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/AOC"
+                                    "label": "~/Documents/OwnLisp"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/pb_labs/LAB12",
-                                        "path": "/home/like/Documents/pb_labs/LAB12",
+                                        "external": "file:///home/like/Documents/pb_labs/LAB13",
+                                        "path": "/home/like/Documents/pb_labs/LAB13",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/pb_labs/LAB12"
+                                    "label": "~/Documents/pb_labs/LAB13"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/pb_labs/LAB11",
-                                        "path": "/home/like/Documents/pb_labs/LAB11",
+                                        "external": "file:///home/like/Documents/Yuliana_bot",
+                                        "path": "/home/like/Documents/Yuliana_bot",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/pb_labs/LAB11"
+                                    "label": "~/Documents/Yuliana_bot"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/pb_labs/LAB10",
-                                        "path": "/home/like/Documents/pb_labs/LAB10",
+                                        "external": "file:///home/like/Documents/discrete_graphs_lab",
+                                        "path": "/home/like/Documents/discrete_graphs_lab",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/pb_labs/LAB10"
+                                    "label": "~/Documents/discrete_graphs_lab"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/UCU_OP/miniprojects/second_miniproject",
-                                        "path": "/home/like/Documents/UCU_OP/miniprojects/second_miniproject",
+                                        "external": "file:///home/like/Documents/programming_kids",
+                                        "path": "/home/like/Documents/programming_kids",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/UCU_OP/miniprojects/second_miniproject"
+                                    "label": "~/Documents/programming_kids"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/like/Documents/UCU_OP/LAB9",
-                                        "path": "/home/like/Documents/UCU_OP/LAB9",
+                                        "external": "file:///home/like/Documents/pb_labs/miniprojects",
+                                        "path": "/home/like/Documents/pb_labs/miniprojects",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/UCU_OP/LAB9"
+                                    "label": "~/Documents/pb_labs/miniprojects"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/like/Downloads/alcohol%20%281%29.ipynb",
+                                        "path": "/home/like/Downloads/alcohol (1).ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/alcohol (1).ipynb"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -241,7 +262,7 @@
                                 },
                                 {
                                     "id": "workbench.action.clearRecentFiles",
-                                    "label": "&&Clear Recently Opened"
+                                    "label": "&&Clear Recently Opened..."
                                 }
                             ]
                         }
@@ -286,6 +307,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -301,7 +329,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -629,6 +658,10 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.toggleSidebarPosition",
+                                    "label": "&&Move Primary Side Bar Left"
+                                },
+                                {
                                     "id": "submenuitem.ActivityBarPositionMenu",
                                     "label": "Activity Bar Position",
                                     "submenu": {
@@ -644,10 +677,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Primary Side Bar Left"
                                 },
                                 {
                                     "id": "submenuitem.PanelPositionMenu",
@@ -711,7 +740,24 @@
                                             },
                                             {
                                                 "id": "workbench.action.hideEditorTabs",
-                                                "label": "Hide"
+                                                "label": "Hidden"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorActionsPositionSubmenu",
+                                    "label": "Editor Actions Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.editorActionsDefault",
+                                                "label": "Tab Bar",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorActions",
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -780,6 +826,17 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.moveEditorToNewWindow",
+                                    "label": "&&Move Editor into New Window"
+                                },
+                                {
+                                    "id": "workbench.action.copyEditorToNewWindow",
+                                    "label": "&&Copy Editor into New Window"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -878,7 +935,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     }
                 ]
             },
@@ -1636,9 +1693,8 @@
                 "userSettingsLabel": "ctrl+k ctrl+pageup"
             },
             "workbench.action.focusFirstEditorGroup": {
-                "label": "Ctrl+W Ctrl+W",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+w ctrl+w"
+                "label": "Ctrl+1",
+                "userSettingsLabel": "ctrl+1"
             },
             "workbench.action.focusSecondEditorGroup": {
                 "label": "Ctrl+2",
@@ -1655,6 +1711,11 @@
             "workbench.action.focusFifthEditorGroup": {
                 "label": "Ctrl+5",
                 "userSettingsLabel": "ctrl+5"
+            },
+            "workbench.action.focusNextGroup": {
+                "label": "Ctrl+W Ctrl+W",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+w ctrl+w"
             },
             "workbench.action.focusLeftGroup": {
                 "label": "Ctrl+K Ctrl+LeftArrow",
