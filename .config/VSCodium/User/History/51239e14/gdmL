@@ -1,4 +1,0 @@
-#! /bin/sh
-
-./filler_vm -f ./map01 -p2 ./yuliana_bot.py   -p1 ./player_Valihurskyi_Anton.py | python3 visualizer.py
-
