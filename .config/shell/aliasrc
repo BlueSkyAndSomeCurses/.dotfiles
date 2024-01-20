@@ -36,4 +36,5 @@ alias \
 	exa="ls -lah" \
 	rcupdate="source $HOME/.config/zsh/.zshrc" \
 	lf="lfub" \
+	nekofetch="neofetch --config ~/.config/neofetch/config.conf.nya --source ~/.config/neofetch/nyarch.png" 
 	

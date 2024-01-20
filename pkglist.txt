@@ -54,3 +54,4 @@ swaylock
 waybar
 meson
 ninja
+kitty
