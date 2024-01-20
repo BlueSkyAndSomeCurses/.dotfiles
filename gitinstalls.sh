@@ -51,7 +51,6 @@ sudo systemctl start bluetooth.service
 sudo mkdir -p /etc/sysctl.d
 sudo echo "kernel.dmesg_restrict = 0" > /etc/sysctl.d/dmesg.conf
 
-sudo systemctl enable pipewire pipewire-pulse wireplumber
 
 echo "install amd gpu drivers set tear free and background"
 

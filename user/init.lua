@@ -1,4 +1,3 @@
 return {
-  colorscheme = "gruvbox",
+  colorscheme = "kanagawa",
 }
-
