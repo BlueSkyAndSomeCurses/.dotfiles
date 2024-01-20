@@ -18,10 +18,10 @@ cp -r user/ $HOME/.config/nvim/lua/
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.config/zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.config/zsh/zsh-syntax-highlighting
 
-git clone https://github.com/BlueSkyAndSomeCurses/dwm.git $HOME/.local/src/dwm
-git clone https://github.com/BlueSkyAndSomeCurses/dwmblocks.git $HOME/.local/src/dwmblocks
-git clone https://github.com/BlueSkyAndSomeCurses/st.git $HOME/.local/src/st
-git clone https://github.com/BlueSkyAndSomeCurses/dmenu.git $HOME/.local/src/dmenu
+git clone https://github.com/BlueSkyAndSomeCurses/dwm.git $HOME/.local/src/dwm --depth=1
+git clone https://github.com/BlueSkyAndSomeCurses/dwmblocks.git $HOME/.local/src/dwmblocks --depth=1
+git clone https://github.com/BlueSkyAndSomeCurses/st.git $HOME/.local/src/st --depth=1
+git clone https://github.com/BlueSkyAndSomeCurses/dmenu.git $HOME/.local/src/dmenu --depth=1
 
 cd $HOME/.local/src/dwm
 sudo make install
@@ -35,7 +35,7 @@ sudo make install
 cd $HOME/.local/src/dmenu
 sudo make install
 
-git clone https://aur.archlinux.org/yay.git $HOME/.local/yay
+git clone https://aur.archlinux.org/yay.git $HOME/.local/yay 
 cd $HOME/.local/yay
 makepkg -si
 yay -Y --gendb
@@ -49,17 +49,17 @@ sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
 cd $HOME/.local/src
-git clone https://github.com/DreamMaoMao/hycov.git
+git clone https://github.com/DreamMaoMao/hycov.git 
 cd hycov
 sudo meson setup build --prefix=/usr
 sudo ninja -C build
 sudo ninja -C build install # `libhycov.so` path: /usr/lib/libhycov.so
 
 cd $HOME/.local/src
-git clone https://github.com/vinceliuice/WhiteSur-icon-theme
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme --depth=1
 ./WhiteSur-icon-theme/install -t default -a -b
 
-git clone https://github.com/vinceliuice/WhiteSur-cursors
+git clone https://github.com/vinceliuice/WhiteSur-cursors --depth=1
 ./WhiteSur-cursors/install
 
 sudo mkdir -p /etc/sysctl.d
