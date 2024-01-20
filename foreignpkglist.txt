@@ -6,7 +6,6 @@ htop-vim
 nsxiv
 picom-git
 hyprland-git
-waybar-git
 swww-git
 grimshot
 wlogout

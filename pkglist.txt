@@ -51,3 +51,4 @@ zathura
 zathura-pdf-mupdf
 wl-clipboard
 swaylock
+waybar
