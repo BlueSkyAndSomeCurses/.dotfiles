@@ -59,6 +59,9 @@ cd $HOME/.local/src
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme
 ./WhiteSur-icon-theme/install -t default -a -b
 
+git clone https://github.com/vinceliuice/WhiteSur-cursors
+./WhiteSur-cursors/install
+
 sudo mkdir -p /etc/sysctl.d
 sudo echo "kernel.dmesg_restrict = 0" >> /etc/sysctl.d/dmesg.conf
 
