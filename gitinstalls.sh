@@ -55,6 +55,10 @@ sudo meson setup build --prefix=/usr
 sudo ninja -C build
 sudo ninja -C build install # `libhycov.so` path: /usr/lib/libhycov.so
 
+cd $HOME/.local/src
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme
+./WhiteSur-icon-theme/install -t default -a -b
+
 sudo mkdir -p /etc/sysctl.d
 sudo echo "kernel.dmesg_restrict = 0" >> /etc/sysctl.d/dmesg.conf
 

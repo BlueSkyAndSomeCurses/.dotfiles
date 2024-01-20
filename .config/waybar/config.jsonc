@@ -58,9 +58,9 @@
 
     "network": {
         "format-wifi": "{icon} ",
-        "format-ethernet": "󰞉 ",
-        "format-disconnected": " ",
-        "tooltip-format": "{essid}",
+        "format-ethernet": "󰞉  ",
+        "format-disconnected": "  ",
+        "tooltip-format": "{essid} ",
         "on-click": "kitty -e nmtui",
         "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤥 ","󰤨 "],
 	    "tooltip": false
