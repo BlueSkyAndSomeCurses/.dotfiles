@@ -1,119 +1,147 @@
 * {
-  border: none;
-  border-radius: 0;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 22px;
-  min-height: 0;
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: Iosevka Nerd Font,monospace;
+  font-size: 16px;
 }
-
 
 window#waybar {
-  background: transparent;
-  color: #cdd6f4;
+  background-color: rgba(105, 105, 105, 0.3);
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-bottom: 1px solid rgba(105, 105, 105, 0.4);
 }
 
-tooltip {
-  background: #1e1e2e;
-  border-radius: 10px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #11111b;
+window#waybar.hidden {
+  opacity: 0.1;
 }
 
-#workspaces button {
-  padding: 5px;
-  color: #313244;
-  margin-right: 5px;
+#window {
+  color: #64727d;
 }
 
-#workspaces button.active {
-  color: #a6adc8;
-  background: #eba0ac;
-  padding-right: 10px;
-  border-radius: 10px;
+#clock,
+#custom-media,
+#tray,
+#mode,
+#custom-lock,
+#workspaces,
+#idle_inhibitor,
+#custom-power-menu,
+#battery,
+#pulseaudio,
+#network,
+#language,
+#custom-bluetooth-status{
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 20px;
 }
 
-#workspaces button.focused {
-  color: #a6adc8;
-  background: #eba0ac;
-  border-radius: 10px;
+#custom-bluetooth-status{
+    padding-right: 8px;
 }
 
-#workspaces button.urgent {
-  color: #11111b;
-  background: #a6e3a1;
-  border-radius: 10px;
+#custom-notify{
+    padding-left: 25px;
 }
 
-#workspaces button:hover {
-  /* background: #11111b; */
-  background: #1e1e2e;
-  color: #cdd6f4;
-  border-radius: 10px;
-  border: 0;
-  outline: 0;
+#custom-lock {
+    padding-left: 25px;
+    padding-right: 8px;
 }
 
-#custom-language, #custom-updates, #custom-caffeine, #custom-power, #clock, #battery, #wireplumber, #network, #workspaces, #tray, #backlight {
-  background: #1e1e2e;
-  padding: 0px 10px;
-  margin: 3px 0px;
+#custom-fast-control-menu{
+    padding-left: 25px;
 }
-
 #tray {
-  border-radius: 10px;
-  margin-right: 4px;
+  padding-right: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30px;
+
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
 }
 
 #workspaces {
-  background: #1e1e2e;
+  padding: 5px 2px;
+  border-radius: 12px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: rgba(69, 69, 69, 0.39);
+  border: 1px solid rgba(105, 105, 105, 0.4);
+}
+
+#workspaces button {
+  padding: 0px 15px;
+  margin: 0px 3px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+}
+
+#workspaces button.active {
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding-right: 0px;
-  padding-left: 5px;
-  margin-left: 5px;
+  min-width: 40px;
+  background-size: 400% 400%;
+  transition: all 0.3s ease-in-out;
+  opacity:1.0;
 }
 
-#custom-caffeine {
-  color: #89dceb;
+#workspaces button:hover {
+  border-radius: 10px;
+  min-width: 40px;
+  background-size: 400% 400%;
+}
+
+
+
+#network.disconnected {
+  color: #fff;
+}
+
+#battery {
+  color: #ffffff;
 
 }
 
-#custom-language {
-  color: #f38ba8;
+#battery.critical,
+#battery.warning,
+#battery.full,
+#battery.plugged {
+  color: #ffffff;
+
 }
 
-#custom-updates {
-  color: #f5c2e7;
+@keyframes blink {
+  to {
+    background-color: rgba(30, 34, 42, 0.5);
+    color: #abb2bf;
+  }
+}
+
+#battery.warning {
+  color: #ecd3a0;
+}
+
+#battery.critical:not(.charging) {
+  color: #fb958b;
 }
 
 #clock {
-  color: #f9e2af;
-  border-radius: 10px;
+  font-family: Iosevka Nerd Font;
+  font-weight: bold;      
+  font-size: 14px;
+  padding-top: 2px;
 }
-
-#network {
-  color: #fab387;
-  border-radius: 10px 0px 0px 10px;
-  padding-right: 12px;
-}
-
-#wireplumber {
-  color: #89b4fa;
-}
-
-#battery{
-  color:  #a6e3a1;
-
-}
-
-#backlight{
-  color: #cba6f7;
-}
-#custom-power{
-  color: #a6adc8;
-  background: #1e1e2e;
-  border-radius: 0 10px 10px 0;
-  margin-right: 5px;
-}
-

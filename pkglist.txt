@@ -16,8 +16,8 @@ ttf-linux-libertine
 ttf-font-awesome
 ttf-nerd-fonts-symbols
 otf-comicshanns-nerd	
-ttf-roboto-mono-nerd
 ttf-cascadia-code-nerd
+ttf-iosevka-nerd 
 unzip
 vim
 xorg-server

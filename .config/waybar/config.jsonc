@@ -1,115 +1,122 @@
 {
+    "height": 44,
+    "position": "top",
+    "layer": "top",
+    "modules-left": ["custom/span", "hyprland/workspaces", "custom/span", "custom/addEmpty"],
+    "modules-center" : [  ],
+    "modules-right": ["tray", "hyprland/language", "network", "wireplumber" , "battery","custom/fast-control-menu", "clock", "custom/lock", "custom/power-menu", "custom/span"],
+    "hyprland/workspaces" : {
+        "on-click": "activate",
+	"format": "{icon}",
+        "format-icons": {
+        "active": "",
+	    "default": ""
+	},
 
-  "layer": "top",
-  "position": "top", 
-  "height": 10,
-  
-  "modules-left":   ["hyprland/workspaces"],
-  "modules-center": ["clock"],
-  "modules-right":  ["tray", "sway/language",  "network", "backlight", "wireplumber","battery", "custom/power"],
-
-  "hyprland/workspaces": {
-    "disable-scroll": true,
-    "all-outputs": true,
-    "on-click": "activate",
-    "format": "{icon}",
-    // "persistent_workspaces": {
-    //   "1": [],
-    //   "2": [],
-    //   "3": [],
-    //   "4": [],
-    //   "5": [],
-    //   "6": [],
-    //   "7": [],
-    //   "8": [],
-    //   "9": [],
-    //   "10": []
-    // },
-    "format-icons": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": "",
-      "6": "",
-      "7": "",
-      "8": "",
-      "9": "",
-      "10": "",
-      "default": "",
-      "active": ""
-    }
-  },
-  "tray": {
-    "icon-size": 13,
-    "spacing": 10
-  },
-  "backlight":{
-    "device": "intel_backlight",
-    "format": "{icon} {percent}%",
-    "format-icons": ["󰃞","󰃟","󰃠"],
-    "on-scroll-up": "brightnessctl set 1%+",
-    "on-scroll-down": "brightnessctl set 1%-",
-    "min-length": 6 
-  },
-  "battery": {
-    "states": {
-      "good": 95,
-      "warning": 30,
-      "critical": 20
+        "persistent_workspaces": {
+             "*": 2
+        }       
     },
+
+    "custom/notify": {
+        "format": "󰂚 ",
+        "tooltip": false,
+        "on-click": "sleep 0.5 && eww open --toggle notifcenter -c ~/.config/eww/notification/"
+    },
+
+
+    "custom/bluetooth-status": {
+        "format": "{}",
+        "tooltip-format": "{}",
+        "tooltip": false,
+        "return-type": "json",
+        "interval": 1,
+        "exec": "python ~/.config/waybar/modules/bluetootch.py",
+        "on-click": "sleep 0.5 && eww open --toggle list-bluetooth-devices -c ~/.config/eww/list-bluetootch/"
+      },         
+    
+    "hyprland/window": {
+        "format": "{}",
+        "tooltip": false
+    },
+    
+    "hyprland/language": {
+        "format": "{short} {variant}",
+        "keyboard-name": "by-tech-usb-gaming-keyboard",
+        "on-click": "hyprctl switchxkblayout by-tech-usb-gaming-keyboard next"
+    },
+    
+    "tray": {
+        "spacing": 10
+    },
+    
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%b %d %Y}",
+	    "tooltip": false
+    },
+
+    "network": {
+        "format-wifi": "{icon} ",
+        "format-ethernet": "󰞉 ",
+        "format-disconnected": "睊",
+        "tooltip-format": "{essid}",
+        "on-click": "st -e nmtui",
+        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤥 ","󰤨 "],
+	    "tooltip": false
+    },
+    "wireplumber": {
+        "format": " {icon} {volume}%",
+        "format-muted": " Muted",
+        "scroll-step": 1,
+        "on-click": "st -e pulsemixer",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["󰕿","󰖀","󰕾"]
+        }
+    },
+
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
     "format": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
     "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
-  },
-  "clock": {
-   "format": "{: %I:%M %p   %d/%m}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-  },
-  "network": {
-    "format-wifi": "󰖩 {essid}",
-    "format-ethernet": " {essid}",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": " Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
-    "on-click": "st -e nmtui"
-  },
-  "wireplumber": {
-    "format": "{icon} {volume}%",
-    "format-muted": " Muted",
-    "scroll-step": 1,
-    "on-click": "st -e pulsemixer",
-    "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
-      "default": ["", "", "󰕾", ""]
-    }
-  },
-  "custom/notification": {
-    "tooltip": false,
-    "format": "{icon}",
-    "format-icons": {
-      "notification": "<span foreground='red'><sup></sup></span>",
-      "none": "",
-      "dnd-notification": "<span foreground='red'><sup></sup></span>",
-      "dnd-none": ""
     },
-    "return-type": "json",
-    "exec-if": "which swaync-client",
-    "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
-    "on-click-right": "swaync-client -d -sw",
-    "escape": true
-  },
-  "custom/power": {
-    "format": "⏻",
-    "on-click": "wlogout"
-  }
+    
+    "custom/fast-control-menu": {
+        "format" : " ",
+        "tooltip-format": "",
+	    "tooltip": false,
+        "on-click": "sleep 0.5 && eww open --toggle control-center -c ~/.config/eww/fast-control-menu"
+     },
+    "custom/lock": {
+       	"format" : "",
+	    "tooltip": false,
+        "on-click": "sleep 0.5; swaylock"  
+    },
+    "custom/power-menu": {
+        "format": "⏻ ",
+	    "tooltip": false,
+        "on-click": "wlogout"
+    }, 
+    "custom/span": {
+     	"format": " "
+    },
+    "custom/addEmpty": {
+     	"format": "+",
+     	"tooltip": false,
+     	"on-click": "hyprctl dispatch workspace empty"
+    }
 }
 
