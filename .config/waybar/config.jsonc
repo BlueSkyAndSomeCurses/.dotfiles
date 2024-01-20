@@ -13,7 +13,7 @@
 	    "default": ""
 	},
 
-        "persistent_workspaces": {
+        "persistent-workspaces": {
              "*": 2
         }       
     },
