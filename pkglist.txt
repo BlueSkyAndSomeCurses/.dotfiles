@@ -52,3 +52,5 @@ zathura-pdf-mupdf
 wl-clipboard
 swaylock
 waybar
+meson
+ninja

@@ -48,8 +48,15 @@ chsh -s $(which zsh)
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
+cd $HOME/.local/src
+git clone https://github.com/DreamMaoMao/hycov.git
+cd hycov
+sudo meson setup build --prefix=/usr
+sudo ninja -C build
+sudo ninja -C build install # `libhycov.so` path: /usr/lib/libhycov.so
+
 sudo mkdir -p /etc/sysctl.d
-sudo echo "kernel.dmesg_restrict = 0" > /etc/sysctl.d/dmesg.conf
+sudo echo "kernel.dmesg_restrict = 0" >> /etc/sysctl.d/dmesg.conf
 
 
 echo "install amd gpu drivers set tear free and background"
