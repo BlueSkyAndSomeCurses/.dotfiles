@@ -67,8 +67,8 @@ git clone https://github.com/vinceliuice/WhiteSur-icon-theme --depth=1
 git clone https://github.com/vinceliuice/WhiteSur-cursors --depth=1
 ./WhiteSur-cursors/install
 
-git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
-./WhiteSur-gtk-theme/install.sh -c Dark -t default -m -l -HD
+# git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
+# ./WhiteSur-gtk-theme/install.sh -c Dark -t default -m -l -HD
 
 sudo mkdir -p /etc/sysctl.d
 sudo echo "kernel.dmesg_restrict = 0" >> /etc/sysctl.d/dmesg.conf
