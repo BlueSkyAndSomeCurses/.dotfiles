@@ -9,6 +9,7 @@ sudo pacman -S $(awk '{print $1}' pkglist.txt)
 cp -r .local $HOME/
 cp -r .config $HOME/
 mkdir $HOME/.local/src
+mkdir $HOME/.local/share/icons
 
 ln -s $HOME/.config/shell/profile $HOME/.zprofile
 ln -s $HOME/.config/x11/xprofile $HOME/.xprofile
@@ -48,6 +49,10 @@ chsh -s $(which zsh)
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
+yay -S rustup
+rustup default stable
+yay -S $(awk '{print $1}' foreignpkglist.txt)
+
 cd $HOME/.local/src
 git clone https://github.com/DreamMaoMao/hycov.git 
 cd hycov
@@ -63,7 +68,7 @@ git clone https://github.com/vinceliuice/WhiteSur-cursors --depth=1
 ./WhiteSur-cursors/install
 
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
-./WhiteSur-gtk-theme/install -c Dark -t default -m -l -HD
+./WhiteSur-gtk-theme/install.sh -c Dark -t default -m -l -HD
 
 sudo mkdir -p /etc/sysctl.d
 sudo echo "kernel.dmesg_restrict = 0" >> /etc/sysctl.d/dmesg.conf
