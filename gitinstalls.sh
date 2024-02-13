@@ -17,7 +17,7 @@ ln -s $HOME/.config/x11/xprofile $HOME/.xprofile
 git clone --depth=1 https://github.com/AstroNvim/AstroNvim $HOME/.config/nvim
 cp -r user/ $HOME/.config/nvim/lua/
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.config/zsh/zsh-autosuggestions
-git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME/zsh/fast-syntax-highlighting
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME/.config/zsh/fast-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions.git $HOME/.config/zsh/zsh-completions
 
 git clone https://github.com/BlueSkyAndSomeCurses/dwm.git $HOME/.local/src/dwm --depth=1
