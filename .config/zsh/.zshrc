@@ -5,6 +5,8 @@ setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
+ZSH_THEME="~/.config/zsh/0i0.zsh-theme"
+
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
@@ -56,4 +58,6 @@ bindkey -M visual '^[[P' vi-delete
 
 # Load syntax highlighting; should be last.
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
+# source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
+source ~/.config/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source ~/.config/zsh/zsh-completions/zsh-completions.plugin.zsh
