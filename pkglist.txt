@@ -55,3 +55,4 @@ waybar
 meson
 ninja
 kitty
+xcompmgr

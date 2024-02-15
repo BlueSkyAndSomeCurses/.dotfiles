@@ -4,7 +4,6 @@ lf-git
 ueberzugpp
 htop-vim
 nsxiv
-picom-git
 hyprland-git
 swww-git
 grimshot
