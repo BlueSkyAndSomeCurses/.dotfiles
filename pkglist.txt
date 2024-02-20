@@ -56,3 +56,4 @@ meson
 ninja
 kitty
 xcompmgr
+network-manager-applet 

@@ -1,122 +1,147 @@
 {
-    "height": 44,
-    "position": "top",
-    "layer": "top",
-    "modules-left": ["custom/span", "hyprland/workspaces", "custom/span", "custom/addEmpty"],
-    "modules-center" : [  ],
-    "modules-right": ["tray", "hyprland/language", "network", "wireplumber" , "battery","custom/fast-control-menu", "clock", "custom/lock", "custom/power-menu", "custom/span"],
-    "hyprland/workspaces" : {
-        "on-click": "activate",
-	"format": "{icon}",
-        "format-icons": {
-        "active": "",
-	    "default": ""
-	},
-
-        "persistent-workspaces": {
-             "*": 2
-        }       
+  "height": 44,
+  "position": "top",
+  "layer": "top",
+  "modules-left": [
+    "custom/span",
+    "hyprland/workspaces",
+    "custom/span",
+    "custom/addEmpty"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "tray",
+    "hyprland/language",
+    "wireplumber",
+    "battery",
+    "custom/fast-control-menu",
+    "clock",
+    "custom/lock",
+    "custom/power-menu",
+    "custom/span"
+  ],
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": ""
     },
-
-    "custom/notify": {
-        "format": "󰂚 ",
-        "tooltip": false,
-        "on-click": "sleep 0.5 && eww open --toggle notifcenter -c ~/.config/eww/notification/"
+    "persistent-workspaces": {
+      "*": 2
+    }
+  },
+  "custom/notify": {
+    "format": "󰂚 ",
+    "tooltip": false,
+    "on-click": "sleep 0.5 && eww open --toggle notifcenter -c ~/.config/eww/notification/"
+  },
+  "custom/bluetooth-status": {
+    "format": "{}",
+    "tooltip-format": "{}",
+    "tooltip": false,
+    "return-type": "json",
+    "interval": 1,
+    "exec": "python ~/.config/waybar/modules/bluetootch.py",
+    "on-click": "sleep 0.5 && eww open --toggle list-bluetooth-devices -c ~/.config/eww/list-bluetootch/"
+  },
+  "hyprland/window": {
+    "format": "{}",
+    "tooltip": false
+  },
+  "hyprland/language": {
+    "format": "{short} {variant}",
+    "keyboard-name": "wl_keyboard",
+    "on-click": "hyprctl switchxkblayout wl_keyboard next"
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "format-alt": "{:%b %d %Y}",
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": "{icon} ",
+    "format-ethernet": "󰞉  ",
+    "format-disconnected": "  ",
+    "tooltip-format": "{essid} ",
+    "on-click": "kitty -e nmtui",
+    "format-icons": [
+      "󰤯 ",
+      "󰤟 ",
+      "󰤢 ",
+      "󰤥 ",
+      "󰤨 "
+    ],
+    "tooltip": false
+  },
+  "wireplumber": {
+    "format": "  {icon} {volume}%",
+    "format-muted": " Muted",
+    "scroll-step": 1,
+    "on-click": "kitty -e pulsemixer",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ]
+    }
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
     },
-
-
-    "custom/bluetooth-status": {
-        "format": "{}",
-        "tooltip-format": "{}",
-        "tooltip": false,
-        "return-type": "json",
-        "interval": 1,
-        "exec": "python ~/.config/waybar/modules/bluetootch.py",
-        "on-click": "sleep 0.5 && eww open --toggle list-bluetooth-devices -c ~/.config/eww/list-bluetootch/"
-      },         
-    
-    "hyprland/window": {
-        "format": "{}",
-        "tooltip": false
-    },
-    
-    "hyprland/language": {
-        "format": "{short} {variant}",
-        "keyboard-name": "by-tech-usb-gaming-keyboard",
-        "on-click": "hyprctl switchxkblayout by-tech-usb-gaming-keyboard next"
-    },
-    
-    "tray": {
-        "spacing": 10
-    },
-    
-    "clock": {
-        "format": "{:%I:%M %p}",
-        "format-alt": "{:%b %d %Y}",
-	    "tooltip": false
-    },
-
-    "network": {
-        "format-wifi": "{icon} ",
-        "format-ethernet": "󰞉  ",
-        "format-disconnected": "  ",
-        "tooltip-format": "{essid} ",
-        "on-click": "kitty -e nmtui",
-        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤥 ","󰤨 "],
-	    "tooltip": false
-    },
-    "wireplumber": {
-        "format": " {icon} {volume}%",
-        "format-muted": " Muted",
-        "scroll-step": 1,
-        "on-click": "kitty -e pulsemixer",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["󰕿","󰖀","󰕾"]
-        }
-    },
-
-    "battery": {
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 20
-        },
     "format": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
-    },
-    
-    "custom/fast-control-menu": {
-        "format" : " ",
-        "tooltip-format": "",
-	    "tooltip": false,
-        "on-click": "sleep 0.5 && eww open --toggle control-center -c ~/.config/eww/fast-control-menu"
-     },
-    "custom/lock": {
-       	"format" : "",
-	    "tooltip": false,
-        "on-click": "sleep 0.5; swaylock"  
-    },
-    "custom/power-menu": {
-        "format": "⏻ ",
-	    "tooltip": false,
-        "on-click": "wlogout"
-    }, 
-    "custom/span": {
-     	"format": " "
-    },
-    "custom/addEmpty": {
-     	"format": "+",
-     	"tooltip": false,
-     	"on-click": "hyprctl dispatch workspace empty"
-    }
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
+  },
+  "custom/fast-control-menu": {
+    "format": " ",
+    "tooltip-format": "",
+    "tooltip": false,
+    "on-click": "sleep 0.5 && eww open --toggle control-center -c ~/.config/eww/fast-control-menu"
+  },
+  "custom/lock": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "sleep 0.5; swaylock"
+  },
+  "custom/power-menu": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "wlogout"
+  },
+  "custom/span": {
+    "format": " "
+  },
+  "custom/addEmpty": {
+    "format": "+",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch workspace empty"
+  }
 }
-
