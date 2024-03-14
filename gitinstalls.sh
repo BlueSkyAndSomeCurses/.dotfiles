@@ -1,7 +1,7 @@
 #! /bin/bash
 
 sudo pacman -Syu
-sudo cp pacman.conf /etc/ 
+sudo cp pacman.conf /etc/
 
 sudo pacman -S $(awk '{print $1}' pkglist.txt)
 # sudo pacman -S --needed - < pkglist.txt
@@ -14,8 +14,6 @@ mkdir $HOME/.local/share/icons
 ln -s $HOME/.config/shell/profile $HOME/.zprofile
 ln -s $HOME/.config/x11/xprofile $HOME/.xprofile
 
-git clone --depth=1 https://github.com/AstroNvim/AstroNvim $HOME/.config/nvim
-cp -r user/ $HOME/.config/nvim/lua/
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.config/zsh/zsh-autosuggestions
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME/.config/zsh/fast-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions.git $HOME/.config/zsh/zsh-completions
@@ -37,7 +35,7 @@ sudo make install
 cd $HOME/.local/src/dmenu
 sudo make install
 
-git clone https://aur.archlinux.org/yay.git $HOME/.local/yay 
+git clone https://aur.archlinux.org/yay.git $HOME/.local/yay
 cd $HOME/.local/yay
 makepkg -si
 yay -Y --gendb
@@ -45,7 +43,7 @@ yay -Syu --devel
 
 chsh -s $(which zsh)
 
-. $HOME/.local/bin/shortcuts 
+. $HOME/.local/bin/shortcuts
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
@@ -55,7 +53,7 @@ rustup default stable
 yay -S $(awk '{print $1}' foreignpkglist.txt)
 
 cd $HOME/.local/src
-git clone https://github.com/DreamMaoMao/hycov.git 
+git clone https://github.com/DreamMaoMao/hycov.git
 cd hycov
 sudo meson setup build --prefix=/usr
 sudo ninja -C build
@@ -75,9 +73,6 @@ systemctl --user enable --now pipewire.socket
 systemctl --user enable --now pipewire.service
 
 sudo mkdir -p /etc/sysctl.d
-sudo echo "kernel.dmesg_restrict = 0" >> /etc/sysctl.d/dmesg.conf
-
+sudo echo "kernel.dmesg_restrict = 0" >>/etc/sysctl.d/dmesg.conf
 
 echo "install amd gpu drivers set tear free and background"
-
-
