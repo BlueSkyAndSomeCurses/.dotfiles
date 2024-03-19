@@ -6,8 +6,7 @@ local opt = vim.opt
 opt.termguicolors = true
 
 if vim.g.vscode then
-  -- VSCode extension
-  -- require("")
+  local vscode = require("vscode-neovim")
 else
   -- ordinary Neovim
   require("config.lazy")
