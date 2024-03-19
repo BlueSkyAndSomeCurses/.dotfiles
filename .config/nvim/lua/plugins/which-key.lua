@@ -1,10 +1,11 @@
 return {
   {
     "folke/which-key.nvim",
-    opts = function(_, opts)
+    opts = {
+      plugins = { spelling = true },
       defaults = {
-        ["<leader>t"] = { name = "+terminal" },
-      }
-    end,
+        ["<leader>t"] = { name = "terminal" },
+      },
+    },
   },
 }

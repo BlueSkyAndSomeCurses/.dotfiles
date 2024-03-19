@@ -6,6 +6,7 @@ local Util = require("lazyvim.util")
 local map = vim.keymap.set
 
 local lazyterm = function()
+  vim.cmd.write()
   Util.terminal()
 end
 
