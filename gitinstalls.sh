@@ -4,7 +4,6 @@ sudo pacman -Syu
 sudo cp pacman.conf /etc/
 
 sudo pacman -S $(awk '{print $1}' pkglist.txt)
-# sudo pacman -S --needed - < pkglist.txt
 
 cp -r .local $HOME/
 cp -r .config $HOME/
@@ -35,11 +34,13 @@ sudo make install
 cd $HOME/.local/src/dmenu
 sudo make install
 
-git clone https://aur.archlinux.org/yay.git $HOME/.local/yay
-cd $HOME/.local/yay
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+git clone https://aur.archlinux.org/paru.git $HOME/.local/src/paru
+cd $HOME/.local/src/paru
 makepkg -si
-yay -Y --gendb
-yay -Syu --devel
+paru -Y --gendb
+paru -Syu --devel
 
 chsh -s $(which zsh)
 
@@ -48,16 +49,7 @@ chsh -s $(which zsh)
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
-yay -S rustup
-rustup default stable
-yay -S $(awk '{print $1}' foreignpkglist.txt)
-
-cd $HOME/.local/src
-git clone https://github.com/DreamMaoMao/hycov.git
-cd hycov
-sudo meson setup build --prefix=/usr
-sudo ninja -C build
-sudo ninja -C build install # `libhycov.so` path: /usr/lib/libhycov.so
+paru -S $(awk '{print $1}' foreignpkglist.txt)
 
 cd $HOME/.local/src
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme --depth=1
@@ -66,8 +58,8 @@ git clone https://github.com/vinceliuice/WhiteSur-icon-theme --depth=1
 git clone https://github.com/vinceliuice/WhiteSur-cursors --depth=1
 ./WhiteSur-cursors/install
 
-# git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
-# ./WhiteSur-gtk-theme/install.sh -c Dark -t default -m -l -HD
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
+./WhiteSur-gtk-theme/install.sh -c Dark -t default -m -l -HD
 
 systemctl --user enable --now pipewire.socket
 systemctl --user enable --now pipewire.service
