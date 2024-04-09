@@ -51,8 +51,6 @@
   },
   "hyprland/language": {
     "format": "{short} {variant}",
-    "keyboard-name": "wl_keyboard",
-    "on-click": "hyprctl switchxkblayout wl_keyboard next"
   },
   "tray": {
     "spacing": 10
