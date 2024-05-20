@@ -127,7 +127,7 @@
   "custom/lock": {
     "format": "",
     "tooltip": false,
-    "on-click": "sleep 0.5; systemctl suspend;swaylock"
+    "on-click": "sleep 0.5; systemctl suspend;hyprlock"
   },
   "custom/power-menu": {
     "format": "⏻ ",

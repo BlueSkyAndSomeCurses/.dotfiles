@@ -50,7 +50,7 @@ bluez-utils
 zathura
 zathura-pdf-mupdf
 wl-clipboard
-swaylock
+hyprlock
 waybar
 meson
 ninja
