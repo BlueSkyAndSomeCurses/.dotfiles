@@ -28,6 +28,10 @@ return {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
         python = { 'isort', 'black' },
+        rust = { 'rust_analyzer' },
+
+        c = { 'clangd' },
+        cpp = { 'clangd' },
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.

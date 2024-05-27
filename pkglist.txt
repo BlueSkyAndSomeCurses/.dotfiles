@@ -57,3 +57,5 @@ ninja
 kitty
 xcompmgr
 network-manager-applet 
+ruff
+ruff-lsp

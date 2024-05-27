@@ -7,6 +7,11 @@ return {
       local lint = require 'lint'
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
+        text = { 'vale' },
+        python = { 'ruff' },
+        cpp = { 'cpplint' },
+        c = { 'cpplint' },
+        rust = { 'ast-grep' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
