@@ -27,11 +27,11 @@ return {
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
-        python = { 'isort', 'black' },
-        rust = { 'rust_analyzer' },
+        python = { 'isort', 'ruff' },
+        rust = { 'ast-grep', 'rust_analyzer' },
 
-        c = { 'clangd' },
-        cpp = { 'clangd' },
+        c = { 'clang-format', 'clangd' },
+        cpp = { 'clang-format', 'clangd' },
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.
