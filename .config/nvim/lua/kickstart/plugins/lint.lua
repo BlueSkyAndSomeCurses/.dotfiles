@@ -11,7 +11,7 @@ return {
         python = { 'ruff' },
         cpp = { 'cpplint' },
         c = { 'cpplint' },
-        rust = { 'ast-grep' },
+        -- rust = { 'ast_grep' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,

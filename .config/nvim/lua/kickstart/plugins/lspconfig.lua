@@ -208,12 +208,12 @@ return {
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
         'ruff',
-        'ruff-lsp',
+        'ruff_lsp',
         'clangd',
         'clang-format',
         'rust_analyzer',
         'cpplint',
-        'ast-grep',
+        'ast_grep',
         'pyright',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
