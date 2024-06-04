@@ -1,3 +1,4 @@
+vim.opt.clipboard = 'unnamedplus'
 if vim.g.vscode then
   -- VSCode extension
 else
