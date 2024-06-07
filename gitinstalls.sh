@@ -7,6 +7,7 @@ sudo pacman -S $(awk '{print $1}' pkglist.txt)
 
 cp -r .local $HOME/
 cp -r .config $HOME/
+cp .ideavimrc $HOME/
 mkdir $HOME/.local/src
 mkdir $HOME/.local/share/icons
 
