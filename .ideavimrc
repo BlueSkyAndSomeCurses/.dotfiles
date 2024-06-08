@@ -18,6 +18,8 @@ set sneak
 set nerdtree
 set easymotion
 set notimeout
+set multiple-cursors
+set commentary
 
 set which-key
 let g:WhichKey_FontSize = 16
@@ -31,14 +33,25 @@ let g:WhichKeyDesc_zen_mode = "<leader>dz Toggle Zen mode"
 let g:WhichKeyDesc_df_mode = "<leader>dd Toggle Distraction-Free mode"
 let g:WhichKeyDesc_fullscreen = "<leader>df Toggle full screen"
 
+let g:WhichKeyDesc_terminal = "<leader>t [T]erminal"
 
-" Popup navigation
-inoremap <C-j> <Action>(PopupMenu-selectNext)
-inoremap <C-k> <Action>(PopupMenu-selectPrev)
+let g:WhichKeyDesc_terminalhorizontal = "<leader>th [H]orizontal"
 
 
-" Comment lines
-map <leader>c <action>(CommentByLineComment)
+let g:WhichKeyDesc_search = "<leader>s [S]earch"
+
+let g:WhichKeyDesc_surround = "<leader>w [W]rap"
+let g:WhichKeyDesc_fixmeny = "<leader>f [F]ix menu"
+
+let g:WhichKeyDesc_splithor = "<leader>- Split horizontaly"
+let g:WhichKeyDesc_splitver = "<leader>\\ Split vertically"
+let g:WhichKeyDesc_recent = "<leader><leader> Recent files"
+let g:WhichKeyDesc_comment = "<leader>/ Comment"
+let g:WhichKeyDesc_filetree = "<leader>e File tree"
+let g:WhichKeyDesc_quit = "<leader>q [Q]uit"
+let g:WhichKeyDesc_move = "<leader>m [M]ove to opposite"
+let g:WhichKeyDesc_decl = "<leader>D Go to [D]eclaration"
+
 
 " Open NERDTree (use q to exit)
 map <leader>e :NERDTreeToggle<CR>
@@ -54,6 +67,7 @@ map <leader>df <action>(ToggleFullScreen)
 nmap <leader>D <Action>(GotoDeclaration)
 
 nnoremap <leader>th :action ActivateTerminalToolWindow<CR>
+nnoremap <c-j> :action HideActiveWindow<CR>
 
 
 nnoremap <leader>\ :action SplitVertically<CR>
@@ -69,3 +83,14 @@ nnoremap <c-l> <c-w>l
 
 map <leader>/ <action>(CommentByLineComment)
 map <leader>q <action>(CloseContent)
+
+nnoremap <leader>sf :action GotoFile<CR>
+map <leader><leader> <Action>(RecentFiles)
+
+" Easy visual indentation
+vnoremap < <gv
+vnoremap > >gv
+
+map <leader>w :action SurroundWith<CR>
+map <leader>f :action ShowIntentionActions<CR>
+
