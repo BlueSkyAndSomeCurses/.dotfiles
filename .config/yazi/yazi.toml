@@ -1,0 +1,13 @@
+[manager]
+show_hidden = true
+show_symlink = true
+
+[opener]
+pdf_reader = [
+	{run = 'zathura "$@"', orphan = true, for = "unix", block = false}
+]
+
+[open]
+prepend_rules = [
+	{ name = "*.pdf", use = "pdf_reader" },
+]
