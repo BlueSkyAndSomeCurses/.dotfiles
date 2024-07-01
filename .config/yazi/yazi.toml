@@ -4,7 +4,7 @@ show_symlink = true
 
 [opener]
 pdf_reader = [
-	{run = 'zathura "$@"', orphan = true, for = "unix", block = false}
+	{run = 'sioyek "$@"', orphan = true, for = "unix", block = false}
 ]
 
 [open]

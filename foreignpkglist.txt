@@ -7,5 +7,5 @@ hyprland-git
 swww-git
 grimshot
 wlogout
-swaylock-effects-git
 wofi
+sioyek
