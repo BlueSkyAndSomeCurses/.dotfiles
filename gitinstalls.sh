@@ -54,10 +54,10 @@ paru -S $(awk '{print $1}' foreignpkglist.txt)
 
 cd $HOME/.local/src
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme --depth=1
-./WhiteSur-icon-theme/install -t default -a -b
+./WhiteSur-icon-theme/install.sh -t default -a -b
 
 git clone https://github.com/vinceliuice/WhiteSur-cursors --depth=1
-./WhiteSur-cursors/install
+./WhiteSur-cursors/install.sh
 
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 ./WhiteSur-gtk-theme/install.sh -c Dark -t default -m -l -HD
