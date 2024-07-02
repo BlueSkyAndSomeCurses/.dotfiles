@@ -3,7 +3,6 @@ ani-cli
 ueberzugpp
 htop-vim
 nsxiv
-hyprland-git
 grimshot
 wlogout
 wofi
