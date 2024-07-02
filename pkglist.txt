@@ -60,3 +60,4 @@ network-manager-applet
 ruff
 ruff-lsp
 yazi
+swww

@@ -4,7 +4,6 @@ ueberzugpp
 htop-vim
 nsxiv
 hyprland-git
-swww-git
 grimshot
 wlogout
 wofi
