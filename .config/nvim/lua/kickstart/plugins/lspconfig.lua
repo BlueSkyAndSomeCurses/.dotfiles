@@ -213,7 +213,6 @@ return {
         'clang-format',
         'rust_analyzer',
         'cpplint',
-        'ast_grep',
         'pyright',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
