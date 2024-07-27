@@ -93,4 +93,5 @@ vnoremap > >gv
 
 map <leader>w :action SurroundWith<CR>
 map <leader>f :action ShowIntentionActions<CR>
+map <leader>z <action>(ToggleZenMode)
 
