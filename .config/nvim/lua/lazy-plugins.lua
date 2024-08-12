@@ -40,7 +40,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp',
 
-  require 'kickstart/plugins/vscode',
+  require 'kickstart/plugins/kanagawa',
 
   require 'kickstart/plugins/todo-comments',
 
