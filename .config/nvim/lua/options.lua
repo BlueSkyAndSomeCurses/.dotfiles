@@ -61,4 +61,9 @@ vim.opt.scrolloff = 6
 
 vim.opt.pumheight = 10
 
+vim.opt.tabstop = 2
+vim.opt.expandtab = true
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+
 -- vim: ts=2 sts=2 sw=2 et
