@@ -150,6 +150,29 @@ return {
       --  - capabilities (table): Override fields in capabilities. Can be used to disable certain LSP features.
       --  - settings (table): Override the default settings passed when initializing the server.
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
+
+      require('lspconfig').nixd.setup {
+        cmd = { 'nixd' },
+        settings = {
+          nixd = {
+            nixpkgs = {
+              expr = 'import <nixpkgs> { }',
+            },
+            formatting = {
+              command = { 'alejandra' }, -- or nixfmt or nixpkgs-fmt
+            },
+            -- options = {
+            --   nixos = {
+            --       expr = '(builtins.getFlake "/PATH/TO/FLAKE").nixosConfigurations.CONFIGNAME.options',
+            --   },
+            --   home_manager = {
+            --       expr = '(builtins.getFlake "/PATH/TO/FLAKE").homeConfigurations.CONFIGNAME.options',
+            --   },
+            -- },
+          },
+        },
+      }
+
       local servers = {
         clangd = {},
         pyright = {},
@@ -167,8 +190,7 @@ return {
             },
           },
         },
-        -- gopls = {},
-        -- rust_analyzer = {},
+        rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -212,7 +234,6 @@ return {
         'clangd',
         'clang-format',
         'rust_analyzer',
-        'cpplint',
         'pyright',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
