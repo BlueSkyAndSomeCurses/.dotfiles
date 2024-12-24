@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
+      ../../modules/nixos/network.nix
     ];
 
 
@@ -24,25 +25,6 @@
       experimental-features = ["nix-command" "flakes"];
     };
   };
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
-
-  # Enable networking
-  networking.networkmanager.enable = true;
-  systemd.services.wpa_supplicant.environment.OPENSSL_CONF = pkgs.writeText"openssl.cnf"
-  ''
-	openssl_conf = openssl_init
-	[openssl_init]
-	ssl_conf = ssl_sect
-	[ssl_sect]
-	system_default = system_default_sect
-	[system_default_sect]
-	Options = UnsafeLegacyRenegotiation
-	[system_default_sect]
-	CipherString = Default:@SECLEVEL=0
-  '';
 
   # Set your time zone.
   time.timeZone = "Europe/Kyiv";
@@ -62,12 +44,19 @@
     LC_TIME = "uk_UA.UTF-8";
   };
 
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
 
-  # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  environment.sessionVariables = {
+    NIXOS_OZONE_WL = "1";
+  };
+
+  hardware = {
+    opengl.enable = true;
+
+    nvidia.modesetting.enable = true; 
+  };
+
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = [pkgs.xdg-desktop-portal-wlr ];
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -77,6 +66,8 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+
+  services.displayManager.ly.enable = true;
 
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
@@ -129,6 +120,19 @@
     unzip
   ];
 
+  
+  fonts = {
+  enableDefaultPackages = true;
+  packages = with pkgs; [ 
+    nerd-fonts.caskaydia-cove
+  ];
+
+  fontconfig = {
+    defaultFonts = {
+      monospace = [ "CaskaydiaCove" ];
+    };
+  };
+};
   home-manager = {
     extraSpecialArgs = {inherit inputs;};
     users = {
