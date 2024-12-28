@@ -14,4 +14,6 @@
       CipherString = Default:@SECLEVEL=0
     '';
 
+  networking.hostName = "vitya-nixos"; # Define your hostname.
+
 }

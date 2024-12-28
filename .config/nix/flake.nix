@@ -27,6 +27,15 @@
           inputs.home-manager.nixosModules.default
         ];
       };
+      nixosConfigurations."virtual_arm" = nixpkgs.lib.nixosSystem {
+        specialArgs = { inherit inputs; };
+        modules = [
+          ./host/virtual_arm/configuration.nix
+          inputs.home-manager.nixosModules.default
+        ];
+      };
+
+
 
       darwinConfigurations."darwin" = nix-darwin.lib.darwinSystem {
         specialArgs = { inherit inputs; };

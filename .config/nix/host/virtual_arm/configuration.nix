@@ -11,19 +11,13 @@
     ../../modules/nixos/network.nix
   ];
 
-  # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "vitya-nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
   nix = { settings = { experimental-features = [ "nix-command" "flakes" ]; }; };
 
-  # Set your time zone.
   time.timeZone = "Europe/Kyiv";
 
-  # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
   i18n.extraLocaleSettings = {
@@ -41,21 +35,15 @@
   environment.sessionVariables = { NIXOS_OZONE_WL = "1"; };
 
   hardware = {
-    opengl.enable = true;
+    graphics.enable = true;
 
     nvidia.modesetting.enable = true;
   };
 
   xdg.portal.enable = true;
-  xdg.portal.config.common = "*";
+  xdg.portal.config.common.default = "*";
+  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-wlr ];
 
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-  };
-
-  # Enable CUPS to print documents.
   services.printing.enable = true;
 
   services.displayManager.ly.enable = true;
@@ -84,32 +72,12 @@
     isNormalUser = true;
     description = "vitya";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs;
-      [
-        #  thunderbird
-      ];
   };
 
-  # Install firefox.
-  programs.firefox.enable = true;
-
-  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
   environment.systemPackages = with pkgs; [
     neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-    wget
-    git
-    nixd
-    nixfmt
-    nodejs_23
-    libgcc
-    clang
-    zip
-    python311
-    unzip
   ];
 
   fonts = {
@@ -118,6 +86,7 @@
 
     fontconfig = { defaultFonts = { monospace = [ "CaskaydiaCove" ]; }; };
   };
+
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
     users = { "vitya" = import ./home.nix; };

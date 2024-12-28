@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }: {
+{ config, pkgs, inputs, system, ... }: {
   home.packages = with pkgs; [
     signal-desktop
     keepassxc
@@ -6,13 +6,20 @@
     wget
     git
     nixd
-    nixfmt
+    nixfmt-classic
     nodejs_23
     libgcc
     clang
     zip
     python311
     unzip
+    grim
+    slurp
+    wl-clipboard
+    swaynotificationcenter
+    swww
+    rofi-wayland
+    sway
   ];
 
 }

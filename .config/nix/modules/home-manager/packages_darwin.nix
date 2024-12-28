@@ -9,7 +9,7 @@
           nodejs_23
           neofetch
           python311
-          nixfmt
+          nixfmt-classic
           nixd
           #caskaydia-cove
   ];
