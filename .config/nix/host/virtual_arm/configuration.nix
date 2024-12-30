@@ -9,6 +9,7 @@
     ./hardware-configuration.nix
     inputs.home-manager.nixosModules.default
     ../../modules/nixos/network.nix
+    ../../modules/nixos/fontsconfig.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -49,21 +50,6 @@
   services.displayManager.ly.enable = true;
 
   # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
-  security.rtkit.enable = true;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-    # If you want to use JACK applications, uncomment this
-    #jack.enable = true;
-
-    # use the example session manager (no others are packaged yet so this is enabled by default,
-    # no need to redefine it in your config for now)
-    #media-session.enable = true;
-  };
-
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
@@ -72,20 +58,14 @@
     isNormalUser = true;
     description = "vitya";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
+    ignoreShellProgramCheck = true;
   };
 
   nixpkgs.config.allowUnfree = true;
 
-  environment.systemPackages = with pkgs; [
-    neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  ];
 
-  fonts = {
-    enableDefaultPackages = true;
-    packages = with pkgs; [ nerd-fonts.caskaydia-cove ];
-
-    fontconfig = { defaultFonts = { monospace = [ "CaskaydiaCove" ]; }; };
-  };
+  
 
   home-manager = {
     extraSpecialArgs = { inherit inputs; };

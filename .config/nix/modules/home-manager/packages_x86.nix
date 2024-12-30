@@ -1,6 +1,6 @@
 { config, pkgs, inputs, system, ... }: {
   home.packages = with pkgs; [
-    signal-desktop
+    neovim
     keepassxc
     kitty
     wget
@@ -13,13 +13,7 @@
     zip
     python311
     unzip
-    grim
-    slurp
-    wl-clipboard
-    swaynotificationcenter
-    swww
-    rofi-wayland
-    sway
+    signal-desktop
   ];
 
 }

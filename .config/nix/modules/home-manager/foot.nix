@@ -2,9 +2,11 @@
 {
   programs.foot = {
     enable = true;
-    # settings = { 
-      # main = «thunk»; scrollback = «thunk»; 
-    # };
+    settings = { 
+      main = {
+        font = "monospace";
+      };    
+    };
   };
   programs.firefox.enable =true;
 }

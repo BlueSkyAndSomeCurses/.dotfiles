@@ -34,9 +34,6 @@
           inputs.home-manager.nixosModules.default
         ];
       };
-
-
-
       darwinConfigurations."darwin" = nix-darwin.lib.darwinSystem {
         specialArgs = { inherit inputs; };
         modules = [
