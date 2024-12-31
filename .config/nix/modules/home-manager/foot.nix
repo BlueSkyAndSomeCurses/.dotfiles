@@ -1,12 +1,7 @@
-{config, pkgs, lib, ...} :
-{
+{ config, pkgs, lib, ... }: {
   programs.foot = {
     enable = true;
-    settings = { 
-      main = {
-        font = "monospace";
-      };    
-    };
+    settings = { main = { font = "monospace"; }; };
   };
-  programs.firefox.enable =true;
+  programs.firefox.enable = true;
 }

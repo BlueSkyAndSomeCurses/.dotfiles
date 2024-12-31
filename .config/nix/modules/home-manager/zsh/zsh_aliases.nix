@@ -38,6 +38,8 @@
       sc = "cd $HOME/.local/bin && ls -A";
       src = "cd $HOME/.local/src && ls -A";
       vv = "cd $HOME/Videos && ls -A";
+
+      vim = "nvim";
     } // newAliases;
 
 }
