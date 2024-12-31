@@ -5,8 +5,8 @@
 { config, pkgs, inputs, ... }:
 
 {
-  imports = [ 
-    ./hardware-configuration.nix 
+  imports = [
+    ./hardware-configuration.nix
     inputs.home-manager.darwinModules.default
     ../../modules/darwin/system.nix
     ../../modules/darwin/homebrew.nix
@@ -37,7 +37,6 @@
   '';
 
   nix.settings.experimental-features = "nix-command flakes";
-
 
   home-manager = {
     useGlobalPkgs = true;

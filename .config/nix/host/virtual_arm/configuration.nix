@@ -10,6 +10,7 @@
     inputs.home-manager.nixosModules.default
     ../../modules/nixos/network.nix
     ../../modules/nixos/fontsconfig.nix
+    ../../modules/nixos/environment.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -58,19 +59,16 @@
     isNormalUser = true;
     description = "vitya";
     extraGroups = [ "networkmanager" "wheel" ];
-    shell = pkgs.zsh;
-    ignoreShellProgramCheck = true;
   };
 
   nixpkgs.config.allowUnfree = true;
-
-
-  
 
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
     users = { "vitya" = import ./home.nix; };
   };
+
+  users.defaultUserShell = pkgs.zsh;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

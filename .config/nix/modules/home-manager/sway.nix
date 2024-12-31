@@ -1,5 +1,4 @@
-{pkgs, ...} :
-{
+{ pkgs, lib, config, ... }: {
   home.packages = with pkgs; [
     grim
     slurp
@@ -16,13 +15,9 @@
     config = {
       modifier = "Mod4";
       terminal = "foot";
-      startup = [
-        {command = "foot";}
-      ];
+      startup = [{ command = "foot"; }];
 
-      colors = {
-        background = "#000000";
-      };
+      colors = { background = "#000000"; };
 
       window = {
         border = 0;
@@ -41,15 +36,22 @@
 
       input = {
         "type:keyboard" = {
-          xkb_layout = "ru,ua,us";
+          xkb_layout = "us,ru,ua";
           xkb_options = "caps:escape,grp:alt_shift_toggle";
-          
+
         };
       };
 
       defaultWorkspace = "1";
 
       menu = "${pkgs.rofi-wayland}/bin/rofi -show drun ";
+
+      keybindings = let
+        modifier = config.wayland.windowManager.sway.config.modifier;
+      in 
+      lib.mkOptionDefault {
+        "${modifier}+q" = "kill";
+      };
 
     };
   };

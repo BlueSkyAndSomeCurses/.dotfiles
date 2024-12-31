@@ -7,9 +7,9 @@
   imports = [ # Include the results of the hardware scan.
     ../../modules/home-manager/packages_x86.nix
     ../../modules/home-manager/foot.nix
-    ../../modules/home-manager/wezterm.nix  
+    ../../modules/home-manager/wezterm.nix
     ../../modules/home-manager/sway.nix
-    ../../modules/home-manager/zsh.nix
+    ../../modules/home-manager/zsh/default.nix
   ];
 
   home = {
@@ -28,10 +28,7 @@
       #   org.gradle.daemon.idletimeout=3600000
       # '';
     };
-    sessionVariables = {
-      EDITOR = "nvim";
-      TERMINAL = "foot";
-    };
+
   };
 
   # Let Home Manager install and manage itself.

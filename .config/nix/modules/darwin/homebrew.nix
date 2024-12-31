@@ -1,17 +1,16 @@
 { pkgs, config, ... }: {
 
+  homebrew = {
+    enable = true;
 
-        homebrew = {
-          enable = true;
+    brews = [ ];
 
-          brews = [ ];
+    casks = [ ];
 
-          casks = [ ];
+    masApps = { };
 
-          masApps = { };
-
-          onActivation.cleanup = "zap";
-          onActivation.autoUpdate = true;
-          onActivation.upgrade = true;
-        };
-        }
+    onActivation.cleanup = "zap";
+    onActivation.autoUpdate = true;
+    onActivation.upgrade = true;
+  };
+}
