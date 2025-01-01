@@ -10,6 +10,7 @@
     ../../modules/home-manager/wezterm.nix
     ../../modules/home-manager/sway.nix
     ../../modules/home-manager/zsh/default.nix
+    ../../modules/home-manager/resolution/virtual.nix
   ];
 
   home = {

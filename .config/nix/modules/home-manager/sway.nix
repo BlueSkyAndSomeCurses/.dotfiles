@@ -38,7 +38,9 @@
         "type:keyboard" = {
           xkb_layout = "us,ru,ua";
           xkb_options = "caps:escape,grp:alt_shift_toggle";
-
+        };
+        "type:pointer" = {
+          natural_scroll = "enabled";
         };
       };
 
