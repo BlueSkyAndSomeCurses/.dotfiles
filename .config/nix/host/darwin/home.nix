@@ -6,6 +6,7 @@ in {
 
   imports = [ # Include the results of the hardware scan.
     ../../modules/home-manager/packages_darwin.nix
+    ../../modules/home-manager/zsh/default.nix
   ];
 
   home = {

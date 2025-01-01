@@ -11,7 +11,6 @@
     python311
     nixfmt-classic
     nixd
-    #caskaydia-cove
   ];
 
 }

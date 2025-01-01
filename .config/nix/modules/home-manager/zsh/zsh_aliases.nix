@@ -19,7 +19,7 @@
       ytt = "yt --skip-download --write-thumbnail";
       ffmpeg = "ffmpeg -hide_banner";
 
-      ls = "ls -hN --color=auto --group-directories-first";
+      ls = "ls -h --color=auto";
       grep = "grep --color=auto";
       diff = "diff --color=auto";
       ccat = "highlight --out-format=ansi";

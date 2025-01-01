@@ -5,7 +5,9 @@
 
     brews = [ ];
 
-    casks = [ ];
+    casks = [
+      "wezterm"   
+    ];
 
     masApps = { };
 
