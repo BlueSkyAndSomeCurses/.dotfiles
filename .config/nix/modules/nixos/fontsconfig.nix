@@ -4,7 +4,7 @@
     packages = with pkgs; [ nerd-fonts.caskaydia-cove ];
 
     fontconfig = {
-      defaultFonts = { monospace = [ "CaskaydiaCove Nerd Font Mono" ]; };
+      defaultFonts = { monospace = [ "CaskaydiaCove" ]; };
     };
   };
 }
