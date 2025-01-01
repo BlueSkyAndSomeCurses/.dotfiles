@@ -15,6 +15,7 @@
     python311
     unzip
     signal-desktop
+    wezterm
   ];
 
 }

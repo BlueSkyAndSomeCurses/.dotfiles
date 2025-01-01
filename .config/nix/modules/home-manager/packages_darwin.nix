@@ -11,6 +11,7 @@
     python311
     nixfmt-classic
     nixd
+    wezterm
   ];
 
 }

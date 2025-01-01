@@ -7,7 +7,6 @@
   imports = [ # Include the results of the hardware scan.
     ../../modules/home-manager/packages_x86.nix
     ../../modules/home-manager/foot.nix
-    ../../modules/home-manager/wezterm.nix
     ../../modules/home-manager/sway.nix
     ../../modules/home-manager/zsh/default.nix
     ../../modules/home-manager/resolution/virtual.nix
