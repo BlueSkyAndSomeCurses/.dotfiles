@@ -7,6 +7,7 @@
 
     casks = [
       "wezterm"   
+      "sioyek"
     ];
 
     masApps = { };

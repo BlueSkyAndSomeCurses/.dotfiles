@@ -16,6 +16,6 @@
     unzip
     signal-desktop
     wezterm
+    sioyek
   ];
-
 }
