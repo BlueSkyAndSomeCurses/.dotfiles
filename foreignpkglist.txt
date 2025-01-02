@@ -1,6 +1,5 @@
 brave-bin
 ani-cli
-ueberzugpp
 htop-vim
 nsxiv
 grimshot
