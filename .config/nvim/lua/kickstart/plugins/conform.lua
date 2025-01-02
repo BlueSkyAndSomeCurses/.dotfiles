@@ -27,7 +27,6 @@ return {
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
-        python = { 'ruff', 'isort' },
         rust = { 'rust_analyzer' },
 
         c = { 'clang-format', 'clangd' },
