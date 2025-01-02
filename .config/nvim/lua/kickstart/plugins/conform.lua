@@ -4,7 +4,7 @@ return {
     lazy = false,
     keys = {
       {
-        '<leader>f',
+        '<leader>cf',
         function()
           require('conform').format { async = true, lsp_fallback = true }
         end,
@@ -27,8 +27,8 @@ return {
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
-        python = { 'isort', 'ruff' },
-        rust = { 'ast-grep', 'rust_analyzer' },
+        python = { 'ruff', 'isort' },
+        rust = { 'rust_analyzer' },
 
         c = { 'clang-format', 'clangd' },
         cpp = { 'clang-format', 'clangd' },

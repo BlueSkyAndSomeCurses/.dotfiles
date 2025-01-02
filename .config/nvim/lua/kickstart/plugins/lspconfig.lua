@@ -77,7 +77,7 @@ return {
 
           -- Fuzzy find all the symbols in your current document.
           --  Symbols are things like variables, functions, types, etc.
-          map('<leader>ds', require('telescope.builtin').lsp_document_symbols, '[D]ocument [S]ymbols')
+          map('<leader>cs', require('telescope.builtin').lsp_document_symbols, '[C]ode [S]ymbols')
 
           -- Fuzzy find all the symbols in your current workspace.
           --  Similar to document symbols, except searches over your entire project.
@@ -159,38 +159,18 @@ return {
               expr = 'import <nixpkgs> { }',
             },
             formatting = {
-              command = { 'alejandra' }, -- or nixfmt or nixpkgs-fmt
+              command = { 'nixfmt' }, -- or nixfmt or nixpkgs-fmt
             },
-            -- options = {
-            --   nixos = {
-            --       expr = '(builtins.getFlake "/PATH/TO/FLAKE").nixosConfigurations.CONFIGNAME.options',
-            --   },
-            --   home_manager = {
-            --       expr = '(builtins.getFlake "/PATH/TO/FLAKE").homeConfigurations.CONFIGNAME.options',
-            --   },
-            -- },
           },
         },
       }
 
+      require('lspconfig').ruff.setup {}
+
       local servers = {
         clangd = {},
-        pyright = {},
-        ruff_lsp = {
-          settings = {
-            pyright = {
-              -- Using Ruff's import organizer
-              disableOrganizeImports = true,
-            },
-            python = {
-              analysis = {
-                -- Ignore all files for analysis to exclusively use Ruff for linting
-                ignore = { '*' },
-              },
-            },
-          },
-        },
         rust_analyzer = {},
+        ruff = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -230,11 +210,10 @@ return {
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
         'ruff',
-        'ruff_lsp',
         'clangd',
         'clang-format',
         'rust_analyzer',
-        'pyright',
+        'isort',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

@@ -23,7 +23,6 @@ require('lazy').setup({
   --    require('Comment').setup({})
 
   -- "gc" to comment visual regions/lines
-  { 'numToStr/Comment.nvim', opts = {} },
 
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
@@ -40,7 +39,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp',
 
-  require 'kickstart/plugins/kanagawa',
+  require 'kickstart/plugins/color_scheme',
 
   require 'kickstart/plugins/todo-comments',
 
