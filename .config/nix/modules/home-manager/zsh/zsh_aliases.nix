@@ -1,10 +1,25 @@
-{ ... }: {
-    programs.zsh.shellAliases = 
+{ ... }:
+{
+  programs.zsh.shellAliases =
     let
-      newAliases = builtins.listToAttrs (map (command: {
-        name = command;
-        value = "sudo ${command}";
-      }) [ "mount" "umount" "sv" "pacman" "updatedb" "su" "shutdown" "poweroff" "reboot" ]);
+      newAliases = builtins.listToAttrs (
+        map
+          (command: {
+            name = command;
+            value = "sudo ${command}";
+          })
+          [
+            "mount"
+            "umount"
+            "sv"
+            "pacman"
+            "updatedb"
+            "su"
+            "shutdown"
+            "poweroff"
+            "reboot"
+          ]
+      );
     in
     {
       exa = "ls -lah";
@@ -40,7 +55,7 @@
       vv = "cd $HOME/Videos && ls -A";
 
       vim = "nvim";
-    } // newAliases;
+    }
+    // newAliases;
 
 }
-

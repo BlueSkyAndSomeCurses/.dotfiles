@@ -2,10 +2,16 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, inputs, ... }:
+{
+  config,
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
-  imports = [ # Include the results of the hardware scan.
+  imports = [
+    # Include the results of the hardware scan.
     ./hardware-configuration.nix
     inputs.home-manager.nixosModules.default
     ../../modules/nixos/network.nix
@@ -18,7 +24,14 @@
   networking.hostName = "vitya-nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-  nix = { settings = { experimental-features = [ "nix-command" "flakes" ]; }; };
+  nix = {
+    settings = {
+      experimental-features = [
+        "nix-command"
+        "flakes"
+      ];
+    };
+  };
 
   # Set your time zone.
   time.timeZone = "Europe/Kyiv";
@@ -38,7 +51,9 @@
     LC_TIME = "uk_UA.UTF-8";
   };
 
-  environment.sessionVariables = { NIXOS_OZONE_WL = "1"; };
+  environment.sessionVariables = {
+    NIXOS_OZONE_WL = "1";
+  };
 
   hardware = {
     opengl.enable = true;
@@ -83,11 +98,13 @@
   users.users.vitya = {
     isNormalUser = true;
     description = "vitya";
-    extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs;
-      [
-        #  thunderbird
-      ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
+    packages = with pkgs; [
+      #  thunderbird
+    ];
   };
 
   # Install firefox.
@@ -116,11 +133,17 @@
     enableDefaultPackages = true;
     packages = with pkgs; [ nerd-fonts.caskaydia-cove ];
 
-    fontconfig = { defaultFonts = { monospace = [ "CaskaydiaCove" ]; }; };
+    fontconfig = {
+      defaultFonts = {
+        monospace = [ "CaskaydiaCove" ];
+      };
+    };
   };
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
-    users = { "vitya" = import ./home.nix; };
+    users = {
+      "vitya" = import ./home.nix;
+    };
   };
 
   # Some programs need SUID wrappers, can be configured further or are

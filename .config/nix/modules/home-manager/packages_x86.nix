@@ -1,4 +1,11 @@
-{ config, pkgs, inputs, system, ... }: {
+{
+  config,
+  pkgs,
+  inputs,
+  system,
+  ...
+}:
+{
   home.packages = with pkgs; [
     neofetch
     neovim
@@ -17,5 +24,11 @@
     signal-desktop
     wezterm
     sioyek
+    luarocks
+    lua
+    wget
+    rustup
+    ripgrep
+    fd
   ];
 }

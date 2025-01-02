@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   imports = [
     ./zsh_aliases.nix
     ./session_variables.nix
@@ -11,7 +12,9 @@
     enableCompletion = true;
     autocd = true;
 
-    autosuggestion = { enable = true; };
+    autosuggestion = {
+      enable = true;
+    };
 
     dotDir = ".config/zsh";
 

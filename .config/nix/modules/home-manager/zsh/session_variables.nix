@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   programs.zsh.sessionVariables = {
     EDITOR = "nvim";
     TERMINAL = "foot";

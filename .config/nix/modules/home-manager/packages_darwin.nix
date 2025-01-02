@@ -1,4 +1,10 @@
-{ config, pkgs, inputs, ... }: {
+{
+  config,
+  pkgs,
+  inputs,
+  ...
+}:
+{
   home.packages = with pkgs; [
     neovim
     mkalias
@@ -9,9 +15,15 @@
     nodejs_23
     neofetch
     python311
-    nixfmt-classic
+    nixfmt-rfc-style
     nixd
     wezterm
+    luarocks
+    lua
+    wget
+    rustup
+    ripgrep
+    fd
   ];
 
 }

@@ -1,12 +1,15 @@
-{ pkgs, config, ... }: {
+{ pkgs, config, ... }:
+{
 
   homebrew = {
     enable = true;
 
-    brews = [ ];
+    brews = [
+      "ruff"
+    ];
 
     casks = [
-      "wezterm"   
+      "wezterm"
       "sioyek"
     ];
 

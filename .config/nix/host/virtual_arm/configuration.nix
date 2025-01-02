@@ -2,10 +2,16 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, inputs, ... }:
+{
+  config,
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
-  imports = [ # Include the results of the hardware scan.
+  imports = [
+    # Include the results of the hardware scan.
     ./hardware-configuration.nix
     inputs.home-manager.nixosModules.default
     ../../modules/nixos/network.nix
@@ -16,7 +22,14 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  nix = { settings = { experimental-features = [ "nix-command" "flakes" ]; }; };
+  nix = {
+    settings = {
+      experimental-features = [
+        "nix-command"
+        "flakes"
+      ];
+    };
+  };
 
   time.timeZone = "Europe/Kyiv";
 
@@ -34,7 +47,9 @@
     LC_TIME = "uk_UA.UTF-8";
   };
 
-  environment.sessionVariables = { NIXOS_OZONE_WL = "1"; };
+  environment.sessionVariables = {
+    NIXOS_OZONE_WL = "1";
+  };
 
   hardware = {
     graphics.enable = true;
@@ -58,14 +73,19 @@
   users.users.vitya = {
     isNormalUser = true;
     description = "vitya";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
   };
 
   nixpkgs.config.allowUnfree = true;
 
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
-    users = { "vitya" = import ./home.nix; };
+    users = {
+      "vitya" = import ./home.nix;
+    };
   };
 
   users.defaultUserShell = pkgs.zsh;

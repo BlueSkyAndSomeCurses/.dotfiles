@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   programs.zsh.dirHashes = {
     cac = "$XDG_CACHE_HOME";
     cf = "$XDG_CONFIG_HOME";
