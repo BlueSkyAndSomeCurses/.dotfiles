@@ -1,10 +1,4 @@
-{
-  pkgs,
-  lib,
-  config,
-  ...
-}:
-{
+{ pkgs, lib, config, ... }: {
   home.packages = with pkgs; [
     grim
     slurp
@@ -21,11 +15,13 @@
     config = {
       modifier = "Mod4";
       terminal = "foot";
-      startup = [ { command = "foot"; } ];
+      startup = [
+        { command = "foot"; }
+        { command = "autotiling"; }
+        { command = "swaync "; }
+      ];
 
-      colors = {
-        background = "#000000";
-      };
+      colors = { background = "#000000"; };
 
       window = {
         border = 0;
@@ -47,9 +43,7 @@
           xkb_layout = "us,ru,ua";
           xkb_options = "caps:escape,grp:alt_shift_toggle";
         };
-        "type:pointer" = {
-          natural_scroll = "enabled";
-        };
+        "type:pointer" = { natural_scroll = "enabled"; };
       };
 
       defaultWorkspace = "1";
@@ -57,11 +51,11 @@
       menu = "${pkgs.rofi-wayland}/bin/rofi -show drun ";
 
       keybindings =
-        let
-          modifier = config.wayland.windowManager.sway.config.modifier;
-        in
-        lib.mkOptionDefault {
+        let modifier = config.wayland.windowManager.sway.config.modifier;
+        in lib.mkOptionDefault {
           "${modifier}+q" = "kill";
+          "${modifier}+r" = "exec ${pkgs.foot}/bin/foot -e yazi";
+          "${modifier}+w" = "exec firefox";
         };
 
     };

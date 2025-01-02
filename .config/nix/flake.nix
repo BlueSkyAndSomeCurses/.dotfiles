@@ -14,22 +14,12 @@
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
   };
 
-  outputs =
-    {
-      self,
-      nixpkgs,
-      nix-darwin,
-      nix-homebrew,
-      ...
-    }@inputs:
+  outputs = { self, nixpkgs, nix-darwin, nix-homebrew, ... }@inputs:
     let
-      darwin-configuration =
-        { ... }:
-        {
-          system.configurationRevision = self.rev or self.dirtyRev or null;
-        };
-    in
-    {
+      darwin-configuration = { ... }: {
+        system.configurationRevision = self.rev or self.dirtyRev or null;
+      };
+    in {
       nixosConfigurations.default = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [

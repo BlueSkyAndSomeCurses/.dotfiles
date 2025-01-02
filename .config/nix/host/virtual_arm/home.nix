@@ -1,9 +1,4 @@
-{
-  config,
-  pkgs,
-  inputs,
-  ...
-}:
+{ config, pkgs, inputs, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -16,6 +11,7 @@
     ../../modules/home-manager/sway.nix
     ../../modules/home-manager/zsh/default.nix
     ../../modules/home-manager/resolution/virtual.nix
+    ../../modules/home-manager/swaync.nix
   ];
 
   home = {
