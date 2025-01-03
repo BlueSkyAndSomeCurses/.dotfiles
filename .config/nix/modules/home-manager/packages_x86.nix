@@ -29,6 +29,5 @@
     htop-vim
     nsxiv
     killall
-    ags
   ];
 }

@@ -33,6 +33,8 @@
         mouseWarping = true;
       };
 
+      bars = [ ];
+
       fonts = {
         names = [ "monospace" ];
         style = "Regular";
