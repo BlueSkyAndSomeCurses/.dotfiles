@@ -7,9 +7,10 @@
 
     extraPackages = with pkgs; [
       inputs.ags.packages.${system}.battery
-      inputs.ags.packages.${system}.hyprland
-
-      fzf
+      inputs.ags.packages.${system}.mpris
+      inputs.ags.packages.${system}.network
+      inputs.ags.packages.${system}.tray
+      inputs.ags.packages.${system}.wireplumber
     ];
   };
 }

@@ -33,7 +33,24 @@
         mouseWarping = true;
       };
 
-      bars = [ ];
+      # bars = [
+      # {
+      # colors = {
+      #   inactiveWorkspace = {
+      #     background = "#000000";
+      #     border = "#ffffff";
+      #     text = "#ffffff";
+      #   };
+      #   focusedWorkspace = {
+      #     background = "#ffffff";
+      #     border = "#ffffff";
+      #     text = "#000000";
+      #   };
+
+      # };
+      # position = "top";
+      # }
+      # ];
 
       fonts = {
         names = [ "monospace" ];
@@ -58,6 +75,7 @@
           "${modifier}+q" = "kill";
           "${modifier}+r" = "exec ${pkgs.foot}/bin/foot -e yazi";
           "${modifier}+w" = "exec firefox";
+          "${modifier}+Tab" = "swaymsg workspace next";
         };
 
     };
