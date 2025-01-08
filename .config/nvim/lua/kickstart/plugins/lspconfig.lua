@@ -1,6 +1,7 @@
 return {
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
+
     dependencies = {
       -- Automatically install LSPs and related tools to stdpath for Neovim
       { 'williamboman/mason.nvim', config = true }, -- NOTE: Must be loaded before dependants
@@ -13,7 +14,17 @@ return {
 
       -- `neodev` configures Lua LSP for your Neovim config, runtime and plugins
       -- used for completion, annotations and signatures of Neovim apis
-      { 'folke/neodev.nvim', opts = {} },
+      {
+        'folke/lazydev.nvim',
+        ft = 'lua', -- only load on lua files
+        opts = {
+          library = {
+            -- See the configuration section for more details
+            -- Load luvit types when the `vim.uv` word is found
+            { path = '${3rd}/luv/library', words = { 'vim%.uv' } },
+          },
+        },
+      },
       { 'ray-x/lsp_signature.nvim', opts = {} },
     },
     config = function()
@@ -46,6 +57,8 @@ return {
       --    That is to say, every time a new file is opened that is associated with
       --    an lsp (for example, opening `main.rs` is associated with `rust_analyzer`) this
       --    function will be executed to configure the current buffer
+      vim.lsp.inlay_hint.enable(true)
+
       vim.api.nvim_create_autocmd('LspAttach', {
         group = vim.api.nvim_create_augroup('kickstart-lsp-attach', { clear = true }),
         callback = function(event)
@@ -166,8 +179,57 @@ return {
       }
 
       local servers = {
-        clangd = {},
-        rust_analyzer = {},
+        clangd = {
+          settings = {
+            clangd = {
+              InlayHints = {
+                Designators = true,
+                Enabled = true,
+                ParameterNames = true,
+                DeducedTypes = true,
+              },
+              fallbackFlags = { '-std=c++20' },
+            },
+          },
+        },
+        rust_analyzer = {
+          settings = {
+            ['rust-analyzer'] = {
+              inlayHints = {
+                bindingModeHints = {
+                  enable = false,
+                },
+                chainingHints = {
+                  enable = true,
+                },
+                closingBraceHints = {
+                  enable = true,
+                  minLines = 25,
+                },
+                closureReturnTypeHints = {
+                  enable = 'never',
+                },
+                lifetimeElisionHints = {
+                  enable = 'never',
+                  useParameterNames = false,
+                },
+                maxLength = 25,
+                parameterHints = {
+                  enable = true,
+                },
+                reborrowHints = {
+                  enable = 'never',
+                },
+                renderColons = true,
+                typeHints = {
+                  enable = true,
+                  hideClosureInitialization = false,
+                  hideNamedConstructor = false,
+                },
+              },
+            },
+          },
+        },
         pyright = {},
         ruff = {},
 
@@ -180,8 +242,7 @@ return {
               completion = {
                 callSnippet = 'Replace',
               },
-              -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
-              -- diagnostics = { disable = { 'missing-fields' } },
+              hint = { enable = true },
             },
           },
         },
