@@ -5,12 +5,18 @@
     enable = true;
 
     brews = [
-      "ruff"
+      "pango"
+      "pkg-config"
+      "scipy"
+      "py3cairo"
+      "ffmpeg"
     ];
 
     casks = [
       "wezterm"
       "sioyek"
+      "mactex-no-gui"
+      "visual-studio-code"
     ];
 
     masApps = { };

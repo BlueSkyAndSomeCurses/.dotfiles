@@ -24,6 +24,7 @@
     rustup
     ripgrep
     fd
+    graphviz
   ];
 
 }

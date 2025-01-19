@@ -12,16 +12,24 @@
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
-
-    ags.url = "github:aylur/ags";
   };
 
-  outputs = { self, nixpkgs, nix-darwin, nix-homebrew, ... }@inputs:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      nix-darwin,
+      nix-homebrew,
+      ...
+    }@inputs:
     let
-      darwin-configuration = { ... }: {
-        system.configurationRevision = self.rev or self.dirtyRev or null;
-      };
-    in {
+      darwin-configuration =
+        { ... }:
+        {
+          system.configurationRevision = self.rev or self.dirtyRev or null;
+        };
+    in
+    {
       nixosConfigurations.default = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [
@@ -31,7 +39,6 @@
       };
       nixosConfigurations."virtual_arm" = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
-        system = "aarch64-linux";
         modules = [
           ./host/virtual_arm/configuration.nix
           inputs.home-manager.nixosModules.default
