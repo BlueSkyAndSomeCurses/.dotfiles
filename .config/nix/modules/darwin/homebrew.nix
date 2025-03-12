@@ -10,12 +10,12 @@
       "scipy"
       "py3cairo"
       "ffmpeg"
+      "boost"
     ];
 
     casks = [
       "wezterm"
       "sioyek"
-      "mactex-no-gui"
       "visual-studio-code"
     ];
 

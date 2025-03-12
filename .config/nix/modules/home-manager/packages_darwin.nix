@@ -13,11 +13,11 @@
     kitty
     arc-browser
     nodejs_23
+    prettierd
     neofetch
     python311
     nixfmt-rfc-style
     nixd
-    wezterm
     luarocks
     lua
     wget
@@ -25,6 +25,10 @@
     ripgrep
     fd
     graphviz
+    cmake
+    boost
+    ninja
+    gsl
   ];
 
 }

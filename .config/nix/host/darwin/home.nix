@@ -16,6 +16,7 @@ in
     # Include the results of the hardware scan.
     ../../modules/home-manager/packages_darwin.nix
     ../../modules/home-manager/zsh/default.nix
+    ../../modules/home-manager/fzf.nix
   ];
 
   home = {
