@@ -1,0 +1,75 @@
+[
+    {
+        "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+        "bindings": {
+            "space -": "pane::SplitDown",
+            "space |": "pane::SplitRight",
+
+            "space q": "diagnostics::Deploy",
+            "space e": "project_panel::ToggleFocus",
+
+            "space t h": "workspace::NewTerminal",
+            "space t f": "workspace::NewCenterTerminal",
+            "space t v": "workspace::NewTerminal",
+
+            "space /": "editor::ToggleComments"
+        }
+    },
+
+    {
+        "context": "ProjectPanel && not_editing",
+        "bindings": {
+            "space e": "workspace::ToggleRightDock"
+        }
+    },
+
+    {
+        "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+        "bindings": {
+            // put key-bindings here if you want them to work only in normal mode
+            // Window movement bindings
+            // Ctrl jklk to move between panes
+            "ctrl-h": "workspace::ActivatePaneLeft",
+            "ctrl-l": "workspace::ActivatePaneRight",
+            "ctrl-k": "workspace::ActivatePaneUp",
+            "ctrl-j": "workspace::ActivatePaneDown",
+
+            // +LSP
+            "space c a": "editor::ToggleCodeActions",
+            "space .": "editor::ToggleCodeActions",
+            "space c r": "editor::Rename",
+            "g d": "editor::GoToDefinition",
+            "g D": "editor::GoToDefinitionSplit"
+        }
+    },
+
+    {
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-j": "pane::CloseActiveItem"
+        }
+    },
+
+    {
+        "context": "EmptyPane || SharedScreen",
+        "bindings": {
+            // Open file finder
+            "space space": "file_finder::Toggle"
+        }
+    },
+    {
+        "context": "Editor && vim_operator == c",
+        "bindings": {
+            "c": "vim::CurrentLine",
+            "r": "editor::Rename" // zed specific
+        }
+    },
+    // Code Action
+    {
+        "context": "Editor && vim_operator == c",
+        "bindings": {
+            "c": "vim::CurrentLine",
+            "a": "editor::ToggleCodeActions" // zed specific
+        }
+    }
+]

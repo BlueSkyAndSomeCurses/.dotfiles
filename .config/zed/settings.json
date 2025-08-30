@@ -1,0 +1,94 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "disable_ai": true,
+    "inlay_hints": {
+        "enabled": true,
+        "show_value_hints": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_other_hints": true,
+        "show_background": false,
+        "edit_debounce_ms": 700,
+        "scroll_debounce_ms": 50,
+        "toggle_on_modifiers_press": {
+            "control": false,
+            "alt": false,
+            "shift": false,
+            "platform": false,
+            "function": false
+        }
+    },
+    "buffer_font_family": "CaskaydiaCove Nerd Font",
+    "buffer_font_features": {
+        "calt": 1
+    },
+    "ui_font_family": ".ZedMono",
+    "base_keymap": "VSCode",
+    "terminal": {
+        "font_family": "CaskaydiaCove Nerd Font Mono",
+        "font_size": 14.0,
+        "detect_venv": "on",
+        "env": {
+            "EDITOR": "zed --wait"
+        }
+    },
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 1000
+        }
+    },
+    "relative_line_numbers": true,
+    "vertical_scroll_margin": 5.0,
+    "scroll_beyond_last_line": "off",
+    "gutter": {
+        "line_numbers": true
+    },
+    "minimap": {
+        "show": "never"
+    },
+    "scrollbar": {
+        "axes": {
+            "horizontal": false,
+            "vertical": null
+        }
+    },
+    "soft_wrap": "editor_width",
+    "vim_mode": true,
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "Catppuccin Mocha"
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 15.0,
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Catppuccin Mocha"
+    },
+    "restore_on_startup": "last_session",
+    "restore_on_file_reopen": true,
+    "tab_size": 4,
+    "hard_tabs": false,
+    "formatter": "auto",
+    "bottom_dock_layout": "contained",
+    "project_panel": {
+        "button": true,
+        "dock": "right",
+        "git_status": true
+    },
+    "outline_panel": {
+        "dock": "right"
+    }
+}
