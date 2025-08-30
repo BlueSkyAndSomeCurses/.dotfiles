@@ -5,5 +5,8 @@
   ...
 }:
 {
-  fonts.packages = [ pkgs.nerd-fonts.caskaydia-cove ];
+  fonts.packages = [
+    pkgs.nerd-fonts.caskaydia-cove
+    pkgs.nerd-fonts.jetbrains-mono
+  ];
 }
