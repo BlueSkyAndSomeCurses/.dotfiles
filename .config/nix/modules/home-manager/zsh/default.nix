@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, config, ... }:
 {
   imports = [
     ./zsh_aliases.nix
@@ -19,13 +19,13 @@
     plugins = [
 
     ];
-    dotDir = ".config/zsh";
+    dotDir = "${config.xdg.configHome}/zsh";
 
     syntaxHighlighting = {
       enable = true;
     };
 
-    initExtra = "
+    initContent = "
       autoload -U colors && colors\
       PS1=\"%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b \"\n
       autoload -U compinit \n

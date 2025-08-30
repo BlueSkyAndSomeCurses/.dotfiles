@@ -10,12 +10,9 @@
     mkalias
     tmux
     yazi
-    kitty
-    arc-browser
-    nodejs_23
     prettierd
-    neofetch
-    python311
+    # neofetch
+    python312
     nixfmt-rfc-style
     nixd
     luarocks
@@ -24,11 +21,10 @@
     rustup
     ripgrep
     fd
-    graphviz
     cmake
     boost
     ninja
-    gsl
+    nodejs
   ];
 
 }

@@ -5,18 +5,25 @@
     enable = true;
 
     brews = [
-      "pango"
       "pkg-config"
-      "scipy"
-      "py3cairo"
       "ffmpeg"
       "boost"
+      "boost-mpi"
+      "octave"
+      "python@3.10"
+      "gobject-introspection"
+    ];
+
+    taps = [
+      # "homebrew/bundle"
     ];
 
     casks = [
       "wezterm"
       "sioyek"
       "visual-studio-code"
+      "mactex-no-gui"
+      "zed"
     ];
 
     masApps = { };

@@ -1,6 +1,8 @@
 { pkgs, config, ... }:
 {
 
+  system.primaryUser = "vitya";
+
   system.defaults = {
     dock.autohide = true;
     dock.persistent-apps = [
