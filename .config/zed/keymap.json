@@ -8,7 +8,7 @@
             "space q": "diagnostics::Deploy",
             "space e": "project_panel::ToggleFocus",
 
-            "space t h": "workspace::NewTerminal",
+            "space t h": "workspace::ToggleBottomDock",
             "space t f": "workspace::NewCenterTerminal",
             "space t v": "workspace::NewTerminal",
 
@@ -46,7 +46,7 @@
     {
         "context": "Terminal",
         "bindings": {
-            "ctrl-j": "pane::CloseActiveItem"
+            "ctrl-j": "workspace::ToggleBottomDock"
         }
     },
 

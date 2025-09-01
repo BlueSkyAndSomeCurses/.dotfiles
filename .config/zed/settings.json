@@ -34,7 +34,6 @@
     "terminal": {
         "font_family": "CaskaydiaCove Nerd Font Mono",
         "font_size": 14.0,
-        "detect_venv": "on",
         "env": {
             "EDITOR": "zed --wait"
         }
@@ -81,7 +80,6 @@
     "restore_on_file_reopen": true,
     "tab_size": 4,
     "hard_tabs": false,
-    "formatter": "auto",
     "bottom_dock_layout": "contained",
     "project_panel": {
         "button": true,
@@ -90,5 +88,25 @@
     },
     "outline_panel": {
         "dock": "right"
+    },
+    "formatter": "language_server",
+    "languages": {
+        "Python": {
+            "format_on_save": {
+                "language_server": {
+                    "name": "ruff"
+                }
+            },
+            "formatter": {
+                "language_server": {
+                    "name": "ruff"
+                }
+            },
+            "language_servers": [
+                "pyright",
+                "ruff",
+                "pylance"
+            ]
+        }
     }
 }
