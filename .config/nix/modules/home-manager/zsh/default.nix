@@ -33,6 +33,9 @@
       zmodload zsh/complist \n
       compinit \n
       _comp_options+=(globdots) \n
+
+
+      export PATH=\"/Library/TeX/texbin:$PATH\" \n
     ";
 
   };

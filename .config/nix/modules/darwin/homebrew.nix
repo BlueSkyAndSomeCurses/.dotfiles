@@ -9,9 +9,8 @@
       "ffmpeg"
       "boost"
       "boost-mpi"
-      "octave"
       "python@3.10"
-      "gobject-introspection"
+      "uv"
     ];
 
     taps = [
@@ -22,8 +21,6 @@
       "wezterm"
       "sioyek"
       "visual-studio-code"
-      "mactex-no-gui"
-      "zed"
     ];
 
     masApps = { };

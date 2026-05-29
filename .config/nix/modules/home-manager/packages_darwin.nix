@@ -25,6 +25,11 @@
     boost
     ninja
     nodejs
+    tex-fmt
+    pay-respects
+    tlrc
+    fd
+    htop-vim
   ];
 
 }
