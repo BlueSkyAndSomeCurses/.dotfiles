@@ -31,11 +31,13 @@ return {
     --- @type blink.cmp.Config
     opts = {
       keymap = {
-        -- 'default' (recommended) keeps cmp-like behaviour:
-        --   <C-y> accept, <C-n>/<C-p> or <Up>/<Down> select,
-        --   <C-Space> open menu, <C-e> hide, <C-k> signature toggle.
-        -- See `:help blink-cmp-config-keymap` for the full list.
         preset = 'default',
+        -- Match the old nvim-cmp bindings:
+        ['<C-j>'] = { 'select_next', 'fallback' }, -- next completion
+        ['<C-k>'] = { 'select_prev', 'fallback' }, -- previous completion
+        ['<CR>'] = { 'accept', 'fallback' }, -- Enter accepts selection
+        ['<C-Space>'] = { 'show', 'show_documentation', 'hide_documentation' },
+        -- See `:help blink-cmp-config-keymap` for all commands.
       },
       appearance = { nerd_font_variant = 'mono' },
       completion = {
