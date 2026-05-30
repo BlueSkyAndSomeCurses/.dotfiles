@@ -6,7 +6,7 @@ return {
       {
         '<leader>cf',
         function()
-          require('conform').format { async = true, lsp_fallback = true }
+          require('conform').format { async = true, lsp_format = 'fallback' }
         end,
         mode = '',
         desc = '[F]ormat buffer',
@@ -21,16 +21,16 @@ return {
         local disable_filetypes = {}
         return {
           timeout_ms = 500,
-          lsp_fallback = not disable_filetypes[vim.bo[bufnr].filetype],
+          lsp_format = disable_filetypes[vim.bo[bufnr].filetype] and 'never' or 'fallback',
         }
       end,
       formatters_by_ft = {
         lua = { 'stylua' },
-        -- Conform can also run multiple formatters sequentially
-        rust = { 'rust_analyzer' },
-
-        c = { 'clang-format', 'clangd' },
-        cpp = { 'clang-format', 'clangd' },
+        c = { 'clang-format' },
+        cpp = { 'clang-format' },
+        -- rust intentionally omitted: rust-analyzer formats it via the
+        -- `lsp_format = 'fallback'` path above (rust_analyzer is an LSP, not a
+        -- conform formatter).
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.

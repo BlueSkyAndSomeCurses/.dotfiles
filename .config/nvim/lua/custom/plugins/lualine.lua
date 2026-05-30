@@ -1,27 +1,3 @@
-local kanagawa_colors = require 'kanagawa.colors'
-
-local kanagawa = {
-  normal = {
-    a = { fg = kanagawa_colors.fg, bg = kanagawa_colors.blue, gui = 'bold' },
-    b = { fg = kanagawa_colors.fg, bg = kanagawa_colors.bg_dark },
-    c = { fg = kanagawa_colors.fg, bg = kanagawa_colors.bg },
-  },
-  insert = {
-    a = { fg = kanagawa_colors.bg, bg = kanagawa_colors.green, gui = 'bold' },
-  },
-  visual = {
-    a = { fg = kanagawa_colors.bg, bg = kanagawa_colors.purple, gui = 'bold' },
-  },
-  replace = {
-    a = { fg = kanagawa_colors.bg, bg = kanagawa_colors.red, gui = 'bold' },
-  },
-  inactive = {
-    a = { fg = kanagawa_colors.fg, bg = kanagawa_colors.bg_dark, gui = 'bold' },
-    b = { fg = kanagawa_colors.fg, bg = kanagawa_colors.bg },
-    c = { fg = kanagawa_colors.fg, bg = kanagawa_colors.bg },
-  },
-}
-
 return {
   {
     'nvim-lualine/lualine.nvim',
@@ -31,7 +7,6 @@ return {
     opts = function()
       require('lualine').setup {
         options = {
-          -- theme = kanagawa,
           component_separators = '',
           section_separators = { left = '', right = '' },
         },

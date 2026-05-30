@@ -17,6 +17,9 @@ return {
       -- - sr)'  - [S]urround [R]eplace [)] [']
       require('mini.surround').setup()
 
+      -- Auto-insert matching brackets/quotes (replaces nvim-autopairs).
+      require('mini.pairs').setup()
+
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
   },

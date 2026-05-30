@@ -25,22 +25,25 @@ return {
       wk.setup()
 
       wk.add {
+        -- Group labels (show when you press <leader> and hold)
         { '<leader>c', group = '[C]ode' },
-        { '<leader>d', group = '[D]debug' },
+        { '<leader>d', group = '[D]ebug' },
         { '<leader>h', group = 'Git [H]unk' },
         { '<leader>r', group = '[R]ename' },
         { '<leader>f', group = '[F]iles' },
         { '<leader>t', group = '[T]erminal' },
         { '<leader>w', group = '[W]orkspace' },
-        { '<leader>s', desc = '[S]urround' },
-        { '<leader>sa', desc = '[A]dd surrounding' },
-        { '<leader>sd', desc = '[D]elete surrounding' },
-        { '<leader>sr', desc = '[R]eplace surrounding' },
-        { '<leader>sf', desc = '[F]ind surrounding (right)' },
-        { '<leader>sF', desc = '[F]ind surrounding (left)' },
-        { '<leader>sh', desc = '[H]ighlight surrounding' },
-        { '<leader>sn', desc = '[N]umber line change' },
-        { '<leader>h', desc = 'Git [H]unk', mode = 'v' },
+        { '<leader>x', group = '[X] Trouble' },
+        { '<leader>h', group = 'Git [H]unk', mode = 'v' },
+
+        -- Show every registered keymap (incl. standalone keys like s, S, -).
+        {
+          '<leader>?',
+          function()
+            require('which-key').show { global = true }
+          end,
+          desc = 'Show all keymaps',
+        },
       }
     end,
   },
