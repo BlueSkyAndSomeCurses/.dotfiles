@@ -31,7 +31,7 @@ return {
         { '<leader>h', group = 'Git [H]unk' },
         { '<leader>r', group = '[R]ename' },
         { '<leader>f', group = '[F]iles' },
-        { '<leader>t', group = '[T]erminal' },
+        { '<leader>t', group = '[T]oggle/Terminal' },
         { '<leader>w', group = '[W]orkspace' },
         { '<leader>x', group = '[X] Trouble' },
         { '<leader>h', group = 'Git [H]unk', mode = 'v' },

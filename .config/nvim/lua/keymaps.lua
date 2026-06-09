@@ -14,6 +14,37 @@ vim.keymap.set('n', ']d', function()
 end, { desc = 'Go to next [D]iagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
+-- [[ Diagnostic display ]]
+-- Inline virtual text writes the error/warning at the end of its line; a float
+-- pops the full message when the cursor rests on the line (updatetime = 250ms).
+local diag_virtual_text = {
+  source = 'if_many',
+  spacing = 2,
+  prefix = '●',
+}
+vim.diagnostic.config {
+  virtual_text = diag_virtual_text,
+  severity_sort = true,
+  float = { source = true, border = 'rounded' },
+  underline = true,
+}
+
+-- Show the full diagnostic for the current line in a (non-focusing) float.
+vim.api.nvim_create_autocmd('CursorHold', {
+  group = vim.api.nvim_create_augroup('kickstart-diagnostic-float', { clear = true }),
+  callback = function()
+    vim.diagnostic.open_float(nil, { focus = false, scope = 'line' })
+  end,
+})
+
+-- Toggle the inline (same-line) diagnostic text on/off.
+local diag_inline = true
+vim.keymap.set('n', '<leader>td', function()
+  diag_inline = not diag_inline
+  vim.diagnostic.config { virtual_text = diag_inline and diag_virtual_text or false }
+  vim.notify('Inline diagnostics ' .. (diag_inline and 'ON' or 'OFF'))
+end, { desc = '[T]oggle inline [D]iagnostics' })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.

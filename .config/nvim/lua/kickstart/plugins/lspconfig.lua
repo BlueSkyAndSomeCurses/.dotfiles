@@ -138,7 +138,16 @@ return {
             },
           },
         },
-        pyright = {},
+        -- pyright = intellisense only (completion/hover/goto). Type-check
+        -- diagnostics off; ruff handles all linting/diagnostics + import sorting.
+        pyright = {
+          settings = {
+            pyright = { disableOrganizeImports = true },
+            python = {
+              analysis = { typeCheckingMode = 'off' },
+            },
+          },
+        },
         ruff = {},
         lua_ls = {
           settings = {
