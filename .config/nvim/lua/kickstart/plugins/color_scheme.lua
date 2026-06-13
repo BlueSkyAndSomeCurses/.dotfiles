@@ -15,6 +15,10 @@ return {
     -- You can configure highlights by doing something like:
     -- vim.cmd.hi 'Comment gui=none'
     -- end,
+    priority = 1000,
+    init = function()
+      vim.cmd.colorscheme 'kanagawa'
+    end,
   },
 
   {
@@ -27,10 +31,10 @@ return {
   },
   {
     'ellisonleao/gruvbox.nvim',
-    priority = 1000,
-    init = function()
-      vim.cmd.colorscheme 'gruvbox'
-    end,
+    -- priority = 1000,
+    -- init = function()
+      -- vim.cmd.colorscheme 'gruvbox'
+    -- end,
     config = function()
       require('gruvbox').setup {
         terminal_colors = true, -- add neovim terminal colors
@@ -56,7 +60,7 @@ return {
         dim_inactive = false,
         transparent_mode = false,
       }
-      vim.cmd 'colorscheme gruvbox'
+      -- vim.cmd 'colorscheme gruvbox'
     end,
   },
 }
